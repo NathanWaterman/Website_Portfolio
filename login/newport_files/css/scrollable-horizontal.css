@@ -1,0 +1,228 @@
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 320px;
+	height:480px;
+margin-bottom:5px;
+margin-top: 10px;
+	/* custom decorations */
+}
+.pleasure-payday-landing .scrollable .items-title img {
+    float: left;
+    height: auto;
+    width: 161px;
+}
+
+.pleasure-payday-landing .scrollable-title {
+    bottom: 0;
+    height: 70px !important;
+    position: absolute;
+	border:none!important;
+}
+.pleasure-payday-landing .scrollable .items-title div{
+height: 60px;
+bottom:10px;
+
+}
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.scrollable .items, .scrollable .items-title {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+	clear:both;
+	
+	
+}
+.pleasure-payday-landing .scrollable .items-title img.title1
+ {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 161px;
+	height: 69px;
+}
+.pleasure-payday-landing .scrollable .items-title img.title2 {
+    margin-left: 10px;
+    margin-top: 10px;
+	 width: 161px;
+	 height: 69px;
+}
+.pleasure-payday-landing .scrollable .items-title img.title3 {
+    margin-top: 10px;
+    margin-left: 10px;
+	 width: 161px;
+	 height: 69px;
+}
+
+.items div, .items-title div {
+	float:left;
+	width:320px;
+	position:relative;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	width:320px;
+	height:auto;
+	/*
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;*/
+}
+
+
+/* active item */
+.scrollable .active {
+	position:relative;
+	cursor:default;
+}
+
+.products .navi {
+    bottom: 2px;
+    left: 10px;
+    margin: 0;
+    position: absolute;
+    z-index: 9999;
+}
+.products .navi {
+    height: 17px;
+
+}
+.products .scrollable img, .products .scrollable, .products #example {
+    height: 370px;
+}
+.products .navi a {
+    background-color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 1px;
+    height: 8px;
+    margin: 4px;
+    width: 8px;
+	 -webkit-border-radius: 4px;
+	 -moz-border-radius:4px;
+}
+.products .navi a:active{
+		background-color: #ff8a00;
+
+}
+
+/* position and dimensions of the navigator */
+.navi {
+    height: 20px;
+    margin-left: 90px;
+    width: 150px;
+}
+.home .navi {
+    float: left;
+    height: 14px;
+    margin-bottom: 5px;
+    width: 150px;
+	  margin-left: 127px;
+}
+
+/* items inside navigator */
+
+ 
+/* mouseover state */
+.navi a {    display: block;
+    float: left;
+    font-size: 1px;
+    height: 6px;
+    margin: 3px;
+    width: 6px;
+	 -webkit-border-radius: 3px;
+	 -moz-border-radius:3px;
+	margin-right:9px;
+	background-color: #fff;
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+
+/* active state (current page state) */
+.navi a.active {
+			background-color: #ff8a00;
+	filter: alpha(opacity=1);
+	opacity: 1;
+
+}
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+	float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+	display:block;
+	width:25px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+	font-size:1px;
+	margin-bottom:5px;
+}
+a.right:active, a.left:active,
+a.right:hover, a.left:hover {
+zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;	
+	
+}
+/* right */
+a.right 				{ 	
+ clear:right;float:right;
+  border-bottom: 16px solid transparent;
+    border-left: 25px solid #FF8A00;
+    border-top: 14px solid transparent;
+    display: block;
+    height: 0; 
+    margin-right: 15px;
+    width: 0;
+ }
+a.right:active 	{ } 
+
+
+/* left */
+a.left {
+    border-bottom: 16px solid transparent;
+    border-right: 25px solid #FF8A00;
+    border-top: 14px solid transparent;
+    display: block;
+    height: 0;
+    margin-left: 17px;
+    width: 0;
+}
+
+/* up and down */
+a.up, a.down		{
+	float: none;
+	margin: 10px 50px;
+}
+
+/* up */
+a.up:active  		{ background-position:-60px 0; }
+
+/* down */
+a.down 				{ background-position: 0 -30px; }
+a.down:active  	{ background-position:-60px -30px; } 
+
+
+/* disabled navigational button */
+a.disabled {
+	visibility:hidden !important;		
+} 	
+

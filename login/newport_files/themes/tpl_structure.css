@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*
+*
+			STRUCTURE STYLES
+*
+*/
+
+.form_block {
+margin: 0 10px 0 10px;
+height: 54px;
+}
+
+/*
+*
+			OVER RIDES STYLES
+*
+*/
+
+.padding_bottom27{
+	margin-bottom:27px;
+}
+
+.padding_bottom33{
+	margin-bottom:33px;
+}
+.padding_bottom24{
+	margin-bottom:24px;
+}
+
+.padding_bottom31{
+	margin-bottom:31px;
+}

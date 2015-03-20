@@ -1,0 +1,707 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pleasure';
+    src: url('http://afgdev.com/mobile-menthol/themes/fonts/pleasure/Pleasure.eot');
+    src:  url('http://afgdev.com/mobile-menthol/themes/fonts/pleasure/Pleasure.woff') format('woff'),
+         url('http://afgdev.com/mobile-menthol/themes/fonts/pleasure/Pleasure.ttf') format('truetype'),
+         url('http://afgdev.com/mobile-menthol/themes/fonts/pleasure/Pleasure.svg#Pleasure') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('http://afgdev.com/mobile-menthol/themes/fonts/helvetica/HelveticaNeueLTCom-BdCn.eot');
+    src:  url('http://afgdev.com/mobile-menthol/themes/fonts/helvetica/HelveticaNeueLTCom-BdCn.woff') format('woff'),
+         url('http://afgdev.com/mobile-menthol/themes/fonts/helvetica/HelveticaNeueLTCom-BdCn.ttf') format('truetype'),
+         url('http://afgdev.com/mobile-menthol/themes/fonts/helvetica/HelveticaNeueLTCom-BdCn.svg#HelveticaNeueLTCom-BdCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul#nav-list-hi .profile {
+    width: 253px;
+}
+ul#nav-list-hi{width:300px;
+	margin:0 auto;
+	display:block;
+	clear:both;}
+	ul#nav-list-hi li{
+	font: 19px/10px 'Pleasure', Arial, sans-serif;
+	}
+	ul#nav-list-hi #nav-list-msg {
+font-family:Arial, Helvetica, sans-serif;   
+    top: 3px;
+}
+.email-update-section h1{text-align:center;margin-left:-3px; margin-top:0;font: 30px/35px 'Pleasure', Arial, sans-serif;}
+#logo-hi {
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+#logo-hi img{width:100%}
+#add-newport-hi img {
+    width: 100%;
+}
+.wallpaper #example h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.wallpaper #example h2 img {
+    height: 20px;
+}
+
+html,body{
+	background: #1a9b2f;
+	margin:0px;
+}
+
+#intro {
+	background: #1a9b2f;
+}
+
+.ui-body-a {
+	padding:0px 0px 0px 0px;
+}
+
+.ui-content {
+	padding:0px 0px 0px 0px !important;
+}
+
+#header, #content{
+	width:320px; 
+	margin:0 auto;
+}
+
+#header-screen {
+	position:relative;
+	width:320px;
+	height:377px;
+	margin-top:15px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#sgw{
+	height:171px;
+	width:290px;
+	margin:0 auto;
+	background:url('images/sgw/sgw-sprite.gif') top left no-repeat;
+	
+	}
+#packageImages{
+	height:195px;
+	width:319px;
+	margin:0 0px;
+	background:url('images/sgw/header.png') top left no-repeat;
+	
+	}
+
+#progressbar {
+	width:222px;
+	height:20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/load-initial.gif') top left repeat-x;
+
+}
+
+#logo {
+	width:320px;
+	height:66px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('images/logo-low.png');
+} 
+
+#slideshow {
+	width:320px;
+	height:229px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('images/slideshow-1.jpg');
+}
+
+#nav-list {
+	width:300px;
+	margin:0 auto;
+	display:block;
+	clear:both;
+}
+
+#nav-list-item {
+	text-align: center;
+}
+
+#nav-list-msg {
+	height: 28px;
+	line-height: 24px;
+	position: absolute;
+	right: 32px;
+	text-align: center;
+	top: -5px;
+	width: 44px;
+	background: url(images/indicator.png) no-repeat;
+}
+
+#nav-list-msg-text {
+}
+
+#dialog-box {
+	position: relative;
+	/*top:50%;
+	margin-top:-130px;*/
+	width:320px;
+	height: 260px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:0px;
+	padding-bottom:5px;
+	background: #ff8a00;
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8a00', endColorstr='#ffbc03'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff8a00), to(#ffbc03)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ff8a00,  #ffbc03); /* for firefox 3.6+ */ 
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#dialog-box h3 {
+	position: relative;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#dialog-box ol {
+	color:#FFFFFF;
+	text-align: left;
+}
+
+#dialog-box a {
+	position:absolute;
+	left: 132px;
+	bottom: 20px;
+	color:#ff7008;
+	text-decoration: none;
+}
+
+
+#add-newport {
+	width:320px;
+	height:95px;
+	margin-top: 13px;
+	margin-left: auto;
+	margin-right: auto;
+    background-image:url('images/newport-sprite.png');
+	 background-position: -270px 50%;
+}
+
+#email-input {
+    float: left;
+    height: 68px;
+    margin-top: 15px;
+    width: 320px;
+}
+
+#content-footer {
+	margin-top: 26px;
+	color: #FFF;
+	font-size: 10px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	float:left;
+}
+
+#content-footer a {
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+#email {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    float: left;
+    height: 17px;
+    margin-left: 10px;
+    outline: medium none;
+    width: 227px;
+}
+#submit{
+	float:right;
+	height:30px;
+	width:60px;
+	margin-right:5px;
+}
+
+.profile {width:320px;margin:0 auto}
+
+
+
+	
+.backButton {
+    background: url("images/newport-sprite.png") no-repeat scroll -65px top transparent;
+    float: left;
+    height: 33px;
+    margin: 7px 0 0 8px;
+    width: 63px;
+    z-index: 999;
+}
+.homeButton {
+    background: url("images/newport-sprite.png") no-repeat scroll left top transparent;
+    float: right;
+    height: 33px;
+    margin: 7px 8px 0 0;
+    width: 63px;
+    z-index: 999;
+}
+
+.backButton:active{
+	    background: url("images/newport-sprite.png") no-repeat scroll -65px -67px transparent;
+
+	}
+#passwordLayout {
+    font-size: 13px;
+    min-height: 400px;
+    margin-left: 17px;
+    margin-top: 40px;
+}
+.homeButton:active{   
+	 background: url("images/newport-sprite.png") no-repeat scroll -127px -67px transparent;
+}
+#privacyPolicy #content-footer,#faq #content-footer {
+
+    margin-top: 0;
+
+}
+
+.profile .titleCenter{
+	background:url(../img/title-your-profile.gif) top left no-repeat;
+	height:41px;
+	width:181px;
+	float:left;
+	}
+.products .titleCenter{
+	background:url(../img/title-products.gif) top left no-repeat;
+	height:41px;
+	width:181px;
+	float:left;
+	}
+.profile #message{
+	background:url(../img/message-title.gif) top left no-repeat;
+	width:320px;
+	height:63px;
+	float:left;
+	}
+	
+	
+.wallpaper-landing #container {
+	text-align:center;
+}
+.wallpaper-landing #container ul {
+    height: 305px;
+    margin-left: 23px;
+    padding: 0;
+    width: 280px;
+}.wallpaper-landing #container ul li {
+    float: left;
+    height: 159px;
+    list-style: none outside none;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    margin-right: 3px;
+    width: 133px;
+}
+.winners-circle-landing .titleCenter,.winners-circle-landing-low .titleCenter  {
+    background: url("../img/title-winners-circle.gif") no-repeat scroll center center transparent;
+    float: left;
+    height: 33px;
+    margin-top: 7px;
+    width: 177px;
+}
+
+.winners-circle-landing #container img, .winners-circle-landing-low #container img {
+    text-align: center;
+    width: 73%;
+	margin-left:-5px;
+}
+.winners-circle-landing-low .ui-btn-icon-left .ui-icon, .winners-circle-landing-low .ui-btn-icon-right .ui-icon, .winners-circle-landing .ui-btn-icon-left .ui-icon, .winners-circle-landing .ui-btn-icon-right .ui-icon {
+    margin-top: -4px;
+}
+.wallpaper-landing #header {position:relative;}
+.wallpaper-landing #header img {
+    left: 29px;
+    position: relative;
+    top: 7px;
+}
+.wallpaper-landing #container ul li a{height:100%;width:100%;display:block;}
+.winners-circle-landing #container,.winners-circle-landing-low #container{text-align:center;}
+.pleasure-payday #container,.pleasure-payday .scrollable,.pleasure-payday .scrollable img{	
+height:477px;
+z-index:8;
+}
+.pleasure-draw #container,.pleasure-draw .scrollable,.pleasure-draw .scrollable img{	
+height:858px;
+}
+.pleasure-payday .titleCenter{
+	background:url(../img/title-winners-circle.gif) center center no-repeat;
+	height:41px;
+width: 320px;
+	float:left;
+z-index:9999;
+position:absolute;	}
+.pleasure-payday .scrollable{position:absolute;}
+.pleasure-payday .navi {
+    float: left;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    width: 70px;
+	z-index:9999;
+}
+.pleasure-payday .homeButton{display:block;position:absolute;right:9px;}
+.pleasure-payday .backButton{display:block;position:absolute;}
+.pleasure-payday #header{position:relative;}
+
+.products #container{position:relative;}
+.winners-circle-landing #header,.winners-circle-landing-low #header{text-align:center;} 
+.home .navi{margin-left:107px;}
+span.like-it{position:absolute;}
+span.like-it a.ui-link img{height:39px;width:77px;}
+span.like-it {
+    bottom: 0px;
+    position: absolute;
+    right: 0;
+    width: 192px;
+	color:#000;
+	font-weight:bold;
+	font-size:15px;
+}
+span.like-it a.ui-link img {
+    margin-right: 10px;
+    position: relative;
+    top: -5px;
+}
+#pleasure-draw #content{
+	background: url(images/winners-circle/pleasure-draw-2011.jpg) no-repeat;
+}
+#pleasure-draw li{list-style:none;}
+#pleasure-draw ul {
+    font-size: 16px;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 384px;
+    width: 261px;
+	margin:0;
+}
+#pleasure-draw #content h1 {
+    left: 27px;
+    margin: 0;
+    position: absolute;
+    top: 314px;
+}
+.wallpaper ol {
+    left: 34px;
+    padding: 0;
+    position: relative;
+    width: 259px;
+}
+.wallpaper #example{text-align:center;}
+.wallpaper #example ol {text-align:left;}
+#closing-page-un #container p {
+    color: #000000;
+    font-size: 15px;
+}
+#closing-page-un #container p .ui-link {
+    color: #0A8403;
+    font-weight: bold;
+}
+#closing-page-un #container{	height:508px; background: url(images/UnbrandedClosing-bg.gif) no-repeat;
+}
+#closing-page-un #container p.main span.thank-you {
+    margin-bottom: 22px;
+}
+#closing-page-un #container h1 {
+    height: 80px;
+    margin: 0;
+}
+#closing-page-un #container .content a {
+    color: #0A8403;
+    text-decoration: none;
+}
+#closing-page-un #container .content {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left:15px;
+	padding-right:13px;
+	padding-top:8px;
+	height:291px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	margin: 0px 20px;
+	 line-height: 18px;
+}
+#closing-page-un #container .content p{color:#000;font-size: 15px;margin-bottom:18px;}
+#closing-page-un #container p {
+    color: #FFFFFF;
+    font-size: 12px;
+	
+	margin-top:0;
+}
+#closing-page-un #container p.footer{margin-top:6px;margin-left:8px;}
+#closing-page-un #container img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#closing-page-b #content-footer a{display:none;}
+#closing-page-b #content-footer {
+
+    margin-top: 0;
+
+}
+#closing-page-b #container h1 {
+    height: 155px;
+    margin-bottom: 0;
+    margin-top: 0;
+}#closing-page-b #container .content {
+	background-color: #fff601;
+	color: #000000;
+	padding-left:15px;
+	padding-right:13px;
+	padding-top:8px;
+	height:235px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	margin: 0px 11px 12px;
+	line-height: 18px;
+	font-size: 13px;
+} 
+#closing-page-b #container .content p {
+    margin-bottom: 16px;
+    margin-top: 6px;
+}
+  #closing-page-b #container a.enter-now {
+margin:0px auto;
+display:block;
+width:300px;
+}
+
+  #closing-page-b #content-footer p {
+    margin-top: 2px;
+}
+#new-email-update {
+	font: italic 19px Arial, Helvetica, sans-serif;
+}
+#new-email-update p.receive-emails {
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    width: 250px;
+}
+#new-email-update p{text-align:left;float:left;	clear:left;
+}
+#re-enterEmail {
+    float: left;
+    height: 74px;
+    margin-top: 15px;
+    width: 320px;
+}
+p.age-agreement .ui-radio {
+    margin: 0;
+
+}
+#new-email-update p.age-verify {
+	font-size: 17px;
+	font-style: normal;
+}
+p.submit-cancel {
+    height: 32px;
+    margin-top: 0;
+    width: 320px;
+}
+
+.email-update-section #email {
+    border: 1px solid #000000;
+    height: 21px;
+    width: 287px;
+}
+.email-update-section #email-input span,
+.email-update-section #re-enterEmail span,
+span.change-email-title  {
+	font: 17px/17px 'HelveticaNeue', Arial, sans-serif;
+    color: #75FF00;
+    font-size: 16px;
+    text-transform: uppercase;
+	margin-left:10px;
+	font-style:bold;
+}
+span.current-email {
+    margin-left: 10px;
+}
+#new-email-update p.age-verify,#invalid-email-update p.age-verify {
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 23px;
+}
+ a.cancel{left:26px;position:absolute;}
+a.submit{right:26px;position:absolute;}
+p.age-agreement label {
+    float: left;
+    font-style: normal;
+    margin-right: 69px;
+}
+p.age-agreement {
+    margin-bottom: 17px;
+    margin-left: 95px;
+    margin-top: 0;
+    width: 219px;
+}
+p.age-agreement .ui-radio input {
+    height: 16px;
+    left: -19px;
+    margin: 0;
+    outline: 0 none !important;
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    z-index: 1;
+}
+#new-email-update #content-footer {
+
+    margin-top: 0;
+
+}
+#invalid-email-update a.submit {
+    bottom: 22px;
+    display: block;
+    left: 104px;
+    width: 105px;
+}
+#invalid-email-update p.age-agreement {
+    margin-left: 100px;
+
+}
+p.submit {
+    float: left;
+    height: 32px;
+    margin-top: 0;
+    width: 320px;
+}
+.email-update-section .titleCenter,.titleCenter {
+    float: left;
+    height: 21px;
+    margin-top: 15px;
+    text-align: center;
+    width: 178px;
+	letter-spacing:0px;
+	font: 16px/16px 'Pleasure', Arial, sans-serif;
+}
+
+#change-email-update p.submit-cancel {
+    float: left;
+
+}
+#change-email-update #container {
+    margin-top: 17px;
+}
+
+#change-email-update #email-input {
+    margin-top: 35px;
+	height:67px;
+}
+
+#change-email-update #re-enterEmail {
+    margin-bottom: 70px;
+
+}
+#invalid-email-update #container {
+    height: 650px;
+    margin-top: 31px;
+}
+#invalid-email-update #container h2 {
+    font-size: 19px;
+    margin-bottom: 21px;
+    margin-top: 7px;
+    text-align: center;
+}
+#invalid-email-update #email-input {
+
+    margin-top: 28px;
+
+}
+ul#nav-list li a.profile{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px top transparent;
+}
+ul#nav-list li a.messages{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -19px transparent;
+ }
+ ul#nav-list li a.product{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -37px transparent;
+	 }
+	  ul#nav-list li a.winners_circle{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -55px transparent;
+	 }
+	   ul#nav-list li a.wallpaper_download{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -75px transparent;
+	 }
+	  ul#nav-list li a.pleasure-payday{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -94px transparent;
+	 }
+	   ul#nav-list li a.pleasure-draw{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -115px transparent;
+	 }
+ul#nav-list li a.profile,ul#nav-list li a.messages,ul#nav-list li a.product,ul#nav-list li a.winners_circle,ul#nav-list li a.wallpaper_download, ul#nav-list li a.pleasure-payday, ul#nav-list li a.pleasure-draw {
+    background-repeat: no-repeat;
+    height: 18px;
+    margin: 9px;
+    padding: 0;
+    width: 281px;
+}
+#email_update_thanks p {
+    margin-bottom: 0px;
+    margin-top: 17px;
+    text-align: center;
+}
+#email_update_thanks #container {
+    height: 343px;
+
+}
+#email_update_thanks h1 {
+    color: #FFFFFF;
+    margin-top: 47px;
+	margin-bottom:0px;
+}
+#privacyPolicy #content {
+    background: url("images/privacyPolicyBg.png") no-repeat scroll center 135px transparent;
+	height:416px;
+}
+#faq #content {
+    background: url("images/faqsBg.png") no-repeat scroll center 155px transparent;
+	height:416px;
+}
+#privacyPolicy .ui-content,#faq .ui-content{    overflow-x: visible;}

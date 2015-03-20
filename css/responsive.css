@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS for the responsive custom themes */
+@media only screen and (max-width: 922px){
+	/*login contaienr redirect for mobile*/
+	.loginContainer{
+		float:left;
+		}
+	.navbar{
+		height:105px;
+		}
+}
+@media only screen and (max-width: 992px){
+	
+	.thumbnail-wrapper{
+		height:194px;
+		}
+
+	.content-img,.newport-content-img{
+		margin-top:100px;
+		}	
+}
+@media only screen and (max-width: 767px){
+	.thumbnail-wrapper{
+		height:auto;
+		}
+	
+	.logo,.name,.title{
+		position:absolute;
+		}
+	.logo img{
+		width:30%;
+		height:auto;
+		}
+	.parallax_wrapper .scrollBar{
+	height:50px;
+		}
+	/*login resize for input fields*/
+	form li{
+	display:block;
+	padding-top:12px;
+	}
+	/*thumbnail hover buttons resize*/
+	.view-details-btn,.view-site-btn,.loramead-thumb-btn{
+		top:35%;
+		}
+	.thumb-title{
+		top:-356px;
+		}	
+	/*main content description resize*/
+	.content-img,.newport-content-img{
+		margin-top:0px;
+		}	
+	.content-description{
+		padding-top:0px;
+		padding-bottom:50px;
+		}
+	/*education and work section styles*/
+	.education p{
+	margin-top:0px;
+	}
+	/*login container and form input and submit button resize for mobile set div and input to 100%*/
+	.loginContainer{
+		width:100%;
+		padding-bottom:55px;
+		}
+	form input{
+		width:100%;
+		}
+	.submit-btn{
+		margin-top:15px;
+		}
+	.submit-btn:active{
+		margin-top:16px;
+		}
+	
+}
+@media only screen and (max-width: 767px) and (orientation: landscape){
+.parallax_wrapper{
+	background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-attachment:scroll;	
+	margin-bottom:0px;
+	padding:0px;
+	}
+.navbar{
+	position:absolute;
+	left:0px;
+	width:100%;
+	}
+
+.logo{
+	top:7%;
+	}
+.logo img{
+		width:30%;
+		height:auto;
+		}
+.scrollBar .glyphicon{
+	top:17px;
+	}
+}
+@media only screen and (max-width: 767px) and (orientation: portrait){
+.parallax_wrapper{
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-attachment:scroll;	
+	margin-bottom:0px;
+	padding:0px;
+	}
+.logo{
+	top:36%;
+	}
+.logo img{
+		width:55%;
+		height:auto;
+		}
+.scrollBar .glyphicon{
+	top:17px;
+	}
+}
+@media only screen and (max-width: 480px){
+		/*social media resize in the footer*/
+	.socialMedia_left li a,.socialMedia_right li a{
+	font-size:16px;
+	}
+	
+}
+@media only screen and (max-width: 376px){
+	.rewards-btn li:nth-child(2){
+		padding-top:39px;
+	}
+}
+
+

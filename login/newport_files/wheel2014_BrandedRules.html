@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="icon" 							href="http://afgdev.com/apple-touch-icon.png" type="image/vnd.microsoft.icon" />
+<link rel="SHORTCUT ICON" 					href="http://afgdev.com/apple-touch-icon.png" />
+<link rel="apple-touch-icon" 				href="http://afgdev.com/apple-touch-icon.png" />
+<link rel="apple-touch-icon-precomposed" 	href="http://afgdev.com/apple-touch-icon-precomposed.png"/>
+<link rel="icon" type="image/png" 			href="http://afgdev.com/apple-touch-icon-precomposed.png" />
+
+<title>Newport&reg; </title>
+<meta id="iviewport" name="viewport" content=" width=320, user-scalable=no" />
+<meta name="format-detection" content="telephone=no">
+
+<script>
+var mvp = document.getElementById('iviewport');
+
+function adjustView(){
+	
+	if (screen.width > 740) {
+		mvp.setAttribute('content','width=482, user-scalable=no');
+		console.log("viewport = 482");
+		/*alert("viewport = 482");*/
+	} else  {
+		mvp.setAttribute('content','width=320,initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+		console.log("viewport = 320");
+		/*alert("viewport = 320");*/
+		
+	}
+}
+
+adjustView();
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.0/jquery.mobile.structure-1.0.min.css" />
+<link rel="stylesheet" type="text/css" href="themes/newport-menthol-theme.css" />
+<link rel="stylesheet" type="text/css" href="themes/css-global.css" />
+<link rel="stylesheet" type="text/css" href="themes/css-profile.css" />
+<link rel="stylesheet" type="text/css" href="themes/css-progressbar.css" />
+<link rel="stylesheet" type="text/css" href="themes/css-slideshow.css" />
+<link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css" />
+<link rel="stylesheet" type="text/css" href="themes/tpl_global_ken.css" />
+<link rel="stylesheet" type="text/css" href="themes/tpl_wallpaper_slideshow.css" />
+<link rel="stylesheet" type="text/css" href="themes/wheel_of_pleasure_global.css" />
+
+<style>
+/* 
+   These selectors scale elements to fit different devices based on
+   resolution and orientation.
+   
+   The default width of the main content container is 320px.
+   The default width of the warning label div (#sgw) is 294px.
+   
+*/
+   
+/* PORTRAIT */
+@media screen and (orientation:portrait) and (max-device-width: 768px) {
+	#sgw {zoom: 50%;}
+	.simple_overlay{padding:815px 0 0;background:none;}
+}
+/* OTHER */
+@media only screen and(orientation:portrait) and (max-device-width: 480px){	
+	.simple_overlay{padding:815px 0 0 ;background:#00f;}
+}
+
+/* LANDSCAPE */
+@media screen and (orientation:landscape) and (max-device-width: 1024px) {
+	#sgw {zoom: 38%;}
+	.simple_overlay{padding:815px 0 0;background:#f00;}
+}
+@media screen and (orientation:landscape) and (max-device-width: 480px) {
+	#sgw {zoom: 66%;}
+	.simple_overlay{padding:0;background:#0ff;}
+}
+/* OTHER */
+@media only screen and (max-device-width: 480px){	
+	#sgw {zoom: 100%;}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+.simple_overlay{padding:0;}
+}
+</style>
+
+</head>
+<body>
+
+<div data-role="page" id="wheel-of-pleasure-rules" class="wheel2014-rules">
+	<div id="page-body" class="ui-body ui-body-a">
+		<div data-role="header" id="header" class="header-resize">
+			<div id="header-screen">
+				<div id="sgw"></div>
+				<div id="packageImages"></div>
+			</div>
+			<div id="progressbar">
+				<div class="completion">
+					<div style="width:0;"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- header -->
+
+		<div data-role="content" class="content" style="visibility:hidden">
+			<div id="headerBar">
+		    	<a data-rel="back" href="#" data-theme="back" class="backButton ui-btn"></a>
+		        <div class="titleCenter">Wheel of Pleasure</div>
+		        <a data-theme="home" href="home.html" class="homeButton ui-btn"></a>          
+		    </div>
+			<div id="rules-wrap">
+            	<div id="rules_img">
+               
+			
+					<div id="sweeps-official-rules-wrapper">
+						<p>Entrants must be legal U.S. residents who are smokers, 21 years of age or older, and registered Newport Pleasure members in good standing at time of entry. Sweepstakes entry is subject to age verification and complete Official Rules. Age verification will be completed by the date of the Sweepstakes drawing. Void in CO, MA, MI, at retail in VA, and where prohibited. Call 1-888-824-8111 or go to www.newport-pleasure.com to enter and for Official Rules. Sweepstakes starts 7/1/14 and ends 10/31/14. 
+</p>
+						<p class="access"><strong>To access the full rules, please <br/>log on to Newport-pleasure.com<br /> from your desktop computer.</strong></p>
+					<div id="rules-back">
+						<a data-rel="back" href="#" data-theme="back" id="rules-back-link">BACK</a>
+					</div>
+			</div>
+						</div>
+</div>
+			<div id="content-footer">
+            
+				<p>Newport&reg;, pleasure!&reg; (logo), Newport pleasure!&reg; (logo), Newport Pleasure 
+Play&reg; (logo), Newport Pleasure Payday&reg;, Newport Pleasure Draw&reg;, Newport 
+Wheel of PleasureTM, The World of Newport Pleasure&reg;, Menthol Gold&reg;, 
+Menthol Blue&reg;, spinnaker design, package design and other trade 
+dress elements are trademarks of Lorillard Licensing Company LLC. </p>
+				<p style="padding-top:0;">&copy; 2013 Lorillard</p>
+	
+  				<div class="footer-resize"></div>
+			</div>
+		</div><!-- Content --> 
+	</div><!-- page-body --> 
+</div><!-- page -->
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-4.tools.min.js"></script>
+<script src="js/jquery.tools-overlay.min.js"></script>
+<script src="js/scrollable-auto.js"></script>
+
+<script>
+$(document).bind("mobileinit", function(){
+	console.log('jquery mobile init');
+	
+  $.extend(  $.mobile , {
+    pageLoadErrorMessage: '',
+	loadingMessage: '',
+	defaultPageTransition: 'none',
+	ajaxEnabled: 'false',
+  });
+});	
+</script>
+
+<script src="js/mobile.js"></script>
+<script src="js/max.js"></script>
+
+<script src="js/max-kenneth.js"></script>
+<script src="js/blackjackGame.js" type="text/javascript"></script>
+<script src="js/pleasurePlay.js" type="text/javascript"></script>
+     
+<script type="text/javascript" src="jquery/jquery.mousewheel.min.js"></script> 
+<script type="text/javascript" src="jquery/jquery.ba-resize.min.js"></script>
+
+<script src="js/pngFixer.js"></script>
+<script src="js/scrollbar.min.js"></script>
+<script src="js/buttons.js"></script>
+
+</body>
+</html>

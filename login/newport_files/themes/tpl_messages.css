@@ -1,0 +1,346 @@
+@charset "UTF-8";
+/*
+*
+			MESSAGES STYLES
+*
+*/
+
+/*
+.message_inbox_title {
+	margin-top: 10px;
+	width: 257px;
+	color:#000;
+}
+
+.message_inbox_title {
+	font-weight:bold;
+}
+
+.message_inbox_title {
+	width:275px;
+	float:left;
+	margin:15px 0 0;
+}
+*/
+
+.message_inbox_title {
+	width: 265px;
+	/* NEW */
+	float:left;
+	font-weight:bold;
+	color:#000;
+}
+
+.messages_inbox {
+	clear:both;
+	margin-top:-5px;
+}
+#message-landing .ui-link .ui-body-c .ui-link:active {
+	color:#58595b !important;
+}
+
+#message-landing .ui-link .message_inbox_copy {
+	font-size:15px;
+	color:#58595b !important;
+}
+
+#message-landing .ui-link:active {
+	color:#68d903 !important;
+}
+
+.message_landing_poster {
+	width: 320px;
+	margin-top: -7px;
+}
+
+.message_status_icon{
+	height:50px; 
+	width:40px;
+	float:left;
+}
+
+.message_block{
+	margin:-8px 0 10px;
+	background: #fff url(images/messages/message_background.jpg) center bottom no-repeat;
+	padding-bottom:29px;
+	font-size:16px;
+	min-height:302px;
+	position:relative;
+}
+
+p.message_body {
+	color: #58595B;
+	display: block;
+	float: right;
+	margin-top: 0;
+	padding-right:20px;
+	width: 255px;
+	font-size: 17px;
+}
+
+img.message {
+	width:255px;
+	padding:1em 0 0 37px;
+}
+
+.ui-btn-up-message-notice,
+.messageLanding .message_notice {
+	display: block!important;
+	background: url(images/buttons/menthol-buttons.png) no-repeat;
+	background-size: 351px;
+	height: 50px;
+	font-weight: normal;
+	font-size: 17px;
+	text-decoration: none;
+	background-position: -26px -278px;
+}
+
+.ui-btn-down-message-notice,
+.messageLanding .message_notice:active,
+.messageLanding .message_notice:hover {
+	background-position: -26px -224px;
+}
+
+.messageLanding .new_message .message_status_icon { 
+	margin:20px 17px 17px;
+}
+
+.new_message .message_status_icon{
+ 	-webkit-border-radius: 5px;
+	 -moz-border-radius:5px;
+	 border-radius: 5px;
+	background-color: #5add0c;	
+	width:10px;
+	height:10px;
+    margin: 17px 17px 17px;
+}
+
+.new_message .message_inbox_title {
+	color:#000;
+}
+
+.important_message .message_status_icon {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+/*  background-image: url("images/messages/message_important.png"); */
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    margin-top: 11px;
+}
+
+.icon-important {
+	color:#ce0027;
+	font-size:34px;
+	position:relative;
+	left:18px;
+	top:-7px;
+}
+
+.important_message .message_inbox_title{
+	color:#000;
+}
+
+.read_message .message_status_icon{
+	background:none;
+}
+
+.read_message .message_inbox_title{
+	color:#999;
+}
+
+.message_message_number {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 170px;
+}
+p.message_body .ui-link {
+    color: #58595B !important;
+    font-weight: bold;
+}
+
+/*
+*
+			INDIVIDUAL MESSAGES STYLES
+*
+*/
+
+.message_post .message_inbox_title {
+	font-size:20px;
+	letter-spacing: -0.08em;
+	font-weight:bold;
+	color:#000;
+}
+
+.messageWelcome_delete {
+	bottom: 8px;
+	float: right;
+	height: 30px;
+	position: absolute;
+	right: 18px;
+	text-indent: -5000px;
+	width: 80px;
+	background-image: url(images/button_delete.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	border:0 none;
+	background-size:cover;
+}
+
+.ui-btn-up-delete-message, .message_delete {
+	bottom: 20px;
+	float: right;
+	height: 31px;
+	position: absolute;
+	right: 18px;
+	text-indent: -5000px;
+	width: 82px;
+	background: url(images/buttons/menthol-buttons.png) no-repeat;
+	background-size: 351px;
+	background-position: -266px -154px;
+	border: 0 none;
+}
+
+.ui-btn-down-delete-message,
+.message_delete:active,
+.message_delete:hover {
+	background-position: -266px -191px;
+}
+
+.message_img {
+	margin-bottom:30px;
+}
+
+.messageLanding .message_inbox_title {
+	margin-top: 5px;
+}
+
+.messageLanding .message_inbox_title.one_line {
+	margin-top: -10px;
+	position: relative;
+	top: 50%;
+}
+
+.message_post #content-footer {
+    margin-top: 74px;
+}
+
+#message-landing #content-footer {
+	margin-top: -24px;
+}
+
+#message-welcome #content-footer {
+	margin-top:26px;
+}
+
+.message_post .important_message .message_status_icon {
+    margin-top: 20px;
+}
+
+/*
+*
+			MESSAGE ARROWS STYLES
+*
+*/
+
+.message_next{
+	float:right;
+	width:40px;
+	text-align:right;
+	padding-right:20px;
+	margin-right:15px;
+	background-size:12px;
+}
+
+.message_next .next {
+    border-bottom: 7px solid transparent;
+    border-left: 13px solid #FFFFFF;
+    border-top: 7px solid transparent;
+    bottom: 17px;
+    display: block;
+    height: 0;
+    position: relative;
+    right: -47px;
+    width: 0;
+}
+
+.message_next a,
+.ui-btn-up-next-button,
+.message_next a.ui-link,
+.message_next a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+	margin-top:0px;
+}
+
+.ui-btn-down-next-button,
+.message_next a:active,
+.message_next a:hover {
+	color:#68D903;
+}
+	
+.message_next a.ui-btn-down-next-button .next,
+.message_next a:active .next,
+.message_next a:hover .next {
+	border-bottom: 7px solid transparent;
+    border-left: 13px solid #68D903;
+    border-top: 7px solid transparent;
+}
+
+.message_back{
+	float: left;
+	width:40px;
+	padding-left:20px;
+	margin-left:15px;
+}
+
+.message_back a,
+.ui-btn-up-back-button,
+.message_back a.ui-link,
+.message_back a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+	margin-top:0px;
+}
+
+.message_back .back {
+    border-bottom: 7px solid transparent;
+    border-right: 13px solid #FFFFFF;
+    border-top: 7px solid transparent;
+    bottom: 17px;
+    display: block;
+    height: 0;
+    left: -21px;
+    position: relative;
+    width: 0;
+}
+
+.message_back a:active,
+.message_back a:hover,
+.ui-btn-down-back-button,
+.ui-body-c .message_back a.ui-link:active,
+.ui-body-c .message_back a.ui-link:hover {
+	color: #68D903;
+}
+
+.message_back a.ui-btn-down-back-button .back,
+.message_back a:active .back,
+.message_back a:hover .back {
+	border-bottom: 7px solid transparent;
+    border-right: 13px solid #68D903;
+    border-top: 7px solid transparent;
+} 
+
+span.message_body{
+	color: #000;
+	display: block;
+	float: left;
+	font-size:6px;
+	text-align:left;
+	padding-right:5px;
+	padding-left:0px;
+}

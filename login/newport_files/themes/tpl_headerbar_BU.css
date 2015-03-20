@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*
+*
+			HEADER BAR STYLES
+*
+*/
+.titleCenter {
+    float: left;
+    font: 16px/16px 'Pleasure',Arial,sans-serif;
+    height: 21px;
+    letter-spacing: 0;
+    margin-top: 6px;
+    position: relative;
+    text-align: center;
+    width: 178px;
+    z-index: 999;
+}
+	
+#headerBar {
+	margin: 6px auto 6px;
+	height:31px;
+
+}
+
+.ui-btn-up-back,
+.backButton {
+   background: url("images/back_button.png");
+   background-size:cover;
+   float: left;
+   height: 31px;
+   margin: 0px 0 0 8px;
+   width: 63px;
+   z-index: 999;
+}
+
+
+.ui-btn-up-home,
+.homeButton {
+   background: url("images/home_button.png");
+   background-size:cover;    
+   float: right;
+   height: 31px;
+   margin: 0px 8px 0 0;
+   width: 63px;
+   z-index: 999;
+}
+
+.ui-btn-down-back,
+.ui-btn-hover-back,	
+.backButton:active{
+   background: url("images/back_button_active.png");
+   border:0 none;
+}
+
+.ui-btn-down-home,
+.ui-btn-hover-home,
+.homeButton:active {
+    background-image: url("images/home_button_active.png");
+	border:0 none;
+}

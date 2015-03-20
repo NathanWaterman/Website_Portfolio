@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pleasure';
+    src: url('fonts/pleasure/Pleasure.eot');
+    src:  url('fonts/pleasure/Pleasure.woff') format('woff'),
+         url('fonts/pleasure/Pleasure.ttf') format('truetype'),
+         url('fonts/pleasure/Pleasure.svg#Pleasure') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/helvetica/HelveticaNeueLTCom-BdCn.eot');
+    src:  url('fonts/helvetica/HelveticaNeueLTCom-BdCn.woff') format('woff'),
+         url('fonts/helvetica/HelveticaNeueLTCom-BdCn.ttf') format('truetype'),
+         url('fonts/helvetica/HelveticaNeueLTCom-BdCn.svg#HelveticaNeueLTCom-BdCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+text {
+	color: #75FF00;
+	font: 16px/17px 'HelveticaNeue',Arial,sans-serif;
+	padding-bottom: 3px;
+	margin-left: 0;
+	text-transform: uppercase;
+	display: block;
+}
+
+.profile h1,
+#wallpaperLanding h1 {
+    float: left;
+    font: 30px/30px 'Pleasure',Arial,sans-serif;
+    height: 63px;
+    margin-bottom: 6px;
+    margin-top: 9px;
+    text-align: center;
+    width: 320px;
+}
+
+#personal_info #email-input span,
+#personal_info span.name, 
+#personal_info #re-enterEmail span, 
+#personal_info .zip_code span, 
+#personal_info .city span, 
+#personal_info .state span, 
+#personal_info .phone span,span.gender, 
+#personal_info span.gender{
+    color: #75FF00;
+    font: 16px/17px 'HelveticaNeue',Arial,sans-serif;
+    margin-left: 0;
+}
+
+.email-update-section h1{
+	text-align:center;
+	margin:0 0 14px -3px; 
+	font: 31px/27px 'Pleasure', Arial, sans-serif;
+}
+
+.email-update-section h2{
+	margin:0 0 0 0;
+}
+
+#email_update_thanks h1,
+#password_thanks #container h1 {
+	text-align:center;
+	font: 25px/28px 'Pleasure', Arial, sans-serif;
+}
+
+#password_thanks #container h1 {
+	margin-top:63px;
+} 

@@ -1,0 +1,27 @@
+.abso {
+	position: absolute;
+}
+.landing-page-wrap {
+	position: relative;
+
+}
+.playGameLayer {
+	background: url(../images/landing-page/landing-page.jpg);
+}
+.enter-btn {
+	bottom: 55px;
+	right: 5px;
+	background: url(../images/landing-page/landing-enter-btn.png);
+	background-size: 100% auto;
+	width:106px;
+	height: 32px;
+	overflow: hidden;
+
+}
+.enter-btn:hover {
+	background-position: bottom;
+}
+.banner {
+	left: 1px;
+	top: 7px;
+}

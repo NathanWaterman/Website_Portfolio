@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VCA</title>
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="stylesheet" href="style.css">
+<meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+         <script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
+         
+         <script type="text/javascript">
+	function initEB(){
+		if (!EB.isInitialized()){
+			EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
+		}else{
+			startAd();
+		}
+	}
+	function startAd(){
+		document.getElementById("container").style.visibility = "visible";
+	}
+	function handleBannerClick(){
+		EB.clickthrough();
+	}
+</script>
+
+</head>
+<body onload="initEB();">
+<div id="container" onclick="javascript:handleBannerClick();">
+
+	<div id="animatedCnt">
+    <div id="bgimg"></div>
+		<div id="ctabtn"><img src="cta.png" alt=""></div>
+		<div id="productL" class="landscape"><img src="product.png" alt="" ></div>
+    <div id="product" class="portrait"><img src="product.png" alt="" ></div>
+		<div id="_wrap1" class="portrait">
+			<div id="butterfly1">
+				<div class="butterfly1c"><img src="droite.gif" alt=""></div>
+			</div>
+		</div>
+    	<div id="_wrap1L" class="landscape">
+			<div id="butterfly1"  class="landscape">
+				<div class="butterfly1c"><img src="droite.gif" alt=""></div>
+			</div>
+		</div>
+		<div id="_wrap2" class="portrait">
+			<div id="butterfly2">
+				<div class="butterfly2c"><img src="gauche.gif" alt=""></div>
+			</div>
+		</div>
+    	<div id="_wrap2L" class="landscape">
+			<div id="butterfly2">
+				<div class="butterfly2c"><img src="gauche.gif" alt=""></div>
+			</div>
+		</div>
+		<section id="vcalogo"><img src="vca_logo.png" alt=""></section>
+	</div>
+</div>
+<script>
+
+var p1 = window.document.getElementById('_wrap1'),
+    p2 = window.document.getElementById('_wrap2'),
+	p1l = window.document.getElementById('_wrap1L'),
+	p2l = window.document.getElementById('_wrap2L');
+
+p1.style.display = 'none';
+p2.style.display = 'none';
+p1l.style.display = 'none';
+p2l.style.display = 'none';
+
+window.onload = function() {
+	p1.id = 'wrap1';
+	p2.id = 'wrap2';
+	p1l.id = 'wrap1L';
+	p2l.id = 'wrap2L';
+	p1.style.display = 'block';
+	p2.style.display = 'block';
+	p1l.style.display = 'block';
+	p2l.style.display = 'block';
+};
+
+</script>
+</body>
+</html>

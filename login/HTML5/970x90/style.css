@@ -1,0 +1,250 @@
+body{
+		margin:0; 
+		padding:0;
+		overflow:hidden;
+		background-color: #fff;
+	}
+
+	img{
+		border:none;
+	}
+	a{
+		text-decoration: none;
+	}
+
+	#port{
+		width: 968px;
+		height: 88px;
+		position: relative;
+		overflow: hidden;
+		background-image: url(back.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	#land{
+		width: 968px;
+		height: 88px;
+		position: relative;
+		overflow: hidden;
+		background-image: url(back.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	
+
+
+	#bird{
+		width:20%;
+		left:100%;
+		top:-80%;
+		opacity: 0.5;
+		position: absolute;
+		
+
+/*        -webkit-animation:bird_step 2s 1 forwards;
+        -moz-animation:bird_step 2s 1 forwards;
+        -ms-animation:bird_step 2s 1 forwards;
+        animation:bird_step 2s 1 forwards;
+
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+        animation-delay: 1s;*/
+	}
+	.bird-container{
+		
+		}
+		
+
+
+
+/*	@keyframes bird_step {
+		from { width: 200%; left: 200%; top: -280%; }
+		to {  width: 60%; left: 18%; top: 8%;}
+	}
+
+	@-webkit-keyframes bird_step {
+		from {  width: 200%; left: 200%; top: -280%; }
+		to {  width: 60%; left: 18%; top: 8%; }
+	}
+
+	@-moz-keyframes bird_step {
+		from {  width: 200%; left: 100%; top: -280%;}
+		to {   width: 60%; left: 18%; top: 8%;}
+	}*/
+
+
+	#phare{
+	left:45%;
+		bottom: 5%;
+		opacity: 0;
+		position: absolute;
+		width:3%;
+		
+	}
+	.phare-container{
+	margin-top:65px;
+	margin-left:328px;
+	z-index:1000;
+	}
+
+	#shine1{
+		left:48%;
+		top:27%;
+		opacity: 0;
+		position: absolute;
+		width:4%;
+	}
+
+
+	#shine2{
+		left:43%;
+		top:30%;
+		opacity: 0;
+		position: absolute;
+		width:3%;
+	}
+	.shine2-container{
+		
+		}
+
+	#shine3{
+		left:50%;
+		top:25%;
+		opacity: 0;
+		position: absolute;
+		width:3%;
+	}
+	.shine3-container{
+		
+		}
+
+	#enamoured{
+		left:0%;
+		top:45%;
+		opacity: 0;
+		position: absolute;
+		width:12%;
+	}
+	.enamoured-container{
+		
+		}
+
+	#logo{
+		/*
+		left:54%;
+		top:60%;
+		position: absolute;
+		*/
+		position: absolute;
+		opacity: 0;
+		
+		width:32%;
+		margin-top:-14px;	
+	}
+	.logo-tagline{
+		clear:both;
+		}
+	
+
+	#tagline{
+		/*
+		left:32%;
+		top:80%;
+		
+		*/
+		opacity: 0;
+		position: absolute;
+		margin-left:-41px;
+		width:32%;
+	}
+	.tagline-container{
+		clear:both;
+		margin-top:-89px;
+		}
+
+	#bird_por{
+		width: 50%;
+		left:100%;
+		top:-80%;
+		opacity: 0.5;
+		position: absolute;
+
+/*        -webkit-animation:bird_step 2s 1 forwards;
+        -moz-animation:bird_step 2s 1 forwards;
+        -ms-animation:bird_step 2s 1 forwards;
+        animation:bird_step 2s 1 forwards;
+
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+        animation-delay: 1s;*/
+
+	}
+
+/*	@keyframes bird_step {
+		from { width: 200%; left: 200%; top: -280%; }
+		to {  width: 60%; left: 18%; top: 8%;}
+	}
+
+	@-webkit-keyframes bird_step {
+		from {  width: 200%; left: 200%; top: -280%; }
+		to {  width: 60%; left: 18%; top: 8%; }
+	}
+
+	@-moz-keyframes bird_step {
+		from {  width: 200%; left: 100%; top: -280%;}
+		to {   width: 60%; left: 18%; top: 8%;}
+	}*/
+
+
+	#phare_por{
+		left:45%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#shine1_por{
+		left:48%;
+		top:27%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#shine2_por{
+		left:43%;
+		top:30%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#shine3_por{
+		left:50%;
+		top:25%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#enamoured_por{
+		left:0%;
+		top:40%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#logo_por{
+		left:10%;
+		top:60%;
+		opacity: 0;
+		position: absolute;
+	}
+
+	#tagline_por{
+		left:28%;
+		top:80%;
+		opacity: 0;
+		position: absolute;
+	}
+
+

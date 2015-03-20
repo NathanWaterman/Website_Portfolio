@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/*
+*
+			MENTHOL BUTTON STYLES
+*
+*/
+
+
+/*
+*
+			HEADER BAR STYLES
+*
+*/
+
+.pleasure-payday .ui-btn-up-back, 
+.pleasure-payday  .backButton,
+.pleasure-payday .ui-btn-up-home,
+.pleasure-payday .homeButton
+ {
+	border: none!important;
+
+}
+
+.ui-btn-up-back, 
+.backButton {
+float: left;
+height: 31px;
+margin: 0px 0 0 8px;
+width: 63px;
+z-index: 999;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -60px -154px;
+background-size: 351px;
+border: 1px solid #199B2E;
+}
+
+.ui-btn-down-back,
+.backButton:active,
+.backButton:hover {
+	background-position: -60px -191px;
+	height: 29px;
+
+}
+
+
+
+.ui-btn-up-home,
+.homeButton {
+	float: right;
+	height: 31px;
+	margin: 0px 8px 0 0;
+	width: 63px;
+	z-index: 999;
+	background-image: url(images/buttons/menthol-buttons.png);
+	background-repeat: no-repeat;
+	background-position: -128px -154px;
+	background-size: 351px;
+	border: 1px solid #199B2E;
+}
+
+.ui-btn-down-home,
+.homeButton:active,
+.homeButton:hover {
+	background-position: -128px -191px; 
+	height: 29px;
+
+}
+.email-submit {
+	height: 31px;
+	margin: 0px 0 0 8px;
+	width: 60px;
+	border:0 none;
+	background-image: url(images/button_submit.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+}
+
+
+.email-submit:active,
+.email-submit:hover {
+	border:0 none;
+	background-image: url(images/button_submit.png);
+	background-repeat: no-repeat;
+	background-position: 0px -31px;
+
+}
+
+
+#home .email-submit {
+height: 31px;
+margin: 0px 7px 0 1px;
+width: 62px;
+border: 0 none;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -200px -154px;
+background-size: 351px;
+-moz-background-size: 351px;
+}
+
+
+
+#home .email-submit:active,
+#home .email-submit:hover {
+	background-position: -200px -191px;
+
+}
+
+/* LIKE IT BUTTON */
+
+
+
+
+/* CANCEL BUTTON */
+.ui-btn-up-cancel-form,
+.cancel_button {
+height: 32px;
+margin: 0px 0 0 0px;
+width: 105px;
+z-index: 999;
+border: 0 none;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -126px -1px;
+background-size: 351px;
+-moz-background-size: 351px;
+}
+
+
+.ui-btn-down-cancel-form,
+.cancel_button:active,
+.cancel_button:hover {
+    background-position: -126px -38px;
+}
+
+/* SUBMIT NON-BRAND BUTTON */
+
+.ui-btn-up-submit-form,
+.submit_nb_button {
+height: 32px;
+margin: 0px 0 0 0px;
+width: 105px;
+z-index: 999;
+border: 0 none;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -242px -1px;
+background-size: 351px;
+-moz-background-size: 351px;
+}
+
+
+.ui-btn-down-submit-form,
+.submit_nb_button:active,
+.submit_nb_button:hover {
+	background-position: -242px -38px;
+
+}
+
+
+/* SUBMIT UB BUTTON */
+
+.submit_ub_button {
+	height: 33px;
+	margin: 0px 0 0 0px;
+	width: 98px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_ub_submit.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+  -moz-background-size:  cover;
+}
+
+
+
+
+
+
+.submit_ub_button:active,
+.submit_ub_button:hover {
+	border:0 none;
+	background-image: url(images/button_ub_submit.png);
+	background-repeat: no-repeat;
+	background-position: 0px -35px;
+
+}
+
+/* CLOSE UB BUTTON */
+
+.close_ub_button {
+	height: 33px;
+	margin: 0px 0 0 0px;
+	width: 98px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_ub_close.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+
+}
+
+
+
+.close_ub_button:active,
+.close_ub_button:hover {
+	border:0 none;
+	background-image: url(images/button_ub_close.png);
+	background-repeat: no-repeat;
+	background-position: 0px -35px;
+
+}
+
+/* GOBACK UB BUTTON */
+
+.goback_ub_button {
+	height: 33px;
+	margin: 0px 0 0 0px;
+	width: 98px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_ub_goback.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+}
+
+
+
+.goback_ub_button:active,
+.goback_ub_button:hover {
+	border:0 none;
+	background-image: url(images/button_ub_goback.png);
+	background-repeat: no-repeat;
+	background-position: 0px -35px;
+
+}
+
+/* CANCEL UB BUTTON */
+
+.cancel_ub_button {
+	height: 33px;
+	margin: 0px 0 0 0px;
+	width: 98px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_ub_cancel.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+}
+
+
+
+.cancel_ub_button:active,
+.cancel_ub_button:hover {
+	border:0 none;
+	background-image: url(images/button_ub_cancel.png);
+	background-repeat: no-repeat;
+	background-position: 0px -35px;
+
+}
+
+#products a.like-it-button {
+display: block;
+float: left;
+width: 78px;
+height: 38px;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -45px -42px;
+background-size: 351px;
+-moz-background-size: 351px;
+}
+
+#products .ui-btn-down-like-it,
+#products a.like-it-button:active,
+#products a.like-it-button:hover {
+background-position: -45px -1px;
+}
+
+#products .number-of-smokers {
+padding: 10px 0 0;
+display: block;
+width: 100px;
+float: right;
+margin-right: 7px;
+}
+
+
+
+/* ENTER NOW NON-BRAND BUTTON */
+
+.enter-now-button {
+height: 32px;
+margin: 0px 0 0 0px;
+width: 300px;
+z-index: 999;
+border: 0 none;
+background-image: url(images/buttons/menthol-buttons.png);
+background-repeat: no-repeat;
+background-position: -48px -85px;
+background-size: 351px;
+-moz-background-size: 351px;
+}
+
+
+.enter-now-button:active,
+.enter-now-button:hover {
+	background-position: -48px -120px;
+
+}
+
+
+/* CUSTOMER SUBMIT BUTTON */
+.ui-btn-up-submit-login-button,
+.customer_submit_button {
+	height: 32px;
+	margin: 0px;
+	width: 67px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_enter.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+}
+
+.ui-btn-hover-submit-login-button,
+.ui-btn-down-submit-login-button,
+.customer_submit_button:active,
+.customer_submit_button:hover {
+	border:0 none;
+	background-image: url(images/button_enter.png);
+	background-repeat: no-repeat;
+	background-position: 0px -34px;
+
+}
+
+
+/* CONTINUE UNBRANDED BUTTON */
+
+.continue_button {
+	height: 33px;
+	margin: 0px 0 0 0px;
+	width: 98px;
+	z-index: 999;
+	border:0 none;
+	background-image: url(images/button_continue.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:cover;
+	-moz-background-size:  cover;
+}
+
+
+.continue_button:active,
+.continue_button:hover {
+	border:0 none;
+	background-image: url(images/button_continue.png);
+	background-repeat: no-repeat;
+	background-position: 0px -35px;
+
+}
+

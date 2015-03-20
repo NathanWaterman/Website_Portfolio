@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/*
+*
+			CLOSING STYLES
+*
+*/
+
+#closing-page-un #container p {
+    color: #000000;
+    font-size: 15px;
+}
+#closing-page-un #container p .ui-link {
+    color: #0A8403;
+    font-weight: bold;
+}
+#closing-page-un #container{	height:508px; background: url(images/UnbrandedClosing-bg.gif) no-repeat;
+}
+#closing-page-un #container p.main span.thank-you {
+    margin-bottom: 22px;
+}
+#closing-page-un #container h1 {
+    height: 80px;
+    margin: 0;
+}
+#closing-page-un #container .content a {
+    color: #0A8403;
+    text-decoration: none;
+}
+#closing-page-un #container .content {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left:15px;
+	padding-right:13px;
+	padding-top:8px;
+	height:291px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	margin: 0px 20px;
+	 line-height: 18px;
+}
+#closing-page-un #container .content p{color:#000;font-size: 15px;margin-bottom:18px;}
+#closing-page-un #container p {
+    color: #FFFFFF;
+    font-size: 12px;
+	
+	margin-top:0;
+}
+#closing-page-un #container p.footer{margin-top:6px;margin-left:8px;}
+#closing-page-un #container img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#closing-page-b #content-footer a{display:none;}
+#closing-page-b #content-footer {
+
+    margin-top: 0;
+
+}
+#closing-page-b #container h1 {
+    height: 155px;
+    margin-bottom: 0;
+    margin-top: 0;
+}#closing-page-b #container .content {
+	background-color: #fff601;
+	color: #000000;
+	padding-left:15px;
+	padding-right:13px;
+	padding-top:8px;
+	height:235px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	margin: 0px 11px 12px;
+	line-height: 18px;
+	font-size: 13px;
+} 
+#closing-page-b #container .content p {
+	margin-bottom: 16px;
+	margin-top: 6px;
+}
+  #closing-page-b #container a.enter-now {
+margin:0px auto;
+display:block;
+width:300px;
+}
+
+  #closing-page-b #content-footer p {
+    margin-top: 2px;
+}
+
+
+#new-email-update {
+	font:  19px Arial, Helvetica, sans-serif;
+}
+#new-email-update p.receive-emails {
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    width: 250px;
+}
+#new-email-update p{text-align:left;float:left;	clear:left;
+}
+#re-enterEmail {
+    float: left;
+    height: 74px;
+    margin-top: 15px;
+    width: 320px;
+}
+p.age-agreement .ui-radio {
+    margin: 0;
+
+}
+#new-email-update p.age-verify {
+	font-size: 17px;
+	font-style: normal;
+}
+p.submit-cancel {
+    height: 32px;
+    margin-top: 0;
+    width: 320px;
+}
+
+.email-update-section #email {
+    border: 1px solid #000000;
+    height: 21px;
+    width: 287px;
+}
+.email-update-section #email-input span,
+.email-update-section #re-enterEmail span,
+span.change-email-title  {
+	font: 17px/17px 'HelveticaNeue', Arial, sans-serif;
+    color: #75FF00;
+    font-size: 16px;
+    text-transform: uppercase;
+	margin-left:10px;
+	display:block;
+}
+span.current-email {
+    margin-left: 10px;
+}
+
+#change-email-update span.current-email {
+margin: 0 10px 0;
+font-size: 20px;
+padding-top: 11px;
+display: block;
+}
+
+span.change-email-title{
+	padding-top: 20px;
+display: block;
+}
+
+#new-email-update p.age-verify,#invalid-email-update p.age-verify {
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 23px;
+}
+ a.cancel{left:26px;position:absolute;}
+a.submit{right:26px;position:absolute;}
+p.age-agreement label {
+    float: left;
+    font-style: normal;
+    margin-right: 69px;
+}
+p.age-agreement {
+    margin-bottom: 17px;
+    margin-left: 95px;
+    margin-top: 0;
+    width: 219px;
+}
+p.age-agreement .ui-radio input {
+    height: 16px;
+    left: -19px;
+    margin: 0;
+    outline: 0 none !important;
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    z-index: 1;
+}
+#new-email-update #content-footer {
+
+    margin-top: 0;
+
+}
+#invalid-email-update a.submit {
+    bottom: 22px;
+    display: block;
+    left: 104px;
+    width: 105px;
+}
+#invalid-email-update p.age-agreement {
+    margin-left: 100px;
+
+}
+p.submit {
+    float: left;
+    height: 32px;
+    margin-top: 0;
+    width: 320px;
+}
+.email-update-section .titleCenter,.titleCenter {
+    float: left;
+    height: 21px;
+    margin-top: 15px;
+    text-align: center;
+    width: 178px;
+	letter-spacing:0px;
+	font: 16px/16px 'Pleasure', Arial, sans-serif;
+}
+
+#change-email-update p.submit-cancel {
+    float: left;
+
+}
+#change-email-update #container {
+    margin-top: 17px;
+}
+
+#change-email-update #email-input {
+    margin-top: 35px;
+	height:67px;
+}
+
+#change-email-update #re-enterEmail {
+    margin-bottom: 70px;
+
+}
+#invalid-email-update #container {
+    height: 650px;
+    margin-top: 31px;
+}
+#invalid-email-update #container h2 {
+    font-size: 19px;
+    margin-bottom: 21px;
+    margin-top: 7px;
+    text-align: center;
+}
+#invalid-email-update #email-input {
+
+    margin-top: 28px;
+
+}
+ul#nav-list li a.profile{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px top transparent;
+}
+ul#nav-list li a.messages{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -19px transparent;
+ }
+ ul#nav-list li a.product{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -37px transparent;
+	 }
+	  ul#nav-list li a.winners_circle{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -55px transparent;
+	 }
+	   ul#nav-list li a.wallpaper_download{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -75px transparent;
+	 }
+	  ul#nav-list li a.pleasure-payday{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -94px transparent;
+	 }
+	   ul#nav-list li a.pleasure-draw{
+    background: url("images/homepage-nav-sprite.png") repeat scroll 53px -115px transparent;
+	 }
+ul#nav-list li a.profile,ul#nav-list li a.messages,ul#nav-list li a.product,ul#nav-list li a.winners_circle,ul#nav-list li a.wallpaper_download, ul#nav-list li a.pleasure-payday, ul#nav-list li a.pleasure-draw {
+    background-repeat: no-repeat;
+    height: 18px;
+    margin: 9px;
+    padding: 0;
+    width: 281px;
+}
+#email_update_thanks p {
+    margin-bottom: 0px;
+    margin-top: 17px;
+    text-align: center;
+}
+#email_update_thanks #container {
+    height: 343px;
+
+}
+#email_update_thanks h1 {
+    color: #FFFFFF;
+    margin-top: 47px;
+	margin-bottom:0px;
+}

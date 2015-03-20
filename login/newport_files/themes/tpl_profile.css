@@ -1,0 +1,534 @@
+@charset "UTF-8";
+/*
+*
+			PROFILE STYLES
+*
+*/
+
+#new-email-update .receive-emails{margin-bottom:23px}
+
+#profile .ui-listview-inset .ui-li:first-child {
+    border-bottom: medium none;
+}
+.important{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: url(images/asterisk.png);
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-size: 12px auto;
+	background-position: left center;
+	
+}
+
+
+
+#profile .headline {
+    float: left;
+    font: 26px/26px 'Pleasure',Arial,sans-serif;
+height: 61px;
+    margin-bottom: 0px;
+margin-top: 2px;
+    text-align: center;
+    width: 320px;
+}
+
+
+/* FORM STYLES */
+
+ .form_input {
+background: none repeat scroll 0 0 white;
+color: black;
+float: left;
+outline: medium none;
+margin-top: -2px;
+padding: 0x;
+border: 1px solid black;
+height: 21px;
+width: 280px;
+}
+
+
+
+#new-email-update .form_input {
+background: none repeat scroll 0 0 white;
+color: black;
+float: left;
+outline: medium none;
+margin-top: -2px;
+padding: 4px;
+border: 1px solid black;
+height: 25px;
+width: 280px;
+}
+
+personal_info a.submit,
+#new-email-update a.submit {
+right: 25px;
+position: absolute;
+}
+
+#personal_info .input {
+	color: #7a7c79;
+	text-transform: uppercase;
+	
+}
+
+
+#personal_info .ui-select .ui-btn select {
+	opacity:1;              /* Override jquery.mobile.structure-1.0.min.css settings */
+	background:none;		/* Opacity 1 shows the element, and background:none reveals the background image underneath */
+	padding-left:8px;
+	padding-top:2px;
+	font-size:12px;
+	font-weight:normal;
+}
+#personal_info .gender input {
+}
+
+
+
+#new-email-update p.receive-emails {
+padding-left: 30px;
+padding-right: 30px;
+text-align: center;
+width: 254px;
+margin: 11px 0 15px;
+line-height: 19px;
+font: italic 19px Arial, Helvetica, sans-serif;
+clear:both;
+}
+
+  /* kerning between italized t and registration mark */
+#new-email-update p.receive-emails class.registration {
+ letter-spacing:0.6em; }
+
+
+
+#personal_info #container {
+	width:311px;
+	margin:32px 0px 0 9px;
+}
+
+
+#ub_email_confirmed #content{
+	    width: auto!important;
+}
+
+#personal_info .phone span.phone_number_example {
+color: white;
+left: 75px;
+line-height: 9px;
+position: absolute;
+width: 150px;
+}
+#ub_email_confirmed .ub_body_copy {
+    margin: 15px;
+}
+#ub_email_confirmed .ui-body-a, .ui-dialog.ui-overlay-a {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+}
+
+
+.submit-cancel {
+height: 32px;
+padding-top: 18px;
+width: 320px;
+}
+
+#personal_info #email-input,
+#personal_info .city {
+    background-position: 291px 28px;
+}
+#personal_info .zip_code {
+    background-position: 170px 24px;
+}
+#personal_info .state {
+    background-position: 87px 29px;
+}
+
+
+#personal_info_thanks ul li:first-child {
+    list-style: none outside none;
+    margin-left: -11px;
+}
+#personal_info_thanks ul li {
+margin-left: 6px;
+}
+#password_section input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    float: left;
+    height: 17px;
+    margin-left: 0;
+    outline: medium none;
+    width: 272px;
+}	
+span.new_password,#re_enter_password {
+    float: left;
+    margin-top: 25px;
+    width: 320px;
+}
+#password_section #container{height:300px;}
+#password_section #container {
+    margin-left: 18px;
+    margin-top: 26px;
+	margin-bottom:30px;
+    width: 294px;
+}
+#password_section #container p.submit-cancel {
+    top:280px;
+	bottom: 0;
+    height: 32px;
+    left: -22px;
+    margin-top: 0;
+    position: absolute;
+    width: 320px;
+}
+#re_enter_password input{margin-top:0;}
+#password_section #container div {float:left;}
+#password_section #current_password span,#password_section #new_password span,#password_section #re_enter_password span{margin-left:0px;}
+.profile {
+	width:320px;margin:0 auto
+}
+
+
+/* Cancel Submit Button Adjustment */
+
+#personal_info #container p.submit-cancel {
+    left: -12px;
+    margin-top: -22px;
+    position: relative;
+}
+#new-email-update #container{
+height: 580px;
+	
+}
+#new-email-update #container p.submit-cancel {
+    left: -3px;
+    position: relative;
+	top: 20px;
+}
+
+#change-email-update #container p.submit-cancel {
+    left: -3px;
+    position: relative;
+}
+
+/* END - Cancel Submit Button Adjustment */
+
+
+.profile #container{
+	height:463px;
+	background:url(images/profile/profile_bg.gif) bottom center no-repeat;
+	background-size:contain;
+	border-bottom: 2px solid #F80;
+}
+
+
+.profile #container img {
+    bottom: 54px;
+    position: relative;
+    width: 320px;
+	z-index:1;
+}
+
+#change-email-update input,
+#personal_info .input {
+    border: 1px solid #333;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    float: left;
+    height: 17px;
+    margin-left: 0;
+    outline: medium none;
+    width: 274px;
+	padding:4px;
+}
+
+#change-email-update input{margin-left:10px;}
+#personal_info input#zip{
+	width:152px;
+}
+
+#personal_info #container div {
+    float: left;
+    height: 50px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    width: 311px;
+}
+
+#personal_info #container .submit-cancel {
+ width: 320px;
+
+   
+}
+
+#personal_info #container div .ui-radio {
+    height: 68px;
+    margin-top: 0;
+    width: 20px;
+}
+
+#personal_info .phone {
+	margin-top:5px !important;
+}
+
+#personal_info .phone span {
+    float: left;
+    width: 330px;
+}
+
+#personal_info .phone input {
+    float: left;
+  width: 79px;
+  	margin-left:6px;
+}
+#personal_info #area_code{
+	margin-left:0;
+}
+
+.zip_code span {
+    float: left;
+    width: 320px;
+}
+span.gender {
+    float: left;
+    width: 320px;
+}
+
+
+
+
+
+.state .ui-select .ui-btn select{
+	/*background: #199b2e *//*{a-bar-background-color}*/;
+	color: #000 /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: none;
+}
+.state .ui-btn-up-a {
+	background: url(images/state_dropdown.png) no-repeat;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #652500;
+	border:none;
+	width: 77px!important;
+	height: 29px!important;
+
+}
+.state .ui-btn-hover-a {
+	border: none    /*{a-bhover-border}*/;
+	background: url(images/state_dropdown.png) no-repeat;
+	color:    #000    /*{a-bhover-color}*/;
+	width: 77px!important;
+	height: 29px!important;
+	text-shadow:     0     /*{a-bhover-shadow-x}*/     1px     /*{a-bhover-shadow-y}*/     1px     /*{a-bhover-shadow-radius}*/ #652500 
+}
+.state .ui-shadow {
+    box-shadow: none;
+}
+.state .ui-btn-inner {
+	border-top:none;
+	display: none;
+}
+
+/*
+*
+			CHANGE EMAIL UPDATE PAGE STYLES
+*
+*/
+
+#change-email-update .submit-cancel {
+    float: left;
+    margin-top:-20px;
+    margin-bottom:20px;
+}
+
+#change-email-update #container {
+    margin-top: 17px;
+}
+
+#change-email-update #email-input {
+    margin-top: 35px;
+	height:67px;
+}
+
+#change-email-update #re-enterEmail {
+margin-bottom: 37px;
+}
+
+
+
+
+#change-email-update #re-enterEmail {
+float: left;
+height: 68px;
+margin-top: 26px;
+width: 320px;
+}
+
+
+
+
+
+
+/*
+*
+			PERSONAL INFORMATION PAGE STYLES
+*
+*/
+
+
+#personal_info #container .state{
+	width:311px
+}
+ 
+#personal_info #container .ui-select {
+    color: #fff;
+    width: 97px;
+}
+.state .ui-btn-corner-all {
+    border-radius: 0;
+}
+span.name_warning {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#personal_info #container .state .ui-select, 
+#personal_info #container .state .ui-btn-corner-all {
+    height: 28px;
+    margin-left: 0;
+    margin-top: 0;
+}
+#personal_info p.submit-cancel {
+    float: left;
+}
+
+
+span.name{float:left;}
+#personal_info #container {
+    margin: 32px auto 0;
+    padding-left: 9px;
+}
+span.profile-name {
+	margin-left: 11px;
+	font-size: 15px;
+}
+#personal_info span.name{
+	margin-top:4px;
+}
+#personal_info .gender input, #personal_info #container .gender .ui-radio {
+margin-right:6px !important;
+float:left;
+}
+.gender span {
+    float: left;
+    margin-right: 30px;
+    width: 50px;
+}
+.gender{
+	margin-top:4px;
+}
+.gender span.gender {
+
+    margin-top: 3px;
+
+}
+#personal_info #container .ui-radio input {
+    left: 0;
+    top: 6px;
+}
+
+#personal_info #content-footer {
+    margin-top: 22px;
+}
+
+#personal_info div.state{
+	width:100%;
+}
+.survey #container {
+    height: 430px;
+}
+
+.survey .simple_overlay_box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #36F104;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 90px 5px #195022;
+    color: #000000;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 105px;
+    margin: 25% auto auto;
+    padding: 2px 4px 0;
+    position: relative;
+    text-align: left;
+    width: 277px;
+}
+.age_verification p {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.survey .simple_overlay_box h1 {
+    background: none repeat scroll 0 0 #176A02;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+.survey .loader {
+    background: url("images/age_verification_loader.gif") no-repeat scroll 0 0 transparent;
+    bottom: 10px;
+    height: 30px;
+    position: absolute;
+    right: 27px;
+    width: 30px;
+}
+.survey .simple_overlay {
+    background-color: rgba(37, 152, 2, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.survey .content{    background-image: url("images/survey_bg_gradient.jpg");
+    background-repeat: repeat-x;
+
+} 
+#registration_notice {
+    background-image: url("images/survey_fg_gradient.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 13px;
+    height: 86px;
+    margin: 15px auto 0;
+    width: 290px;
+}
+#registration_notice h1 {
+    color: #FFF601;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+#registration_notice p {
+    margin-top: 0;
+    padding-left: 12px;
+}
+#profile #content-footer a {
+
+    margin-top: 0;
+}

@@ -1,0 +1,101 @@
+.pleasureLogo {
+    bottom: 79px;
+    left: 69px;
+    position: absolute;
+    width: 185px;
+}
+
+.pd_already_played{
+	background-image:url('images/reference/pleasure_draw_already_played.jpg');	 
+	width:320px;
+	height:373px;
+	background-size: contain;
+}
+
+.pd_void {
+	background-image:url('images/reference/pleasure_draw_void.jpg');	 
+	width:320px;
+	height:373px;
+	background-size: contain;
+}
+
+.pd_branded_closing_page {
+	background-image:url('images/reference/pd_branded_closing_page.jpg');	 
+	width:320px;
+	height:545px;
+	background-size: contain;
+}
+
+#message-congrats-update .message_inbox_title,
+#message-sweeps-ending .message_inbox_title,
+#message-forgotten .message_inbox_title,
+#message-sign-up .message_inbox_title {
+    margin-top: 11px;
+	letter-spacing: -0.05em; 
+	word-spacing: -0.05em;
+	  width: 265px;
+}
+
+/* Commented out to match original message formating 06/21/12 by Sean
+
+#message-sign-up .message_inbox_title {
+	margin-top: 11px;
+}
+
+**No longer needed with "sup, sub" styles added**
+#message-forgotten p.message_body {
+    line-height: 22px;
+}
+
+#message-sign-up .message_status_icon {
+    width: 19px;
+}
+
+#message-sign-up p.message_body {
+    float: left;
+}
+
+*/
+
+.new_message .forgotten, .important_message .congratulations, .messageLanding .sweeps_end_soon {
+    margin-top: 13px;
+}
+
+#landing_disclaimer {
+	display:none;
+}  
+
+#instantWinSubmit img.landing_poster,#instantWinConfirmation img.landing_poster {
+	width: 320px;
+}
+
+
+
+
+
+sup, sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+#msg-link {
+	margin-top: 10px;
+}
+
+#msg-link a {
+	font-weight:normal;
+	font-size: 18px;
+}
+
+/* End added styles */

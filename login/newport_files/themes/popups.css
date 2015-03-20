@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*
+*
+			POPUP STYLES
+*
+*/
+
+#prizes, .eblasts {
+	
+	display: none; 
+	overflow: hidden;
+	position: absolute;
+	top:459px;
+	z-index: 1001;
+
+	margin: auto;
+}
+
+/*  meredith 06/19/12 */
+#prizes {
+	/*margin-top: 1px;*/
+	height: 293px;
+	left: 9px;
+	width: 300px;
+	top: 45px;
+}
+
+.eblasts {
+	height: 235px;
+
+	
+	width: 320px;
+	top:45px;
+	
+}
+
+#eblasts {
+margin-top: 35px;
+}
+
+#prizes h1 {
+	background: -moz-linear-gradient(#444);
+    color: #ff8a00;
+    font-family: 'Pleasure', Arial, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	line-height: 27px;
+    margin: 9px 0px -14px 0px;
+	text-align: center;
+	text-transform: none;
+	-webkit-text-stroke: 1px #444;
+}
+
+#prizes h2 {
+	color: #dbf30f;
+	font-size: 11px;
+	letter-spacing: -0.05em;
+	line-height: 11px;
+	margin: -3px 0px 0px;
+}
+
+#prizes p {
+	color: #fff; 
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: -0.05em !important;
+	line-height: 17px;
+	text-align: center;
+	text-transform: none;
+	word-spacing: -0.05em !important;
+}
+
+.eblasts p {
+    
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+	bottom: 35px;
+    line-height: 29px;
+    margin: 48px 0 0;
+    opacity: 1;
+    text-align: center;
+    text-transform: none;
+	color: #fff200;
+}
+#prizes span.f-spacing {
+	margin: 0px -3px;
+}
+
+.close-popup {
+	bottom: 24px;
+	opacity: 1;
+	position: absolute;
+	right: 8px;
+}
+
+.close-popup.low {
+	bottom: 52px;
+	opacity: 1;
+	position: absolute;
+	right: 60px;
+}
+
+.close-popup a {
+	color: #fff !important;
+	font-size: 24px !important;
+	
+}
+
+.green-overlay {
+	background-color: transparent;
+	display: none;
+	height: 100%;
+	left: 0%;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	z-index:1000;
+}

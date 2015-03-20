@@ -1,0 +1,51 @@
+@charset "UTF-8";
+<!--http://davidturner.name/examples/jQuery-Completion-Bar/ -->
+
+.completion{
+	overflow:hidden;
+	padding:1px;
+	
+	background: #E8E8E8;
+/*	border: 1px solid #D7D7D7; */
+	margin: 1.5em -1px;
+	
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+}
+
+h2 + .completion{
+  margin-top: 0.5em;
+}
+
+.completion div {
+	background: url('images/load-complete.png') top left repeat-x;
+	background-size:cover;
+	height:10px;
+	width: 22px;
+	line-height:8px;
+	margin:0;
+	padding:0px;
+	width:0;
+	
+/*	border: 1px solid #666; */
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.completion.red div{
+	background-color: #800;
+}
+
+.completion p{
+	margin-bottom: 0;
+	padding:1px;
+	text-align: center;
+}
+
+.completion p.loaded{
+	margin:-30px 0 0;
+
+}

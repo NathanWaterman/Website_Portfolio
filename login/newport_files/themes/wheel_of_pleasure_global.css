@@ -1,0 +1,2409 @@
+/*	-----------------------
+
+	Pleasure Draw 2012
+
+	----------------------- */
+	
+@import url("popups.css");
+
+/*GLOBAL RULES*/
+p.rules {
+    font-size: 9px;
+    line-height: 9px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: +.1px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+/*********PLEASURE PAYDAY THANKS FOR ENTERING *********/
+
+.pleasure-payday-entered h2 {
+    color: #FFF200;
+    font: 34px/31px 'Pleasure',Arial,sans-serif;
+	 line-height: 34px;
+    margin-bottom: 70px;
+    margin-top: 6px;
+    text-align: center;
+	letter-spacing: 0px;
+}
+
+.pleasure-payday-entered h1 {
+    color: #FFF200;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span.money{
+    font-size:43px;
+    line-height: 54px;
+}
+
+.enter-weekly {
+    color: #FFF200;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.pleasure-payday-entered ul.links {
+    clear: both;
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    /*margin: 5px auto 2px 16px;*/
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.pleasure-payday-entered ul.links li {
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 27px;
+    font-weight: bold;
+}
+.pleasure-payday-entered ul.links li a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.pleasure-payday-entered ul.links li:nth-child(1) {
+    padding-top: 9px;
+}
+
+.pleasure-payday-entered ul.links li:nth-child(2) {
+    padding-left: 6px;
+}
+
+.pleasure-payday-entered ul.links li:last-child {
+    float: right;
+    margin-right: 11px;
+    margin-top: 6px;
+}
+
+.pleasure-payday-entered ul.links li:last-child a {
+    color: #FFF200;
+}
+
+/*********PLEASURE PAYDAY THANKS FOR ALREADY ENTERED *********/
+
+.pleasure-payday-already-entered ul.links li a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.pleasure-payday-already-entered h1 {
+    color: #FFF200;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pleasure-payday-already-entered h2 {
+    color: #FFF200;
+    font: 34px/34px 'Pleasure',Arial,sans-serif;
+    line-height: 37px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    text-align: center;
+	letter-spacing: 0px;
+}
+
+.pleasure-payday-already-entered p.enter-weekly {
+    color: #FFF200;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 136px;
+    text-align: center;
+}
+
+.pleasure-payday-already-entered p.enter-weekly2 {
+    color: #FFF200;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 112px;
+    text-align: center;
+}
+
+/*****************MESSAGES*************/
+#message-rules {
+    bottom: 32px;
+    clear: none;
+    color: #000000;
+    display: block;
+    float: left;
+    font-size: 13px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    text-decoration: underline;
+    text-transform: uppercase;
+    width: 60px;
+}
+.message_post #couponOffer2013Conf .CouponOfferLink a.ui-link:hover, .message_post a.ui-link:active {
+    text-decoration: underline;
+}
+
+#message-signup .message_inbox_title {
+	margin-top:14px;
+	width: 275px;
+}
+#message-signup .new_message .message_status_icon {
+    margin: 22px 15px 15px;
+}
+
+#message-signup #sweeps-disclaimer {
+    color: #000;
+}
+
+/*********PLEASURE PAYDAY THANKS FOR CLOSING *********/
+
+.pleasure-payday-closing #closing p {
+    font: bold 17px/21px Arial,sans-serif;
+    margin: 5px 15px 15px 10px;
+    text-align: center;
+	line-height:20px;
+}
+
+img#rules-pp-logo {
+    width:111px;
+}
+
+#closing {
+    text-align:center;
+}
+
+.pleasure-payday-closing a.enterSite {
+    background-image: url("../themes/images/pleasurepayday2013/enter-button.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    font: 20px/20px 'Pleasure',Arial,sans-serif;
+    height: 38px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 287px;
+}
+.pleasure-payday-closing a.enterSite:hover{
+	background-image:url("../themes/images/pleasurepayday2013/enter-button.jpg");
+	background-position: 0 -39px;
+}
+.pleasure-payday-closing a.enterSite img{width:100%;}
+.pleasure-payday-closing #closing {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*********PLEASURE PAYDAY VOID *********/
+
+.pleasure-payday-void #closing p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-bottom: 7px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.pleasure-payday-void #closing h3 {
+    font-size: 13px;
+    font-weight: bold;
+	color:#ffffff;
+	text-decoration:underline;
+    margin: 5px auto;
+}
+/*********PLEASURE PAYDAY LANDING *********/
+
+.pleasure-payday-landing h1 {
+    color: #FFF200;
+    font-size: 26px;
+    margin: 4px 0px 0px 5px;
+    text-align: center;
+    width: 100%;
+}
+.pleasure-payday-landing h2 {
+    color: #FFF200;
+    font: 38px/32px 'Pleasure',Arial,sans-serif;
+    margin: 3px 0px 0px 0px;
+    text-align: center;
+    width: 98%;
+   
+}
+
+.pleasure-payday-landing ul.links {
+    clear: both;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.pleasure-payday-landing .scrollable img {
+    float: left;
+    height: auto;
+    width: 320px;
+}
+
+
+
+.pleasure-payday-landing .scrollable {
+    border-bottom: 2px solid #FF8A00;
+}
+.pleasure-payday-landing .scrollable {
+    height: 171px;
+}
+.pleasure-payday-landing #container,.pleasure-payday-landing #example {
+    height: 175px;
+}
+
+img.newport-pleasure-payday-logo {
+    width:107px;
+    bottom: 10px;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+.pleasure-payday-landing a.enterNow {
+    background-image: url("../themes/images/pleasurepayday2013/enter-now.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 31px;
+    margin: 4px auto 10px;
+    overflow: hidden;
+    width: 157px;
+}
+.pleasure-payday-landing a.enterNow:hover {
+	background-image:url("../themes/images/pleasurepayday2013/enter-now.jpg");
+	background-position: 0 -31px;
+}
+
+
+/*
+*
+	SWEEPS DISCLAIMER STYLES
+*
+*/
+
+/*
+#sweeps-disclaimer-wrap {
+	color: #fff;
+	float:left;
+	font-size: 9px;
+	line-height: 9px;
+	padding-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 320px;
+	
+    background-color:#c9b033;
+	
+    height: 80px;
+}
+
+
+#sweeps-disclaimer-wrap a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height:13px;
+	
+}
+
+#sweeps-disclaimer-wrap {
+	color: #fff;
+	float:left;
+	font-size: 9px;
+	line-height: 9px;
+	padding-top: 30px;
+	padding-bottom: 6px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 320px;
+	background-color:#00410c;	
+    height: 150px;
+	
+}
+*/
+/*
+#sweeps-disclaimer-wrap a:hover {
+	color: #e9e620;
+	text-decoration: none;
+}
+*/
+a.sweeps-rules-link{margin-top:3px;}
+/*
+#sweeps-disclaimer {
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+	line-height: 9px;
+	color: #FFF;
+	text-align: justify;
+	width: 307px;
+	margin: 0px 0px 4px 4px;
+	padding: 2px 0px 0px 2px;
+	clear: both;
+	letter-spacing: 0px;
+	font-weight: normal !important;
+	height: 45px;
+}
+*/
+x.wheel-of-pleasure-a-winner #sweeps-disclaimer {
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+	line-height: 9px;
+	color: #FFF;
+	text-align: center;
+	width: 314px;
+	margin: 0px 0px 4px 4px;
+	padding: 2px 0px 0px 0px;
+	clear: both;
+	letter-spacing: 0px;
+	font-weight: normal !important;
+	
+	/*position: absolute;
+	bottom:225px;*/
+}
+
+
+
+
+
+
+/* Button States (Yellow Rollover Fix) */
+
+.yellow-link-down{
+	color: #E9E620 !important;
+	text-decoration: none !important;
+}
+
+.yellow-link-up{
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+
+/*
+*
+
+
+/******************/
+/* =LOGIN PAGE 
+********************/
+
+#welcome h1 {
+    color: #FFF200;
+    font: bold 21px Arial, sans-serif;
+    margin: 14px auto 14px 13px;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.login-label{
+    color: #FFF200;
+    font: bold 14px/17px Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: 17px;
+    padding-bottom: 4px;
+    text-align: left;
+    float: left;
+    clear: left;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.login-link{
+    color: #dcdcdc !important;
+    text-decoration: underline;
+    padding: 8px 0 10px 0;
+    margin: 0 12px 0 0;
+    font: normal 12px/11px Arial, sans-serif;
+    cursor: pointer;
+}
+
+.login-link:hover{
+    color: #68d903 !important;
+    text-decoration: underline !important;
+}
+
+.ui-btn-up-enter-sweeps, .enter-sweeps {
+    float: left;
+    height: 27px;
+    width: 140px;
+    text-indent: -5000px;
+    background: url("images/enter_sweeps_button_sprite-sized.png") no-repeat;
+    background-size: cover;
+    border: 0 none;
+    z-index: 999;
+    margin: 5px 20px 20px 45px;
+	display: block;
+}
+
+.ui-btn-down-enter-sweeps,
+.ui-btn-hover-enter-sweeps, 
+.enter-sweeps:active{
+   background: url("images/enter_sweeps_button_sprite-sized.png") no-repeat;
+   border:0 none;
+   background-position: 0 -27px;
+}
+
+.sweeps{
+    width: 60%;
+    margin: 30px auto 0;
+}
+
+.sweep-rules{
+    margin: -8px 20px 5px 55px;
+    font-size: 13px;
+    text-transform: uppercase;
+    float: left;
+    clear: both;
+    width: 130px;
+    height: 18px;
+    letter-spacing: +.2px;
+}
+
+.sweep-rules a{
+    color: #dcdcdc !important;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.sweep-rules a:hover {
+    color:#68d903 !important;
+    text-decoration: underline;
+}
+
+.ui-btn-up-enter, .enter{
+   background: url("images/button_enter_sprite-sized.png") no-repeat;
+   background-size:cover;
+   background-position: 0 0;
+   float: right;
+   height: 35px;
+   margin: 42px 20px 15px 0;
+   width: 70px;
+   z-index: 999;
+   text-indent: -5000px;
+   padding: 0;
+   display: block;
+}
+
+.ui-btn-down-enter,
+.ui-btn-hover-enter, 
+.enter:active{
+    background: url("images/button_enter_sprite-sized.png") no-repeat;
+    background-position: 0 -35px;
+    border:0 none;
+    background-size:cover;
+}
+
+.ui-btn-up-first-time, .first-time{
+    width: 100%;
+    height: 59px;
+    background-image:url("images/button_firsttime.png");
+    background-size:cover;
+    margin: 22px auto 27px;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    text-indent: -5000px;
+}
+
+.ui-btn-down-first-time,
+.ui-btn-hover-first-time, 
+.first-time:active{
+    background-image:url("images/button_firsttime.png");
+    border:0 none;
+    background-position: 0 -59px;
+    background-size:cover;
+}
+
+#footer-links a{
+    font-size: 14px;
+    margin: 0 40px;
+    color: #dcdcdc;
+    text-decoration: underline;
+}
+
+#footer-links a:hover, #footer-links a:visited, #footer-links a:active, 
+.login-link a:hover, .login-link a:visited, .login-link a:active{
+    color:#68d903 !important;
+    text-decoration: underline;
+}
+
+.lorilland_footer{
+    text-align: center;
+    clear: both;
+    padding-top: 12px;
+}
+
+#m_sweeps-disclaimer {
+	font-family: "Arial";
+	font-size: 8px;
+	line-height: 9px;
+	color: black;
+	text-align: center;
+	width: 305px;
+	clear: both;
+	letter-spacing: 0px;
+	padding-left:8px;
+	color: #000;
+	position: absolute;
+	bottom: 80px;
+}
+/*	-----------------------
+
+	INSTANT WINNER PAGE - THE PRIZES
+
+	----------------------- */
+	
+	.prize_enter {
+	display:block;
+	width:auto;
+    float: right;
+    
+    margin-right: 17px;
+    text-align: center;
+    text-transform: uppercase;
+	color:#fff200 !important;
+	border: 2px solid #fff;
+	padding: 3px 7px 3px 7px;
+line-height: 14px !important;
+}
+
+.wheel-of-pleasure-the-prizes h3{
+	text-align:center;
+	color:#fff200;
+	line-height: 0px;
+	
+	font-family: 'Pleasure',Arial,sans-serif;
+	position: relative;
+bottom: 5px;
+	}
+.wheel-of-pleasure-the-prizes h4{
+	text-align:center;
+	color:#fff;
+	line-height: 0px;
+	font-size: 14px;
+	position: relative;
+bottom: 5px;
+	}
+	
+.wheel-of-pleasure-the-prizes #container{
+position: relative;
+bottom: 10px;
+}
+.wheel-of-pleasure-the-prizes #sweeps-disclaimer-wrap, .wheel-of-pleasure-the-prizes #content-footer{
+	position: relative;
+bottom: 35px;
+	}
+	
+.wheel-of-pleasure-the-prizes .navi{
+	float:right;
+	width: 112px;
+	bottom: 463px;
+position: relative;
+	}
+	
+.wheel-of-pleasure-the-prizes .navi a {
+display: block;
+float: left;
+font-size: 1px;
+height: 8px;
+margin: 3px;
+width: 8px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+margin-right: 1px;
+background-color: #fff;
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 1;
+}
+
+.wheel-of-pleasure-the-prizes .navi a.active {
+background-color: #fff200;
+filter: alpha(opacity=1);
+opacity: 1;
+}
+
+/*	-----------------------
+
+	INSTANT WINNER PAGE - NO WINNER
+
+	----------------------- */
+
+.instant-win-game{
+	height:314px;
+	width:100%;
+	position:relative;
+	
+
+}
+
+.wheel-of-pleasure-a-winner .instant-win-game{
+	height:285px;
+	width:100%;
+	position:relative;
+	bottom: 52px;
+
+}
+.pop-up-layer{
+	width:296px;
+	height:231px;
+	position:absolute;
+	top:52px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+ .prizes {
+display:block;
+width:auto;
+    float: right;
+    font: bold 14px/13px Arial,sans-serif;
+    margin-right: 0px;
+    text-align: center;
+    text-transform: uppercase;
+	position: relative;
+top: -4px;
+}
+
+.wheel-of-pleasure-a-winner .prizes {
+display:block;
+width:54px;
+    float: right;
+    font: bold 14px/13px Arial,sans-serif;
+    
+    text-align: center;
+    text-transform: uppercase;
+	position: relative;
+top: -4px;
+}
+
+
+.playGameLayer{
+	z-index:10;
+	background:url(../img/bg3.png) 0 0 no-repeat;
+	width:320px;
+	height:317px;
+	/*
+	background-size:contain;
+	*/
+	background-color: #c9b033;
+}
+
+.instant-win-scratch-off{
+	
+	z-index:8;
+	background-size:contain;
+}
+
+.close-button-inwin{
+	text-indent:-5000px;
+	position:absolute;
+	display:block;
+	width:21px;
+	height:17px;
+	bottom: -24px;
+right: -9px;
+	overflow:hidden;
+	background:url(../img/x.png) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.about-game-layer, 
+.how-to-play-layer{
+	z-index:20;
+	
+	font-size:14px;
+}
+
+.about-game-layer ul{
+	list-style-image:url(../img/bullet.gif);
+	margin:10px 0 10px -14px;
+	
+}
+.how-to-play-layer ul{
+	list-style-image:url(../img/bullet.gif);
+	margin:10px 0 10px;
+	
+}
+
+.how-to-play-layer ul {padding-top:13px;}
+
+.about-game-layer h3{
+	font-size:22px;
+	color:#e9f709;
+	text-align:center;
+	margin:0;
+}
+
+.about-game-layer li{
+	width: 250px;
+	margin-bottom: 9px;
+	line-height: 16px;
+}
+
+.about-game-layer p {margin:0 10px;
+line-height:15px;}
+
+.how-to-play-layer li{
+	margin-bottom:32px;
+	width: 211px;
+}
+.yellow-bold{color:#e9f709;}
+
+.about-game-layer .close-button-inwin{
+	text-indent:-5000px;
+	position:absolute;
+	display:block;
+	width:21px;
+	height:17px;
+	bottom: -22px;
+right: -9px;
+	overflow:hidden;
+	background:url(../img/x.png) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.about-game {
+text-indent: -5000px;
+display: block;
+width: 160px;
+height: 27px;
+overflow: hidden;
+background: url(../img/game_buttons_sprite.png) -160px 0 no-repeat;
+z-index: 19;
+position: absolute;
+top: 77px;
+right: 0;
+background-size:320px 54px;
+}
+
+.about-game:hover{
+
+	height:27px;
+	width:160px;
+	overflow:hidden;
+	background:url(../img/game_buttons_sprite.png) -160px -28px no-repeat;
+	z-index: 19;
+position: absolute;
+	
+background-size:320px 54px;
+}
+
+.how-to-play{
+	text-indent:-5000px;
+	display:block;
+	width:160px;
+	height:27px;
+	overflow:hidden;
+	background:url(../img/game_buttons_sprite.png) 0 0 no-repeat;
+
+	z-index: 19;
+position:absolute;
+	top: 77px;
+left: 0;
+	background-size:320px 54px;
+	
+	
+}
+
+.how-to-play:hover{
+	background:url(../img/game_buttons_sprite.png) 0 -28px no-repeat;
+background-size:320px 54px;
+	
+}
+
+.icon_0{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:7px;
+	left:97px;
+}
+.icon_3{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:7px;
+	left:97px;
+	background:url(../img/inwin.png) no-repeat;
+	background-size:contain;
+}
+
+.icon_1{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:84px;
+	left:4px;
+}
+.icon_4{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:84px;
+	left:4px;
+	background:url(../img/inwin.png) no-repeat;
+	background-size:contain;
+}
+
+.icon_2{
+	position:absolute;
+	height:98px;
+	width:100px;
+	top:84px;
+	right:4px;
+}
+
+.icon_5{
+	position:absolute;
+	height:98px;
+	width:100px;
+	top:84px;
+	right:4px;
+	background:url(../img/inwin.png) no-repeat;
+	background-size:contain;
+}
+
+.spinnaker{
+	background:url(../img/icon-spinnaker.png) ;
+	background-size:contain;
+}
+
+.n{
+	background:url(../img/icon-n.png);
+	background-size:contain;
+}
+
+.cigs{
+	background:url(../img/icon-cigs.png);
+	background-size:contain;
+}
+
+
+
+
+/*	-----------------------
+
+	INSTANT WINNER SWEEPS PAGE
+
+	----------------------- */
+
+.newport-logo{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 284px;
+	background:url(../img/wheel_of_pleasure_landing.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+#instant-winner-sweeps .instant-win-game{
+	height:276px;
+	width:100%;
+	position:relative;
+	margin:8px 0 0;
+}
+
+.startGame {
+text-indent: -5000px;
+position: absolute;
+display: block;
+width: 89px;
+height: 90px;
+bottom: 80px;
+right: 8px;
+overflow: hidden;
+background: url(../img/spin-button-sprite.png) 0 -101px no-repeat;
+background-size: cover;
+z-index: 20;
+}
+.spin_press{
+text-indent: -5000px;
+position: absolute;
+display: block;
+width: 89px;
+height: 90px;
+bottom: 79px;
+right: 8px;
+overflow: hidden;
+background: url(../img/spin-button-sprite.png) 0 -8px no-repeat;
+z-index: 20;
+background-size: cover;
+}
+
+.startGame:hover{
+	text-indent: -5000px;
+position: absolute;
+display: block;
+width: 89px;
+height: 90px;
+bottom: 79px;
+right: 8px;
+overflow: hidden;
+background: url(../img/spin-button-sprite.png) 0 -8px no-repeat;
+background-size: cover;
+}
+
+.enter-button{
+	display:block;
+	margin:0 auto 0;
+	height:42px;
+	width:118px;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/enter_button_sprite.png) 0 0px no-repeat;
+	background-size:118px 84px;
+	position:relative;
+	top:10px;
+}
+
+
+
+.enter-button:active{
+	display:block;
+	margin:0 auto 0;
+height:42px;
+	width:118px;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/enter_button_sprite.png) 0 -42px no-repeat;
+	background-size:118px 84px;
+}
+
+.disclaimer-button{
+	display:block;
+	margin:0 auto 0;
+	height:32px;
+	width:141px;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/disclaimer_sprite.png) 0 0 no-repeat;
+	background-size: 141px 66px;
+	position:relative;
+	top:10px;
+}
+
+.disclaimer-button:active{
+	display:block;
+	margin:0 auto 0;
+	height:32px;
+	width:141px;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/disclaimer_sprite.png) 0 -36px no-repeat;
+	background-size: 141px 66px;
+}
+
+/*	-----------------------
+
+	INSTANT WINNER  PAGE - WINNER!!!
+
+	----------------------- */
+
+x.instant-win-winner{
+	background:url(../img/winner-screen.jpg)  0 0 no-repeat;
+	background-size:contain;
+}
+
+/*	-----------------------
+
+	INSTANT WINNER CONGRATS PAGE
+
+	----------------------- */
+
+x.instant-win-congrats{
+	background:url(../img/congrats.png)  -10px 0 no-repeat;
+	background-size:contain;
+	width: 320px !important;
+height: 283px;
+top: 10px;
+
+}
+
+x#instant-win-congrats_pop-up-layer {
+border: none;
+width: 320px !important;
+}
+
+.hide_links {position:relative;
+left:300px;
+}
+
+/*	-----------------------
+
+	INSTANT WINNER COME BACK TOMORROW PAGE
+
+	----------------------- */
+
+.come-back-tomorrow{
+	background:url(../img/sorry_come_back_tomorrow.png) 0 13px no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:5;
+}
+
+.come-back-tomorrow-last-day{
+	background:url(../img/sorry_last_day.png) 0 13px no-repeat;
+	background-size:contain;
+	width:320px;
+	height:300px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:5;
+}
+
+/*	-----------------------
+
+	INSTANT WINNER CHOOSE YOUR PLEASURE PAGE
+
+	----------------------- */
+
+.chose-your-pleasure #choose_pleasure{
+	background:url(../img/choose_pleasure.png) 0 0 no-repeat;
+	width:300px;
+	height:760px;
+	margin: 0 10px;
+	background-size:contain;
+
+}
+
+.chose-your-pleasure .pleasure {position:relative;}
+
+.chose-your-pleasure input[type="radio"] {
+    display:none;
+}
+
+.chose-your-pleasure input[type="radio"]:empty + label {
+    background: none;
+	}
+	
+.chose-your-pleasure #button_2_adjust {
+position: relative;
+top: 105px;
+}
+	
+.chose-your-pleasure #button_3_adjust {
+position: relative;
+top: 227px;
+}
+
+.chose-your-pleasure input[type="radio"]:checked + label {
+    background: url(../img/check_mark.png) left center no-repeat;
+	width:45px;
+	height:29px;
+	background-size:contain;}
+
+
+.chose-your-pleasure .ui-btn.ui-btn-icon-left.ui-btn-corner-all.ui-radio-off.ui-btn-up-a, .chose-your-pleasure .ui-btn.ui-btn-icon-left.ui-btn-corner-all.ui-radio-off.ui-btn-hover-a, .chose-your-pleasure .ui-btn.ui-btn-icon-left.ui-btn-corner-all.ui-radio-off.ui-btn-down-a, .chose-your-pleasure
+.ui-btn.ui-btn-icon-left.ui-btn-corner-all.ui-radio-off.ui-btn-off-a {
+border-style: none;
+border:none;
+background-image:none;
+	
+}
+.chose-your-pleasure .ui-btn-hover-a {border:none;}
+
+.chose-your-pleasure .ui-radio-on .ui-icon {display:none;}
+
+.chose-your-pleasure .ui-btn-inner{border:none;}
+
+
+.chose-your-pleasure .ui-btn-up-a {border:none;}
+
+
+.chose-your-pleasure label {
+    display: inline;
+}
+ 
+.chose-your-pleasure .regular-checkbox {
+    display: none;
+}
+ 
+
+ 
+.chose-your-pleasure .tag {
+    font-family: Arial, sans-serif;
+    width: 200px;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+ 
+.chose-your-pleasure .radio-1 {
+    width: 193px;
+}
+ 
+.chose-your-pleasure .button-holder {
+float: left;
+height: 50px;
+z-index: 1000;
+width: 50px;
+position: absolute;
+left: 195px;
+top: 250px;
+}
+
+.chose-your-pleasure .button-holder2 {
+float: left;
+height:50px;
+width: 150px;
+position: absolute;
+left: 87px;
+bottom: 22px;
+}
+
+.chose-your-pleasure .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-up-a, .chose-your-pleasure .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-hover-a, .chose-your-pleasure .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-down-a, .chose-your-pleasure .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-off-a {
+background: none;
+border:none;
+border-style:none;
+}
+
+.chose-your-pleasure .ui-shadow {
+border:none;
+border-style:none;
+-webkit-box-shadow:none;
+box-shadow: none;
+}
+
+.chose-your-pleasure .myImage{
+  
+    width:212px;
+    height:77px;
+    background: url(../img/are_you_sure.png) no-repeat;
+	background-size:contain;
+}
+
+
+.chose-your-pleasure .submit_option {
+	display:block;
+    width:65px;
+    height:25px;
+   	background-size:contain;
+	position:absolute;
+	
+}
+
+.chose-your-pleasure .yes_button  {
+	   width:65px;
+    height:25px;
+    background: url(../img/yes_button.png) no-repeat;
+	background-size:contain;
+	top: 40px;
+left: 27px;
+	
+}
+
+.chose-your-pleasure .ui-btn-inner.ui-btn-corner-all {
+background:none !important;
+border:none;
+}
+
+.chose-your-pleasure .show_button {opacity:1.0;}
+
+
+
+.chose-your-pleasure .no_button  {
+	   width:65px;
+    height:25px;
+    background: url(../img/no_button.png) no-repeat;
+	background-size:contain;
+	top: 39px;
+right: 31px;
+	
+}
+.chose-your-pleasure .hide_button {opacity:0.01}
+.chose-your-pleasure .hide {display:none;}
+
+.chose-your-pleasure #sure_no.myImage.show_tv {
+position: relative;
+bottom: 545px;
+z-index: 1000;
+margin:auto;
+}
+.chose-your-pleasure #sure_no.myImage.show_camera {
+position: relative;
+bottom: 200px;
+z-index: 1000;
+margin:auto;
+}
+.chose-your-pleasure #sure_no.myImage.show_tablet {
+position: relative;
+bottom: 382px;
+z-index: 1000;
+margin:auto;
+}
+
+.chose-your-pleasure #sweeps-disclaimer.disclaimer_adjust, .chose-your-pleasure #content-footer.footer_adjust {
+position: relative;
+bottom: 77px;
+}
+
+/* RADIO */
+ 
+.chose-your-pleasure .regular-radio {
+    display: none;
+}
+ 
+.chose-your-pleasure .regular-radio + label {
+    -webkit-appearance: none;
+    background-color: transparent;
+   
+  
+  
+   
+    display: inline-block;
+    position: relative;
+}
+ 
+.chose-your-pleasure .regular-radio:checked + label:after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+   
+    position: absolute;
+    
+   
+   
+    text-shadow: 0px;
+   
+    font-size: 32px;
+}
+ 
+.chose-your-pleasure .regular-radio:checked + label {
+   
+   
+}
+ 
+.chose-your-pleasure .regular-radio + label:active, .chose-your-pleasure .regular-radio:checked + label:active {
+  
+}
+ 
+.chose-your-pleasure .big-radio + label {
+    padding: 16px;
+}
+ 
+.chose-your-pleasure .big-radio:checked + label:after {
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+
+/*	-----------------------
+
+	INSTANT WINNER ALREADY ENTERED PAGE
+
+	----------------------- */
+
+#already_entered_today{
+	background:url(../img/already_entered_today.png)  -7px 0 no-repeat;
+	height:290px;
+	background-size:contain;
+}
+
+#already_entered_today2{
+	background:url(../img/already_entered_today2.png)  -3px 0 no-repeat;
+	height:290px;
+	background-size:contain;
+}
+/*	-----------------------
+
+	INSTANT WINNER CONGRATULATIONS PAGE
+
+	----------------------- */
+
+#tv{
+	background:url(../img/congrats_tv.png)  7px 0 no-repeat;
+	height:357px;
+	width:303px;
+	background-size:contain;
+	padding-bottom: 10px;
+}
+
+#tablet{
+	background:url(../img/congrats_tablet.png)  7px 0 no-repeat;
+	height:357px;
+	width:303px;
+	background-size:contain;
+	padding-bottom: 10px;
+}
+
+#camera{
+	background:url(../img/congrats_camera.png)  7px 0 no-repeat;
+	height:365px;
+	width:303px;
+	background-size:contain;
+	padding-bottom: 10px;
+}
+
+	
+	/*********INSTANT WIN THANKS FOR CLOSING *********/
+
+.wheel-of-pleasure-closing #closing p {
+    font: 17px/21px Arial,sans-serif;
+    margin:15px;
+    text-align: center;
+	line-height:20px;
+	font-size: 16px;
+position: relative;
+top: 125px;
+}
+
+img#closing-logo {
+    height:146px;
+	background-size:contain;
+}
+
+
+#closing_bg {
+    background-image: url("../img/closing_img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+	width:320px;
+	height:628px;
+	margin-top: 25px;
+	
+}
+.wheel-of-pleasure-closing a.enterSite {
+    background-image: url("../img/enter_button_new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    font: 20px/20px 'Pleasure',Arial,sans-serif;
+    height: 39px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 302px;
+	position: relative;
+top: 135px;
+right: 3px;
+}
+.wheel-of-pleasure-closing a.enterSite:active{
+	background-image:url("../img/enter_button_new.png");
+	background-position: 0 -40px;
+}
+.wheel-of-pleasure-closing a.enterSite img{width:100%;}
+.wheel-of-pleasure-closing #closing {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*	-----------------------
+
+	Wheel Of Pleasure CONFIRMATION PAGE
+
+	----------------------- */
+
+#toll-free {
+text-align: center;
+padding-bottom: 20px;
+font-weight:bold;
+position: relative;
+
+text-transform: uppercase;
+font-size: 13px
+}	
+
+#toll-free1 {
+text-align: center;
+position: relative;
+top: 15px;
+font-weight:bold;
+text-transform: uppercase;
+font-size: 13px
+}	
+	
+#confirm_tv {
+	background:url(../img/confirm_tv.png)  0 0 no-repeat;
+	height:84px;
+	background-size:contain;
+	
+	}
+	
+x#confirm_kindle {
+	background:url(../img/confirm_camera.png)  0 0 no-repeat;
+	height:84px;
+	background-size:contain;
+
+	}
+	
+#confirm_tablet {
+	background:url(../img/confirm_tablet.png)  0 0 no-repeat;
+	height:84px;
+	background-size:contain;
+
+	}
+	
+#confirm_list{
+	list-style-image:url(../img/bullet_confirm.png);
+	position: relative;
+bottom: 15px;
+right: 5px;
+}
+
+#confirm_list li {
+font-size: 15px;
+margin-top:-12px;
+}
+#correct_info p{
+position:relative;
+bottom:11px;
+}
+
+.info_holder {
+line-height: 22px;
+position: relative;
+top: -12px;
+}
+
+.wheel-of-pleasure-confirmation #instantwin, .wheel-of-pleasure-confirmation-need-info #instantwin{
+background: url(../img/confirm_bg.png) 0 0px no-repeat;
+background-size: cover;
+height: 413px;
+position: relative;
+padding-top: 5px;
+}
+
+.wheel-of-pleasure-confirmation #disclaimer_button_holder {
+padding-top: 15px;
+}
+.wheel-of-pleasure-confirmation-need-info #disclaimer_button_holder {
+padding-top: 15px;
+}
+.wheel-of-pleasure-confirmation #sweeps-disclaimer-wrap {
+height:140px;
+}
+
+.wheel-of-pleasure-confirmation-need-info #sweeps-disclaimer-wrap {
+height:140px;
+}
+
+#correct_info {
+color: #ff0d1e;
+text-align: center;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+border-top: 2px solid #884b30;
+border-bottom: 2px solid #884b30;
+background-color:#b4d8b8;
+height:40px;
+position: relative;
+bottom: 20px;
+}
+.wheel-of-pleasure-confirmation-need-info #confirm_button {
+background: url(../img/confirm_change_sprite.png) 0 0 no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 45px;
+right: 5px;
+}
+
+.wheel-of-pleasure-confirmation-need-info #confirm_button:active {
+background: url(../img/confirm_change_sprite.png) 0 -41px no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 52px;
+right: 5px;
+}
+
+#confirm_button {
+background: url(../img/confirm_change_sprite.png) 0 0 no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 45px;
+right: 5px;
+}
+
+.wheel-of-pleasure-confirmation-need-info #change_button {
+background: url(../img/confirm_change_sprite.png) -160px 0 no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 8px;
+left: 154px;
+}
+
+
+
+.wheel-of-pleasure-confirmation-need-info #confirm_button {
+background: url(../img/confirm_change_sprite.png) 0 0 no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 53px;
+right: 5px;
+}
+
+.need-to-know-pop-up {
+
+background: url(../img/need_to_know.png) 0 0 no-repeat;
+background-size: contain;
+position: relative;
+top: -575px;
+right:7px;
+display: block !important;
+width:320px;
+height:215px;
+z-index: 19;
+}
+
+
+.win-and-spin-pop-up{
+background: url(../img/win-and-spin.png) 0 0 no-repeat;
+background-size: contain;
+display: block !important;
+width:320px;
+height:215px;
+z-index: 199;
+position: relative;
+top: -244px;
+left: 38px;
+}
+
+
+.last-day .win-and-spin-pop-up {
+
+background: url(../img/win-and-spin.png) 0 0 no-repeat;
+background-size: contain;
+position: relative;
+top: -511px;
+right: 7px;
+display: block !important;
+width:320px;
+height:215px;
+z-index: 19;
+}
+
+.hide_pop_up {
+position:relative;
+left:3000px;
+}
+
+#change_button {
+background: url(../img/confirm_change_sprite.png) -160px 0 no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+
+left: 154px;
+}
+
+
+#confirm_button:active {
+background: url(../img/confirm_change_sprite.png) 0 -41px no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 44px;
+right: 5px;
+}
+
+.wheel-of-pleasure-confirmation-need-info #change_button:active{
+	background: url(../img/confirm_change_sprite.png) -160px -41px no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: 7px;
+left: 154px;
+}
+
+#change_button:active {
+	background: url(../img/confirm_change_sprite.png) -160px -41px no-repeat;
+background-size: 320px 78px;
+height: 37px;
+width: 160px;
+position: relative;
+top: -1px;
+left: 154px;
+}
+
+.customerPhoneNumberError,.customerEmailError {
+text-align: center;
+background-color: #fff;
+color: #ff0012;
+width: 220px;
+margin: 5px auto 0;
+}
+
+.wheel {
+background: url(../img/wheel_of_pleasure3.png) 0 0 no-repeat;
+background-size: contain;
+height: 196px;
+width: 196px;
+position: relative;
+right: -14px;
+top: 58px;
+}
+
+.customerName, .customerAddress {
+font-weight: 100;
+text-align: center;
+margin-top:-2px;
+}
+
+.color_chart_graphic {
+background: url(../img/color-chart.png) 0 0 no-repeat;
+background-size: contain;
+width: 320px;
+height: 236px;
+position: relative;
+top: 22px;
+background-color: #1a8928;
+}
+.congrats_kindle {
+background:url(../img/congrats-kindle.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_mustang {
+background:url(../img/congrats-mustang.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_entertainment_system {
+background:url(../img/congrats-entertainment.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_laptop {
+background:url(../img/congrats-hp.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_earphones {
+background:url(../img/congrats-beats.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_karaoke {
+background:url(../img/congrats-karaoke.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_camcorder {
+background:url(../img/congrats-camcorder.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.congrats_keurig {
+background:url(../img/congrats-keurig.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+.no_winner {
+background:url(../img/no-winner.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+	
+	.no_winner_last_day {
+background:url(../img/no-winner-last-day.jpg)  0 0 no-repeat;
+	background-size:contain;
+	width:320px;
+	height:247px;
+	z-index: 100;
+	position: relative;
+top: 71px;
+	}
+	
+.spinnaker_ticker {
+background:url(../img/spinnaker.png)  0 0 no-repeat;
+	background-size:contain;
+	width:51px;
+	height:37px;
+	position: relative;
+left: 171px;
+bottom: 10px;
+}
+
+.how_to_play_image{
+background:url(../img/how_to_play_new.png)  0 0 no-repeat;
+width:320px;
+height:236px;
+	background-size:contain;
+	position: relative;
+top: 22px;
+background-color: #1a8928;
+	}
+	
+	.how_to_play_image_last_day{
+background:url(../img/how-to-play-last-day.png)  0 0 no-repeat;
+width:320px;
+height:236px;
+	background-size:contain;
+	position: relative;
+top: 22px;
+background-color: #1a8928;
+	}
+	
+.eblast_image{
+background:url(../img/eblast.png)  0 0 no-repeat;
+width:320px;
+height:217px;
+	background-size:contain;
+	}
+	
+.wheel_of_pleasure_bg{
+background: url(../img/confirm_kindle_need_info.jpg) 0 0 no-repeat;
+height: 409px;
+width:320px;
+background-size: contain;
+}
+
+#enter_button_holder {
+position: relative;
+bottom: 85px;
+}
+
+.wheel-of-pleasure-landing .instant-win-game {
+height: 260px;
+}
+
+
+
+.wheel-of-pleasure-disclaimer .instant-win-game {
+height: 260px;
+}
+
+x.wheel_page_adjust {
+position: relative;
+bottom: 50px;
+}
+
+.center_button{
+background:url(../img/middle_button.png)  0 0 no-repeat;
+width:43px;
+height:40px;
+	background-size:contain;
+	position: relative;
+left: 90px;
+bottom: 97px;
+	}
+	
+
+.wheel-of-pleasure-closing #content-footer {
+position: relative;
+top: 254px;
+background-color: #c9b033;
+padding-top: 7px;
+margin-top: -4px;
+height: 68px;
+width: 313px;
+}
+.wheel-of-pleasure-closing #sweeps-disclaimer{
+position: relative;
+top: -20px;
+right: 5px;
+}
+
+.disclaimer  {
+background: url(../img/disclaimer_bg.jpg) 0 0 no-repeat;
+width:320px;
+height:480px;
+
+background-size: contain;
+
+}
+
+.disclaimer p {
+text-align: center;
+padding: 102px 15px 0 15px;
+font-size: 13px;
+line-height: 17px;
+}
+
+.disclaimer h3 {
+position: relative;
+top: 96px;
+margin: auto;
+text-align: center;
+}
+
+.wheel-of-pleasure-disclaimer #sweeps-disclaimer-wrap   {
+padding-top: 229px;
+height: 110px;
+}
+
+.wheel-of-pleasure-the-prizes #sweeps-disclaimer-wrap{
+height: 120px;
+}
+
+.wheel-of-pleasure-the-prizes #sweeps-disclaimer-wrap p {
+position: relative;
+top:7px
+}
+
+#prize_adjustment {
+position: relative;
+bottom: 28px;
+padding-bottom: 10px;
+}
+
+
+.wheel-of-pleasure-disclaimer #sweeps-disclaimer, .wheel-of-pleasure-the-prizes #sweeps-disclaimer {padding-top:15px;}
+
+.wheel-of-pleasure-disclaimer .prizes, .wheel-of-pleasure-the-prizes .prizes  {
+font-size: 24px !important;
+left: 6px !important;
+top: -6px !important;
+position: relative;
+}
+
+.wheel-of-pleasure-disclaimer .sweeps-eblast-link {
+position: relative;
+left: 13px!important;
+}
+
+ #m_sweeps-disclaimer {
+font-family: "Arial";
+font-size: 8px;
+line-height: 9px;
+color: black;
+text-align: center;
+width: 291px;
+clear: both;
+letter-spacing: 0px;
+padding-left: 16px;
+color: #000;
+position: absolute;
+bottom: 60px;
+}
+
+#mustang_link {
+position: relative;
+bottom: 47px;
+text-align: center;
+}
+
+.mustang_link  {
+font-weight:normal !important;
+color:#fff200 !important;
+}
+
+
+.enjoy-beats{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-beats.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-hp{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-hp.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-mustang{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy_mustang.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-keurig{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-keurig.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-camcorder{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-camcorder.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-karaoke{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-karaoke.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-sony{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-sony.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy-amazon{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/enjoy-amazon.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.enjoy .instant-win-game  {
+height: 260px;
+}
+
+.enjoy #sweeps-disclaimer-wrap  {width: 319px;}
+
+
+
+#disclaimer_button_holder {
+position:absolute;
+left: 90px;
+padding-top:13px;
+}
+
+.enjoy #sweeps-disclaimer {padding: 52px 0px 0px 2px;}
+
+.confirm #disclaimer_button_holder{
+position: relative !important;
+top: 0px;
+left:0px;
+}
+
+.confirm #sweeps-disclaimer {padding: 5px 0px 0px 2px;}
+
+.wheel-of-pleasure-landing #sweeps-disclaimer {
+padding: 0px 0px 0px 2px;
+position: relative;
+top: 52px;
+}
+
+#disclaimer_button_holder2 {
+position:absolute;
+margin-left: 90px;
+margin-top: 30px;
+}
+
+.already-played{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/already-played.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.already-played-last-day{
+	margin:0 auto 0;
+	z-index:2;
+width: 320px;
+height: 283px;
+	background:url(../img/already-played-last-day.jpg) 0 0 no-repeat;
+	background-size:contain;
+}
+
+.already #sweeps-disclaimer-wrap {
+margin-top: -3px;
+height: 135px;
+}
+
+
+.already #disclaimer_button_holder, .wheel-of-pleasure-the-prizes #disclaimer_button_holder{
+position: absolute;
+left: 90px;
+margin-top: 18px;
+}
+
+
+
+
+/********************************2014 wheel ********************************/
+
+
+.UPDATE-wheel{
+background-size: contain;
+height: 308px;
+width: 308px;
+position: relative;
+right: -4px;
+top: 25px;
+		}
+.UPDATE-wheel img{
+			position: absolute;
+			width: 100%;
+		}
+
+.play{
+	z-index:100;
+	position:absolute;
+	top:121px;
+	right:112px;}
+.playImg img{
+	width: 81px;
+	height:52px;}
+	
+.winningImage{
+	position:absolute;
+	top:120px;
+	right:194px;
+	z-index:10;}
+	
+.losingImg{
+	position:absolute;
+	top:120px;
+	right:111px;
+	z-index:10;}
+.AltLosingImg{
+	
+	position:absolute;
+	top:-15px;
+	right:210px;
+	}
+
+	
+.play-now-text{
+	z-index:100;
+	position:absolute;
+	top:7px;
+	right:172px;
+	}
+.play-now-text img{
+	width:140px;
+	height:91px;
+	}
+#initial-blink{
+	background-size: contain;
+height: 308px;
+width: 308px;
+right: -7px;
+top: 25px;
+z-index:100;
+	clear:both;
+	position:absolute;
+	
+	}
+
+.change{
+	position:absolute;
+	z-index:100;
+	width:100%;
+	height:95%;
+right: 15px;
+top: 0px;
+	}
+.noChange{
+	position:absolute;
+	
+	width:100%;
+	height:95%;
+right: 15px;
+top: 0px;}
+
+
+/*********************Winning DIV containers*************************/
+
+.winning-rules{
+	width:320px;
+	height:25px;
+	background-color:#999;
+	display:none;
+	position:absolute;
+	z-index: 10;
+	margin-top:30px;
+	
+	
+	background: #e10019; /* Old browsers */
+background: -moz-linear-gradient(top, #e10019 0%, #770505 77%, #770505 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e10019), color-stop(77%,#770505), color-stop(100%,#770505)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e10019 0%,#770505 77%,#770505 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10019', endColorstr='#770505',GradientType=0 ); /* IE6-9 */
+	}
+.winning-rules a{
+	text-align:center;
+	margin-top:8px;
+	margin-left:132px;
+	}
+.win-gift-card{
+	width:320px;
+	height:353px;
+	background:url(../img/visa-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+
+.win-GoPro{
+	width:320px;
+	height:353px;
+	background:url(../img/GoPro-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-ChargeHub{
+	width:320px;
+	height:353px;
+	background:url(../img/chargeHub-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-memoPad{
+	width:320px;
+	height:353px;
+	background:url(../img/memoPad-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-beats{
+	width:320px;
+	height:353px;
+	background:url(../img/beatsWinner-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-scooter{
+	width:320px;
+	height:353px;
+	background:url(../img/scooter-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-pebble-watch{
+	width:320px;
+	height:353px;
+	background:url(../img/pebbleWatch-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-sony-tv{
+	width:320px;
+	height:353px;
+	background:url(../img/sony-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.nonWinner-pop-up{
+	width:320px;
+	height:317px;
+	background:url(../img/nonWinner-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 317px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}	
+/***************************Wheel background winning/losing flashing colors***********************/
+
+.yellow1BG{
+	display:none;
+	}
+.yellow1loser{
+	z-index: 1;
+	}
+.yellow2BG{
+	display:none;
+	}
+.yellow2loser{
+	z-index: 1;
+	}
+.yellow3BG{
+	display:none;
+	}
+.yellow3loser{
+	z-index: 1;
+	}
+.yellow4BG{
+	display:none;
+	}
+.yellow4loser{
+	z-index: 1;
+	}
+.purpleBG{
+	display:none;
+	}
+.purpleWinner{
+	z-index: 1;
+	}
+.blueBG{
+	display:none;
+	}
+.blueWinner{
+	z-index: 1;
+	}
+.pinkBG{
+	display:none;
+	}
+.pinkWinner{
+	z-index: 1;
+	}
+.greenBG{
+	display:none;
+	}
+.greenWinner{
+	z-index: 1;
+	}
+.darkGreenBG{
+	display:none;
+	}
+.darkGreenWinner{
+	z-index: 1;
+	}
+.orangeBG{
+	display:none;
+	}
+.orangeWinner{
+	z-index: 1;
+	}
+.whiteBG{
+	display:none;
+	}
+.whiteWinner{
+	z-index: 1;
+	}
+.redBG{
+	display:none;
+	}
+.redWinner{
+	z-index: 1;
+	}

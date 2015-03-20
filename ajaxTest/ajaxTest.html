@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	submitLogin();
+});
+function submitLogin(){
+		$("#submit").click(function(event){
+			
+			event.preventDefault();
+			
+			var checkUser = $('#user').val();
+			var checkPass = $('#pass').val();
+			alert(checkUser);
+			alert(checkPass);
+	
+		$.ajax({
+				type: "GET",
+				url:"https://dl.dropboxusercontent.com/u/105155522/site/ajaxTest/login/login.html",
+				dataType:"text",
+				success:function(data){
+		
+			//data.split('\n')[0]);
+			
+			var txtInfoA = data.split('\n')[0];
+			var txtInfoB = data.split('\n')[1];
+			var txtInfoC = data.split('\n')[2];
+			
+			console.log(txtInfoA);
+			console.log(txtInfoB);
+			alert(txtInfoC);
+			
+			/*
+			*
+			*inject link string through ajax
+			*
+			*/
+			
+			
+			
+			
+			if(checkUser === txtInfoA && checkPass === txtInfoB){
+				console.log("true");
+				linkOn();
+				}
+			else{
+				console.log("false");
+				}
+			}//if
+		});//ajax
+	});//submit click function
+}//submitLogin function
+
+function linkOn(){
+	$('body').css("background-color","#CCC");
+	}
+
+</script>
+
+</head>
+
+<body>
+
+<form id="formTest" action="">
+          		<span>LOGIN</span>
+                <li><input id="user" type="text" name="username"></li>
+				<li><input id="pass" type="text" name="password"></li>
+				<li><input id="submit" type="submit"></li>
+			</form>
+
+<div class="text"></div>
+
+</body>
+</html>

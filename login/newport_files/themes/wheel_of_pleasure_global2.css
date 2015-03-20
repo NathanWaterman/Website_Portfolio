@@ -1,0 +1,585 @@
+/*	-----------------------
+
+WHEEL OF PLEASURE 2014
+
+	----------------------- */
+
+/* DISCLAIMER STYLES */
+
+#sweeps-disclaimer-wrap a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height:13px;
+	
+}
+#landing, #wheel2014AlreadyEnteredPG
+#sweeps-disclaimer-wrap {
+	color: #fff;
+	float:left;
+	font-size: 9px;
+	line-height: 9px;
+	margin-top : 27px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 320px;
+	background-color:#00410c;	
+	height: 132px;
+	
+}
+
+
+#confirmEnd
+#sweeps-disclaimer-wrap {
+	color: #fff;
+	float:left;
+	font-size: 9px;
+	line-height: 9px;
+	margin-top : 3px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 320px;
+	background-color:#00410c;	
+	height: 132px;
+	
+}
+#sweeps-disclaimer-wrap {
+	color: #fff;
+	float:left;
+	font-size: 9px;
+	line-height: 9px;
+	margin-top : 22px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 320px;
+	background-color:#00410c;	
+	height: 139px;
+	z-index:1000;
+	
+}
+
+#sweeps-disclaimer-wrap .sweepsenddate {
+    color: #FFF200;
+    float: right;
+    font: bold 14px/13px Arial,sans-serif;
+    margin-right: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sweepsenddate {
+    margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+#landing, #wheel2014AlreadyEnteredPG
+#sweeps-disclaimer {
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+	text-align: center;
+	line-height: 9px;
+	color: #FFF;
+	width: 307px;
+	margin: 0px 0px 4px 4px;
+	padding: 0px 0px 0px 2px;
+	clear: both;
+	letter-spacing: 0px;
+	font-weight: normal !important;
+	height: 70px;
+	top: -9px;
+	position:relative;
+}
+
+#confirmEnd
+#sweeps-disclaimer {
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+	text-align: center;
+	line-height: 9px;
+	color: #FFF;
+	width: 307px;
+	margin: 0px 0px 4px 4px;
+	padding: 0px 0px 0px 2px;
+	clear: both;
+	letter-spacing: 0px;
+	font-weight: normal !important;
+	height: 70px;
+	top: -7px;
+	position:relative;
+}
+
+#sweeps-disclaimer {
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+	text-align: center;
+	line-height: 9px;
+	color: #FFF;
+	width: 307px;
+	margin: 0px 0px 4px 4px;
+	padding: 0px 0px 0px 2px;
+	clear: both;
+	letter-spacing: 0px;
+	font-weight: normal !important;
+	height: 79px;
+	top: -8px;
+	position:relative;
+}
+
+.sweeps-rules-link {
+	float:left;
+	width:51px;
+	padding-bottom:0;
+	height: 24px;
+	margin-top:0px;
+}
+
+.sweeps-about-link {
+	float:left;
+	padding-bottom:0;
+	height: 15px;
+	width:185px;
+	margin-top:4px;
+}
+
+.sweeps-eblast-link {
+	height: 24px;
+	line-height: 13px;
+	margin-bottom: 0;
+	margin-top: 3px;
+	padding-bottom:3px;
+	margin-left:0px;
+	width:320px;
+	text-align:center;
+	/*
+	float: left;
+	left: 19px;
+	margin-left:18px;
+	width: 100px;
+	*/
+}
+#landing, #wheel2014AlreadyEnteredPG, #confirmEnd
+ .footer_button_holder {
+position: relative;
+height:47px;
+padding-top:5px;
+padding-bottom:3px;
+z-index:100;
+margin-top:10px;
+
+background: #e10019; /* Old browsers */
+background: -moz-linear-gradient(top, #e10019 0%, #770505 77%, #770505 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e10019), color-stop(77%,#770505), color-stop(100%,#770505)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e10019 0%,#770505 77%,#770505 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10019', endColorstr='#770505',GradientType=0 ); /* IE6-9 */
+}
+
+#landing
+ .footer_button_holder {
+position: relative;
+height:47px;
+padding-top:4px;
+padding-bottom:4px;
+
+background: #e10019; /* Old browsers */
+background: -moz-linear-gradient(top, #e10019 0%, #770505 77%, #770505 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e10019), color-stop(77%,#770505), color-stop(100%,#770505)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e10019 0%,#770505 77%,#770505 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10019', endColorstr='#770505',GradientType=0 ); /* IE6-9 */
+}
+
+.footer_button_holder {
+position: relative;
+height:49px;
+padding-top:3px;
+padding-bottom:2px;
+z-index:10;
+margin-top:10px;
+
+background: #e10019; /* Old browsers */
+background: -moz-linear-gradient(top, #e10019 0%, #770505 77%, #770505 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e10019), color-stop(77%,#770505), color-stop(100%,#770505)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e10019 0%,#770505 77%,#770505 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10019', endColorstr='#770505',GradientType=0 ); /* IE6-9 */
+}
+
+
+.wheel-of-pleasure-a-winner #disclaimer_button_holder {
+height: 40px;
+
+}
+
+/* POP UPS */
+#eblast-popup {
+	width: 100%;
+	height: 100%;
+	background: url(../images/landing-page/eblast.png) no-repeat center center;
+	display: none;
+	z-index:1000;
+	margin-top:-13px;
+}
+#about-the-sweeps-popup {
+	width:320px;
+	height: 313px;
+	background: url(images/wheelofpleasure/about-the-sweeps.jpg) no-repeat center center;
+	display: none;
+	z-index:10;
+	background-size:contain;
+	z-index:1000;
+	margin-top:-23px;
+	margin-left:-4px;
+}
+
+.abso {
+	position: absolute;
+}
+	
+/* LANDING PAGE */
+.M_Wheel2014Landing {
+	background: url("images/wheelofpleasure/landing-page.jpg") 0 0 no-repeat;;
+	width:320px;
+	height: 314px;
+	margin:0 auto 0;
+	z-index:2;
+	background-size:contain;
+
+}
+.enter-btn {
+	bottom: 52px;
+	right: 5px;
+	background: url(../images/landing-page/landing-enter-btn.png);
+	background-size: 100% auto;
+	width:106px;
+	height: 32px;
+	overflow: hidden;
+}
+.enter-btn:hover {
+	background-position: bottom;
+}
+
+/* GAME */
+
+.winning-rules{
+	width:320px;
+	height:25px;
+	background-color:#999;
+	display:none;
+	margin-top:29px;
+	
+	background: #e10019; /* Old browsers */
+background: -moz-linear-gradient(top, #e10019 0%, #770505 77%, #770505 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e10019), color-stop(77%,#770505), color-stop(100%,#770505)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e10019 0%,#770505 77%,#770505 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e10019 0%,#770505 77%,#770505 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10019', endColorstr='#770505',GradientType=0 ); /* IE6-9 */
+	}
+.winning-rules a{
+	text-align:center;
+	margin-top:8px;
+	margin-left:132px;
+	}
+
+/*********************Winning DIV containers*************************/
+
+.win-gift-card{
+	width:320px;
+	height:353px;
+	background:url(../img/visa-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+	
+.win-GoPro{
+	width:320px;
+	height:353px;
+	background:url(../img/GoPro-pop-up.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+.win-ChargeHub{
+	width:320px;
+	height:353px;
+	background:url(images/wheelofpleasure/wheel2014_CongratsMyCharge.jpg) 0 0 no-repeat;
+	background-size: 320px 353px;
+	clear:both;
+	z-index:100;
+	position:absolute;
+	display:none;
+	cursor:pointer;
+	}
+/* ALREADY ENTERED */
+	
+.wheel2014AlreadyEnteredPG{
+	height:285px;
+	width:100%;
+	position:relative;
+	bottom: 52px;
+
+}
+
+.alreadyEnteredImage{
+	background: url(images/wheelofpleasure/M_wheel2014_alreadyEntered.jpg)0 0 no-repeat;
+	width:320px;
+	height: 314px;
+	margin:0 auto 0;
+	z-index:2;
+	background-size:contain;
+
+}
+.alreadyEntered_message {
+	margin-top: 170px;
+	background: url(images/wheelofpleasure/wheel2014_alreadyEntered_Message.png);
+	background-size: 320px 71px;
+	width:320px;
+	height: 71px;
+}
+
+/* ALREADY WON INSTANT PRIZE*/
+
+/* ALREADY ENTERED */
+	
+.wheel2014AlreadyWonPG{
+	height:285px;
+	width:100%;
+	position:relative;
+	bottom: 52px;
+
+}
+
+.alreadyWonImage{
+	background: url(images/wheelofpleasure/wheel2014_alreadyWon.jpg)0 0 no-repeat;
+	width:320px;
+	height: 314px;
+	margin:0 auto 0;
+	z-index:2;
+	background-size:contain;
+
+}
+.alreadyWon_message {
+	margin-top: 160px;
+	background: url(images/wheelofpleasure/wheel2014_alreadyWon_Msg.png);
+	background-size: 320px 105px;
+	width:320px;
+	height: 105px;
+}	
+
+/* SORRY NOT AN INSTANT WINNER */
+	
+.wheel2014SorryPG{
+	height:285px;
+	width:100%;
+	position:relative;
+	bottom: 52px;
+
+}
+
+.SorryImage{
+	background: url(images/wheelofpleasure/wheel2014_sorry.jpg)0 0 no-repeat;
+	width:320px;
+	height: 314px;
+	margin:0 auto 0;
+	z-index:2;
+	background-size:contain;
+
+}
+.sorry_message {
+	margin-top: 170px;
+	background: url(images/wheelofpleasure/wheel2014_sorry_msg.png);
+	background-size: 320px 115px;
+	width:320px;
+	height: 115px;
+}
+
+/*CONFIRMATION END */
+
+.ConfirmEndLayer {
+	background: url(images/wheelofpleasure/confirmation-end/enjoy-your.jpg)0 0 no-repeat;
+	width: 320px;
+	height:314px;
+	top: 0px;
+	
+}
+
+
+	
+	/*********wheel of pleasure CLOSING *********/
+
+.instant-win-void #closing p {
+    font-size: 22px;   
+    line-height: 29px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+
+
+
+.instant-win-void #void-logo{
+	background-size:contain;
+	height: 146px;
+	}
+	
+	
+/*********wheel of pleasure VOID *********/
+
+.wheel-of-pleasure-void #closing{
+    background-image: url("images/wheelofpleasure/M_Wheel2014_Void.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+	width:320px;
+	height:294px;
+	position: relative;
+bottom: 10px;
+}
+.wheel-of-pleasure-void #closing h3 {
+    font-size: 18px;
+   	color:#ffffff;
+	text-decoration:underline;
+    margin: 18px auto;
+	position:relative;
+	top:255px;
+	font-weight:bold;
+}
+
+.link-hover {
+    color: rgb(255, 255, 255);
+}
+
+.wheel-of-pleasure-void #content-footer {
+margin-top: 4px;
+color: #FFF;
+font-size: 9px;
+text-align: center;
+padding: 0;
+float: left;
+width: 308px;
+line-height: 12px;
+font-weight: normal !important;
+position: relative;
+bottom: 15px;
+padding-left: 8px;
+
+}
+
+/* BRANDED RULES  */
+
+.wheel2014-rules #rules-wrap{
+    text-align:center;
+    color: #000000;
+}
+
+#rules_img{
+background: url(images/wheelofpleasure/M_Wheel2014_Rules.jpg) 0 0 no-repeat;
+height: 788px;
+width:320px;
+background-size: contain;
+margin-top: 10px;
+}
+
+.wheel2014-rules #sweeps-official-rules-wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+	position: relative;
+top: 203px;
+}
+.wheel2014-rules #rules-wrap p {
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 4px;
+}
+.wheel2014-rules #rules-wrap h1 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 23px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.wheel2014-rules #rules-wrap h2 {
+    color: #FFFF00;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.wheel2014-rules #rules-wrap h3 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 auto 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.wheel2014-rules .ui-link, .wheel2014-rules .ui-link:hover {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wheel2014-rules #rules-wrap #rules-back {
+    color: #000000;
+    text-align: right;
+}
+
+#rules-wrap p.access{
+    margin: 12px auto;
+    font-size: 17px;
+    line-height: 18px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+
+.wheel2014-rules #content-footer {
+margin-top: 0px;
+color: #FFF;
+font-size: 9px;
+text-align: center;
+padding: 0;
+float: left;
+width: 308px;
+line-height: 12px;
+font-weight: normal !important;
+position: relative;
+bottom: 100px;
+padding-left: 8px;
+}

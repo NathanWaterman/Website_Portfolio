@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*
+*
+			HOME STYLES
+*
+*/
+#home {
+	
+}
+#home ul#nav-list-hi {
+
+    margin: 0 auto 0;
+}
+#home #container {
+
+    position: absolute;
+    top: 39px;
+    z-index: 0;
+}
+#home #logo-hi {
+   
+    position: absolute;
+    z-index: 100;
+}
+#home .artblock {position:relative;height:305px; padding-bottom: 5px;}
+#home .artblockReview {position:relative;height:100px}
+#home .scrollable img { height: 100%;}
+#home .scrollable {height:244px;}
+#home .scrollable {
+    margin-bottom: 0;
+
+}
+
+#home .scrollable {    border-bottom: 4px solid #FF8A00;
+}
+#home #email {
+background: none repeat scroll 0 0 white;
+color: black;
+float: left;
+margin-left: 7px;
+outline: medium none;
+width: 227px;
+margin-top: 0px;
+padding: 4px;
+}
+
+#home ul#nav-list-hi li:first-child {
+    border-top: 1px solid #fffc01;
+}
+.scrollable {
+    height: 227px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+}
+
+#add-newport {
+	width:320px;
+	height:95px;
+	margin: 9px auto 18px;  /* background-image:url('images/newport-sprite.png');
+	 background-position: -270px 50%;*/ 
+}
+
+#email-input {
+    float: left;
+    height: 33px;
+    margin-bottom: -7px;
+    margin-top: 5px;
+    width: 320px;
+}
+#home #content-footer {
+    margin-top: 22px;
+}
+
+
+/* the overlayed element */
+
+
+.simple_overlay_background {
+    /* must be initially hidden */
+    display:none;
+	
+	position: relative;
+
+    /* place overlay on top of other elements */
+    z-index:198;
+
+    /* styling */
+  
+    /*width:300px;
+    height:210px;
+    */
+	
+	width:100%;
+    height:100%;
+	background-color:rgba(25, 155, 46, 0.8);
+	/*background-color:hsla(137, 100%, 21%, 0.6);*/
+
+}
+
+.simple_overlay {
+     display:none;
+     position:fixed;
+    z-index:200;
+	width:100%;
+    height:210px;
+	/*background-color:hsla(137, 100%, 21%, 0);*/
+
+}
+
+
+.simple_overlay_box {
+  
+    /* styling */
+  
+    /*width:300px;
+    height:210px;
+    */
+	display: block;
+	left:0px;
+	
+	width:300px;
+    height:210px;
+
+    /* CSS3 styling for latest browsers */
+  
+	/*
+	-moz-box-shadow: 0 0 90px 5px #195022;
+	-webkit-box-shadow: 0 0 90px #195022;
+	box-shadow: 0 0 90px 5px #195022;
+	*/
+	
+	/*
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25%;
+	margin-bottom: auto;
+	padding-top:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	*/
+	
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	
+	
+	background:url(images/home-simple-overlay.png)  top left no-repeat;
+	background-size:300px 210px;
+	
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8a00', endColorstr='#ffc900'); // for IE 
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff8a00), to(#ffc900)); // for webkit browsers 
+	background: -moz-linear-gradient(top,  #ff8a00,  #ffc900); // for firefox 3.6+ 
+	*/
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.simple_overlay .close {
+	position: relative;
+	text-align:center;
+	/*bottom: 20px;
+	left:99px;
+	*/
+	font: 30px/30px Arial, sans-serif;
+	font-weight: bold;
+	color:#ff7008;
+	text-decoration: none;
+	margin-top:13px;
+}
+
+.simple_overlay h3 {
+	position: relative;
+	font: 22px/22px 'Pleasure', Arial, sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 16px;
+}
+
+.simple_overlay ol {
+	position: relative;
+	margin-top: -10px;
+	color:#FFFFFF;
+	font: 18px/21px Arial, sans-serif;
+	letter-spacing:-0.03em;
+	text-align: left;
+}
+
+.simple_overlay li {
+	color:#FFFFFF;
+	font: 18px/21px Arial, sans-serif;
+	text-align: left;
+}
+
+.simple_overlay sup {
+	font-family: Arial, sans-serif;
+	font-size:45%;
+	vertical-align:super;
+	margin-left:-2px;
+}
+
+.simple_overlay_android {
+	  display:none;
+}
+
+.simple_overlay_iphone {
+	  display:none;
+}
+
+.simple_overlay_iphone_icon {
+	display: inline-block;
+	background:url(images/home-iphone-add-icon.png)  top left no-repeat;
+	background-size:16px 20px;
+	width:16px;!important;
+	height:20px;!important;
+}
+
+.simple_overlay_iphone_icon_plus {
+	font: bold 30px/30px Arial, sans-serif;
+	margin-top: 5px;
+
+}
+
+/*	PRESURVEY STYLES */
+
+#ub-pre-survey .continue{
+	float:right;
+}
+
+#ub-pre-survey .radio-set-label{
+	display:block;
+	float:left;
+	margin-top:16px;
+	width:60px;
+	height:20px;
+	text-align:inherit;
+}
+
+#ub-pre-survey .radio-set{
+	display:block;
+	float:left;
+	margin-left:10px;
+	text-align:top;
+	height:20px;
+	margin-top:12px;
+}
+
+#ub-pre-survey .radio-set2{
+	display:block;
+	float:left;
+	margin-left:70px;
+	text-align:top;
+	height:20px;
+	margin-top:2px;
+	margin-bottom:20px;
+}
+
+#ub-pre-survey .radio-set input{
+	margin-bottom:11px;
+}

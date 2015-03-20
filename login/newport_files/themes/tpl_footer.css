@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+/*
+*
+			FOOTER LEGAL STYLES
+*
+*/
+
+
+#content-footer {
+	margin-top: 0px;
+	color: #FFF;
+	font-size: 9px;
+	text-align: center;
+	padding-left:7px;
+	float:left;
+    width: 308px;
+	line-height: 12px;
+	font-weight: normal !important;
+}
+
+#content-footer a {
+	color: #FFF;
+	font-size: 11px;
+	text-decoration: underline;
+	font-weight:normal;
+}
+
+#content-footer p {
+    clear: both;
+    padding: 2px 0 0;
+	margin-bottom:0px;
+	
+}
+.addtnl-fine-print {
+width: 300px;
+margin: auto;
+}
+.privacy_footer{
+	float:inherit;
+	font-size:12px;
+	width:106px;
+	margin-left:10px;
+}
+.logout_footer{
+	float:right;
+	font-size:12px;
+	width:90px;
+	text-align:right;
+}
+.faqs_footer{
+	float:left;
+	font-size:12px;
+	width:76px;
+	text-align:left;
+}
+
+#profile #content-footer {
+    margin: 0;
+    padding-top: 1px;
+}
+
+#content-footer a.ui-btn-down-text-link, #content-footer a:active, #content-footer a:hover { 
+color:#fff200;
+}
+
+#closing-page-b-footer {
+	margin-top: 30px;
+	color: #FFF;
+	font-size: 9px;
+	text-align: center;
+	padding:0;
+	float:left;
+    width: 320px;
+	margin-bottom:0px;
+}
+
+.link-hover{
+	color: #FFF;
+}
+
+.link-hover.hover_effect{
+    color: #68D903;
+}
+
+.link-hover-msg{
+	color: #000;
+}
+
+.link-hover-msg.hover_effect{
+    color: #68D903 !important;
+}
+
+.privacyPolicy #content-footer a {
+	border:none !important;
+	background:none !important;
+}
+#faq #content-footer a {
+	border:none !important;
+	background:none !important;
+}
