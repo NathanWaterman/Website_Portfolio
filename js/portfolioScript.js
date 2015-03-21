@@ -15,6 +15,23 @@ $(document).ready(function(){
 });
 
 
+
+
+
+/*******  try || on scrollAnimate() script ************/
+
+
+
+
+
+
+
+
+
+
+
+
+
 //detects the mobile device and injects the phone number markup into the phone icon
 function findPhone(){
 		if (navigator.userAgent.match(/Android/i) ||
