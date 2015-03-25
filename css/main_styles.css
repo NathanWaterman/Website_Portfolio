@@ -452,8 +452,14 @@ p{
 .HTML5-container div{
 	margin-top:50px;
 	}
-.flash-container{
+.FLASH-container{
 	position:relative;
 	margin:0 auto;
 	width:1000px;
+	}
+.FLASH-container h1{
+	font-family: 'Roboto Slab', serif;
+	}
+.FLASH-container div{
+	margin-top:50px;
 	}
