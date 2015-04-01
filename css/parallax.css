@@ -2,7 +2,7 @@
 /* CSS Parallax */
 
 .parallax_wrapper{
-	background:repeat center right fixed url('../imgs/parallax_test.png');
+	background:repeat center right fixed url('../imgs/test.png');
 	background-size:100%;
 	background-color:#000;
 }
