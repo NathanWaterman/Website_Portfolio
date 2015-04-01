@@ -401,7 +401,11 @@ p{
 	color:#FFF;
 	display:inline-block;
 	width:100%;
-	background-color:#333;
+	
+	background:repeat center right fixed url('../imgs/test.png');
+	background-size:100%;
+	background-color:#000;
+	
 	padding-top:50px;
 	padding-bottom:50px;
 	}
