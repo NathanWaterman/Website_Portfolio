@@ -408,11 +408,27 @@ p{
 .author{
 	text-align:center;
 	}
-	
-/*
+.author p{
+	text-align:justify;
+	padding-left:25%;
+	padding-right:25%;
+	}
+.socialMedia{
+	text-align:center;
+	}
+.row1,.row2,.row3{
+	padding-top:20px;
+	}
+.row1 a,.row2 a,.row3 a{
+	display:inline-block;
+	padding-right:10px;
+	}
+/***social media icons***/
 .phone{
 	opacity:0.5;
 	}
+/*
+
 .email{
 	text-align:center;
 	padding-bottom:15px;
