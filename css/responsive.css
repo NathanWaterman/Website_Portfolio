@@ -72,6 +72,17 @@
 	.submit-btn:active{
 		margin-top:16px;
 		}
+		
+	/*Footer content resize for mobile*/
+	.row1,.row2,.row3{
+	padding-left:0%;
+	}
+	.socialMedia h1{
+	padding-left:0%;
+	}
+	.author{
+	margin-left:0px;
+	}
 	
 }
 @media only screen and (max-width: 767px) and (orientation: landscape){

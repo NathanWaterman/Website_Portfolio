@@ -406,14 +406,16 @@ p{
 	padding-bottom:50px;
 	}
 .author{
-	text-align:left;
+	text-align:center;
+	margin-left:-25px;
 	}
 .author p{
-	padding-left:25%;
-	padding-right:25%;
+	padding-left:15%;
+	padding-right:15%;
+	text-align:justify;
 	}
 .socialMedia{
-	text-align:right;
+	text-align:center;
 	}
 .socialMedia h1{
 	padding-left:25%;
