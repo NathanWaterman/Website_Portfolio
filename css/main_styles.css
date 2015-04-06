@@ -43,6 +43,8 @@ h2,h3,.navbar li a{
 .hide{
 	display:none;
 	}
+	
+/
 .up-arrow{
 		background-color:#000;
 		position:fixed;
@@ -53,6 +55,7 @@ h2,h3,.navbar li a{
 		cursor:pointer;
 		display:none;
 	}
+
 	
 /*------main LOGO & Name styles ------*/
 .logo{
