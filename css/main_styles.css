@@ -434,6 +434,10 @@ p{
 	display:inline-block;
 	padding-right:10px;
 	}
+.copyright{
+	text-align:center;
+	color:#ccc;
+	}
 /***social media icons***/
 .phone{
 	opacity:0.5;
