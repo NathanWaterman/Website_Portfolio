@@ -83,6 +83,10 @@
 	.author{
 	margin-left:0px;
 	}
+	.author p{
+	padding-left:22%;
+	padding-right:22%;
+	}
 	
 }
 @media only screen and (max-width: 767px) and (orientation: landscape){
