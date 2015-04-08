@@ -104,7 +104,12 @@
 	left:0px;
 	width:100%;
 	}
-
+.name{
+display:none;
+	}
+.title{
+	display:none;
+	}
 .logo{
 	top:7%;
 	}
