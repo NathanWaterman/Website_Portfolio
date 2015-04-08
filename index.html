@@ -25,15 +25,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript">
-	if(navigator.userAgent.match(/IEMobile\/10.0/)){
-	var msViewportStyle = document.createElement("style")
-	msViewportStyle.appendChild(
-	document.createTextNode(
-		"@-ms-viewport{width: auto !important}"
-		)
-	)
-	document.getElementByTagName("head")[0].appendChild(msViewportStyle)
-	}
+	(function() {
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement("style");
+    msViewportStyle.appendChild(
+      document.createTextNode("@-ms-viewport{width:auto!important}")
+    );
+    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+  }
+})();
 	</script>
  </head>
 
@@ -931,12 +931,14 @@ function submitLogin(){
     
 <!--start main resume wrapper-->
 <div class="container">
-    <div id="resume" class="main-resume-wrapper clearDiv"> 
+    <div id="resume" class="main-resume-wrapper clearDiv">
     	<div class="main-education-tagline">
         	<h1>Education</h1>
         </div><!--main resume tagline-->
-        <hr style="border: 1px solid #333;" align="center" width="50%"/> 
-      
+        <hr style="border: 1px solid #333;" align="center" width="50%"/>
+      <div class="row"> 
+      		<div class="resume-link col-lg-12"><img src="imgs/adobe_pdf.png"/></div>
+      </div>
       <div class="row">  
         <div class="col-sm-6 col-xs-12">
                 <h3>Montgomery County Community College</h3>

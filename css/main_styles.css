@@ -356,8 +356,14 @@ p{
 .codeToggle span{
 	padding:5px;
 	}
-
 /*-------education & work styles--------*/
+.resume-link{
+	text-align:center;
+	}
+.resume-link img{
+	width:10%;
+	height:auto;
+	}
 .education p{
 	margin-top:23px;
 }
