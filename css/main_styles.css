@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*IE 10 windows phone fix*/
+@-ms-viewport {
+  width: device-width;
+}
 /*global styles*/
 p{
 	font-family: 'Lato', sans-serif;
