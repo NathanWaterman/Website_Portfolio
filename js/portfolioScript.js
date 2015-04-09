@@ -77,11 +77,13 @@ $(document).scroll(function(){
         if (scroll > topDist.top) {
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').hide();
+			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
             $('.navbar').css({"position":"absolute","top":"auto","z-index":"100"});
 			$('.logo,.name,.title').show();
+			$('.logo,.name,.title').css({"z-index":"1"});
 			console.log("navbar absolute");
 			console.log("logo name title show");
         }
