@@ -76,12 +76,12 @@ $(document).scroll(function(){
         var topDist = $(".container").position();
         if (scroll > topDist.top) {
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
-			$('.logo,.name,.title').css({"display":"none"});
+			$('.logo,.name,.title').hide();
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
             $('.navbar').css({"position":"absolute","top":"auto","z-index":"100"});
-			$('.logo,.name,.title').css({"display":"block"});
+			$('.logo,.name,.title').show();
 			console.log("navbar absolute");
 			console.log("logo name title show");
         }
