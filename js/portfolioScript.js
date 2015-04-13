@@ -228,6 +228,7 @@ function submitLogin(){
 			var txtInfoB = data.split('\n')[1];
 			var txtInfoC = data.split('\n')[2];
 			var txtInfoD = data.split('\n')[3];
+			var txtInfoE = data.split('\n')[4];
 	
 			alert(txtInfoA);
 			alert(txtInfoB);
@@ -235,8 +236,9 @@ function submitLogin(){
 			if(checkUser === txtInfoA && checkPass === txtInfoB){
 				alert("success");
 				$('.restricted-site').css("opacity","1");
-				$('.newport-site').attr('target','_blank').attr( 'href', txtInfoC);
-				$('.HTML5-site').attr('target','_blank').attr( 'href' , txtInfoD );
+				$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
+				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoD);
+				$('.flash-site').attr('target','_blank').attr('href',txtInfoE);
 				$("#user").css("border","inset 2px");
 				$("#pass").css("border","inset 2px");
 				
