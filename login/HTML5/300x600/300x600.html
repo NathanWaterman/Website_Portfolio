@@ -13,23 +13,7 @@
         <meta http-equiv="pragma" content="no-cache">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-         <script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
          
-         <script type="text/javascript">
-	function initEB(){
-		if (!EB.isInitialized()){
-			EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
-		}else{
-			startAd();
-		}
-	}
-	function startAd(){
-		document.getElementById("container").style.visibility = "visible";
-	}
-	function handleBannerClick(){
-		EB.clickthrough();
-	}
-</script>
 
 </head>
 <body onload="initEB();">
