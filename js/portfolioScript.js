@@ -218,7 +218,7 @@ function submitLogin(){
 	
 		$.ajax({
 				type: "GET",
-				url:"https://github.com/NathanWaterman/website_portfolio/blob/gh-pages/login/login.html",
+				url:"http://nathanwaterman.github.io/website_portfolio/login/login.html",
 				dataType:"text",
 				success:function(data){
 		
