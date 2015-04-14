@@ -237,8 +237,8 @@ function submitLogin(){
 				alert("success");
 				$('.restricted-site').css("opacity","1");
 				$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
-				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoD);
-				$('.flash-site').attr('target','_blank').attr('href',txtInfoE);
+				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
+				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
 				$("#user").css("border","inset 2px");
 				$("#pass").css("border","inset 2px");
 				
