@@ -152,7 +152,10 @@ display:none;
 	.socialMedia_left li a,.socialMedia_right li a{
 	font-size:16px;
 	}
-	
+	.glyphicon img{
+		width: 10%;
+		height:auto;
+	}
 }
 @media only screen and (max-width: 376px){
 	.rewards-btn li:nth-child(2){
