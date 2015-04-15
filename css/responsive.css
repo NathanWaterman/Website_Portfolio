@@ -139,7 +139,12 @@ display:none;
 		height:auto;
 		}
 .scrollBar .glyphicon{
-	top:17px;
+	/* top:17px; */
+	top: 8px;
+	}
+.glyphicon img{
+		width: 5%;
+		height:auto;
 	}
 }
 @media only screen and (max-width: 480px){
