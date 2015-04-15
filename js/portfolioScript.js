@@ -37,7 +37,7 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 		//portrait
 		if(window.orientation == 0){
-			$('div.parallax_wrapper').css("height","960px");
+			$('div.parallax_wrapper').offset().top();
 			console.log("portrait");
 			}
 		//landscape
