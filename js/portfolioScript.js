@@ -42,7 +42,7 @@ function findOrientation(){
 			}
 		//landscape
 		if(window.orientation == 90){
-			$('div.parallax_wrapper').css("height","703px");
+			//$('div.parallax_wrapper').css("height","703px");
 			
 			console.log("landscape");
 			}
