@@ -38,10 +38,12 @@ function findOrientation(){
 		//portrait
 		if(window.orientation == 0){
 			$('div.parallax_wrapper').css("height","960px");
+			console.log("portrait");
 			}
 		//landscape
 		if(window.orientation == 90){
 			$('.name,.title').hide();
+			console.log("landscape");
 			}
 	}, false);
 	
