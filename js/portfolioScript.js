@@ -37,13 +37,14 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 		//portrait
 		if(window.orientation == 0){
-			$('div.parallax_wrapper').offset().top();
+			$('div.parallax_wrapper').css("height","960px");
+			$('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			console.log("portrait");
 			}
 		//landscape
 		if(window.orientation == 90){
 			//$('div.parallax_wrapper').css("height","703px");
-			
+			$('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			console.log("landscape");
 			}
 	}, false);
