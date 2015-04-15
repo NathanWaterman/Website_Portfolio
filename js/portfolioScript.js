@@ -11,16 +11,9 @@ $(document).ready(function(){
 	accordian();
 	navbarFix();
 	findPhone();
+	findOrientation();
 	//popUp();
 });
-
-
-
-
-
-/*******  try || on scrollAnimate() script ************/
-
-
 
 
 //detects the mobile device and injects the phone number markup into the phone icon
@@ -38,6 +31,22 @@ function findPhone(){
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
 	}
+	
+//find window portrait or landscape
+function findOrientation(){
+	window.addEventListener("orientationchange", function() {
+		//portrait
+		if(window.orientation == 0){
+			
+			}
+		//landscape
+		if(window.orientation == 90){
+			$('.name,.title').hide();
+			}
+	}, false);
+	
+}
+
 
 //navbar collapse fix for only one page
 function navbarFix(){
