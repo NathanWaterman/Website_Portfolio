@@ -43,6 +43,7 @@ function findOrientation(){
 		//landscape
 		if(window.orientation == 90){
 			$('.name,.title').hide();
+			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("landscape");
 			}
 	}, false);
