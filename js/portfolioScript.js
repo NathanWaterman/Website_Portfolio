@@ -42,7 +42,7 @@ function findOrientation(){
 			console.log("portrait");
 			}
 		//landscape
-		if(window.orientation == 90){
+		else if(window.orientation == 90){
 			$('div.parallax_wrapper').css("height","703px");
 			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 			console.log("landscape");
