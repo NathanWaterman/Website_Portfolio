@@ -38,13 +38,13 @@ function findOrientation(){
 		//portrait
 		if(window.orientation == 0){
 			$('div.parallax_wrapper').css("height","960px");
-			$('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
+			$('.navbar').css({"position":"fixed","bottom":"0"});
 			console.log("portrait");
 			}
 		//landscape
 		if(window.orientation == 90){
-			//$('div.parallax_wrapper').css("height","703px");
-			$('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
+			$('div.parallax_wrapper').css("height","703px");
+			$('.navbar').css({"position":"fixed","bottom":"0"});
 			console.log("landscape");
 			}
 	}, false);
