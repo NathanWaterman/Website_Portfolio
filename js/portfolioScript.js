@@ -95,7 +95,7 @@ $(document).scroll(function(){
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
-			$('.scrollBar').css({"position":"absolute","top":"0px"});
+			$('.scrollBar').css({"position":"absolute","top":"-25px"});
             $('.navbar,.scrollBar').css({"position":"absolute","top":"auto","z-index":"100"});
 			$('.logo,.name,.title').show();
 			$('.logo,.name,.title').css({"z-index":"1"});
