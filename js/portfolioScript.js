@@ -89,19 +89,21 @@ $(document).scroll(function(){
         var scroll = $(this).scrollTop();
         var topDist = $(".container").position();
         if (scroll > topDist.top) {
-			$('.scrollBar').css({"position":"absolute","top":"0px"});
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
-			$('.scrollBar').css({"position":"fixed","bottom":"0px"});
-            $('.navbar,').css({"position":"absolute","top":"auto","z-index":"100"});
+			//$('.scrollBar').css({"position":"fixed","bottom":"0px"});
+            $('.navbar').css({"position":"absolute","top":"auto","z-index":"100"});
 			$('.logo,.name,.title').show();
 			$('.logo,.name,.title').css({"z-index":"1"});
 			console.log("navbar absolute");
 			console.log("logo name title show");
         }
+		$(window).scroll(function(){
+			$('.scrollBar').css({"position":"absolute","top":"auto"});
+		});
  });
 //resize the navbar to fit window 
 function resizeNavBar(){
