@@ -126,7 +126,7 @@ function startScroll(){
 //overlay on hover for main thumbnails
 function overlay(){
 	//hover state fade in and out for thumbnail overlay
-	$('.thumbnail-wrapper').on("mouseenter",function(){
+	$('.thumbnail-wrapper').on("mouseenter",'div.thumbnail-wrapper',function(){
 		$(this).find('.thumb-title').stop().animate({top: "25px"});
 		$(this).find('.view-details-btn').stop().animate({right: "41px"});
 		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
