@@ -39,6 +39,11 @@ function findOrientation(){
 			if(window.orientation == 0){
 				$('div.parallax_wrapper').css("height","960px");
 				$('.scrollbar').css({"position":"fixed","bottom":"0px"});
+				
+				$(window).scroll(function(){
+			$('.scrollBar').css({"position":"absolute"});
+		});	
+				
 				console.log("portrait");
 				}
 			//landscape
@@ -46,12 +51,15 @@ function findOrientation(){
 				$('.name,.title').hide();
 				$('div.parallax_wrapper').css("height","703px");
 				$('.scrollbar').css({"position":"fixed","bottom":"0px"});
+				
+				$(window).scroll(function(){
+			$('.scrollBar').css({"position":"absolute"});
+		});	
+				
 				console.log("landscape");
 				}	
 		}, false);
-	$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
-		});	
+	
 }
 
 
