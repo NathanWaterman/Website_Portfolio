@@ -123,67 +123,6 @@ function startScroll(){
 		    }, 1000);
 		});
 }
-
-
-//button animate scroll to div
-function scrollAnimate(){
-		//goodys rewards button
-		$('.goodys-thumb-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#goodysProgram-content').offset().top - 150
-    		}, 2000);
-			console.log("clickA");
-			});
-		//pediacare rewards button
-		$('.pediacare-thumb-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#pediacareProgram-content').offset().top - 25
-    		}, 2000);
-			console.log("clickA");
-			});
-		//pediacare rewards button
-		$('.remedies-thumb-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#remediesProgram-content').offset().top - 25
-    		}, 2000);
-			console.log("clickA");
-			});
-		//Instrumental Beauty button
-		$('.instrumental-beauty-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#instrumental-beauty').offset().top - 25
-    		}, 2000);
-			console.log("clickB");
-			});
-		//newport button
-		$('.newport-content').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#newport-content').offset().top - 25
-    		}, 2000);
-			console.log("clickB");
-			});
-		//van cleef button
-		$('.jewelry-content').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#jewelry-content').offset().top - 25
-    		}, 2000);
-			console.log("clickB");
-			});
-		//MC3 button
-		$('.MC3-content-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#MC3-content').offset().top - 25
-    		}, 2000);
-			console.log("clickB");
-			});
-		//freedoms button
-		$('.freedoms-content-btn').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#freedoms-content').offset().top - 25
-    		}, 2000);
-			console.log("clickB");
-			});
-	}
 	
 function accordian(){
   //$('#demoList').sapling({ multiexpand: false, animation: true });
@@ -225,7 +164,7 @@ function submitLogin(){
 				alert("success");
 				$('.restricted-site').css("opacity","1");
 				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
-				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
+				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content-btn overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
 				
 				
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
@@ -275,3 +214,63 @@ function overlay(){
 				}
 			});			
 }//end overlay
+
+//button animate scroll to div
+function scrollAnimate(){
+		//goodys rewards button
+		$('.goodys-thumb-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#goodysProgram-content').offset().top - 150
+    		}, 2000);
+			console.log("clickA");
+			});
+		//pediacare rewards button
+		$('.pediacare-thumb-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#pediacareProgram-content').offset().top - 25
+    		}, 2000);
+			console.log("clickA");
+			});
+		//pediacare rewards button
+		$('.remedies-thumb-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#remediesProgram-content').offset().top - 25
+    		}, 2000);
+			console.log("clickA");
+			});
+		//Instrumental Beauty button
+		$('.instrumental-beauty-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#instrumental-beauty').offset().top - 25
+    		}, 2000);
+			console.log("clickB");
+			});
+		//newport button
+		$('.newport-content-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#newport-content').offset().top - 25
+    		}, 2000);
+			console.log("clickB");
+			});
+		//van cleef button
+		$('.jewelry-content').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#jewelry-content').offset().top - 25
+    		}, 2000);
+			console.log("clickB");
+			});
+		//MC3 button
+		$('.MC3-content-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#MC3-content').offset().top - 25
+    		}, 2000);
+			console.log("clickB");
+			});
+		//freedoms button
+		$('.freedoms-content-btn').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#freedoms-content').offset().top - 25
+    		}, 2000);
+			console.log("clickB");
+			});
+	}  
