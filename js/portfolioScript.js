@@ -50,7 +50,7 @@ function findOrientation(){
 				}	
 		}, false);
 	$(window).scroll(function(){
-			//$('.scrollBar').css({"position":"absolute"});
+			$('.scrollBar').css({"position":"absolute"});
 		});	
 }
 
