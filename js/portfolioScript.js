@@ -246,7 +246,7 @@ function scrollAnimate(){
 			console.log("clickB");
 			});
 		//newport button
-		$('.newport-content-btn').live('click',function(event){
+		$('.newport-content-btn').delegate('click',function(event){
 			$('html, body').animate({
         		scrollTop: $('#newport-content').offset().top - 25
     		}, 2000);
