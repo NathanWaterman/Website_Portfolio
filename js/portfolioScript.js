@@ -16,6 +16,60 @@ $(document).ready(function(){
 });
 
 
+/********************LOGIN FUNCTION*************************/
+function submitLogin(){
+		$("#submit").click(function(event){
+			event.preventDefault();
+			var checkUser = $('#user').val();
+			var checkPass = $('#pass').val();
+			//alert(checkUser);
+			//alert(checkPass);
+	
+		$.ajax({
+				type: "GET",
+				url:"http://nathanwaterman.github.io/website_portfolio/login/login.html",
+				dataType:"text",
+				success:function(data){
+		
+			//data.split('\n')[0]);
+			
+			var txtInfoA = data.split('\n')[0];
+			var txtInfoB = data.split('\n')[1];
+			var txtInfoC = data.split('\n')[2];
+			var txtInfoD = data.split('\n')[3];
+			var txtInfoE = data.split('\n')[4];
+	
+			alert(txtInfoA);
+			alert(txtInfoB);
+	
+			if(checkUser === txtInfoA && checkPass === txtInfoB){
+				alert("success");
+				$('.restricted-site').css("opacity","1");
+				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
+				$('.newportLoggedIn-thumb').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
+				
+				
+				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
+				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
+				$("#user").css("border","inset 2px");
+				$("#pass").css("border","inset 2px");
+				}
+			if(checkUser != txtInfoA){
+				$("#user").css("border","red inset 2px");
+				//alert("try again");
+				}
+			if(checkPass != txtInfoB){
+				$("#pass").css("border","red inset 2px");
+				//alert("try again");
+				}
+			
+			}//if
+		});//ajax
+		
+	});//submit click function
+}//submitLogin function
+
+
 //detects the mobile device and injects the phone number markup into the phone icon
 function findPhone(){
 		if (navigator.userAgent.match(/Android/i) ||
@@ -195,60 +249,6 @@ function accordian(){
 					console.log("click");   
                 });
 }
-/********************LOGIN FUNCTION*************************/
-function submitLogin(){
-		$("#submit").click(function(event){
-			event.preventDefault();
-			var checkUser = $('#user').val();
-			var checkPass = $('#pass').val();
-			//alert(checkUser);
-			//alert(checkPass);
-	
-		$.ajax({
-				type: "GET",
-				url:"http://nathanwaterman.github.io/website_portfolio/login/login.html",
-				dataType:"text",
-				success:function(data){
-		
-			//data.split('\n')[0]);
-			
-			var txtInfoA = data.split('\n')[0];
-			var txtInfoB = data.split('\n')[1];
-			var txtInfoC = data.split('\n')[2];
-			var txtInfoD = data.split('\n')[3];
-			var txtInfoE = data.split('\n')[4];
-	
-			alert(txtInfoA);
-			alert(txtInfoB);
-	
-			if(checkUser === txtInfoA && checkPass === txtInfoB){
-				alert("success");
-				$('.restricted-site').css("opacity","1");
-				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
-				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
-				
-				
-				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
-				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
-				$("#user").css("border","inset 2px");
-				$("#pass").css("border","inset 2px");
-				}
-			if(checkUser != txtInfoA){
-				$("#user").css("border","red inset 2px");
-				//alert("try again");
-				}
-			if(checkPass != txtInfoB){
-				$("#pass").css("border","red inset 2px");
-				//alert("try again");
-				}
-			
-			}//if
-		});//ajax
-		
-	});//submit click function
-}//submitLogin function
-
-
 //overlay on hover for main thumbnails
 function overlay(){
 	//hover state fade in and out for thumbnail overlay
@@ -267,8 +267,6 @@ function overlay(){
 	
 	//hover state fade in and out for thumbnail buttons
 
-			
-			
 			var getWidth = $(window).width();
 			
 			$(window).on('resize',function() {
