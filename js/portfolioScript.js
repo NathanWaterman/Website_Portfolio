@@ -199,6 +199,12 @@ function scrollAnimate(){
     		}, 2000);
 			console.log("clickB");
 			});
+		$('.jewelry-content-site').on('click', function(event){
+			$('html, body').animate({
+        		scrollTop: $('#jewelry-content').offset().top()
+    		}, 2000);
+			console.log("clickB");
+			});
 		//MC3 button
 		$('.MC3-content-btn').on('click', function(event){
 			$('html, body').animate({
