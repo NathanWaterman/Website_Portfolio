@@ -102,7 +102,7 @@ $(document).scroll(function(){
 			console.log("logo name title show");
         }
 		$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute","top":"auto"});
+			$('.scrollBar').css({"position":"absolute","bottom":"auto"});
 		});
  });
 //resize the navbar to fit window 
