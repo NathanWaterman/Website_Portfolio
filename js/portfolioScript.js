@@ -89,7 +89,7 @@ $(document).scroll(function(){
         var scroll = $(this).scrollTop();
         var topDist = $(".container").position();
         if (scroll > topDist.top) {
-			//$('.scrollBar').css({"position":"fixed","top":"-25px"});
+			$('.scrollBar').css({"position":"absolute","top":"0px"});
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
