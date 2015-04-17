@@ -34,7 +34,26 @@ function findPhone(){
 	
 //find window portrait or landscape
 function findOrientation(){
-	
+	window.addEventListener("orientationchange", function() {
+		//portrait
+		if(window.orientation == 0){
+			$('div.parallax_wrapper').css("height","960px");
+			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
+			console.log("portrait");
+			}
+		//landscape
+		else if(window.orientation == 90){
+			$('.name,.title').hide();
+			$('div.parallax_wrapper').css("height","703px");
+			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
+			console.log("landscape");
+			}
+			
+		$(window).scroll(function(){
+			$('.scrollBar').css({"position":"absolute"});
+		});
+		
+	}, false);
 	
 }
 
@@ -87,27 +106,7 @@ $(document).scroll(function(){
 			$('.logo,.name,.title').css({"z-index":"1"});
 			console.log("navbar absolute");
 			console.log("logo name title show");
-        }
-		$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
-		});
-		
-		window.addEventListener("orientationchange", function() {
-		//portrait
-		if(window.orientation == 0){
-			$('div.parallax_wrapper').css("height","960px");
-			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
-			console.log("portrait");
-			}
-		//landscape
-		else if(window.orientation == 90){
-			$('.name,.title').hide();
-			$('div.parallax_wrapper').css("height","703px");
-			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
-			console.log("landscape");
-			}
-	}, false);
-		
+        }	
  });
 //resize the navbar to fit window 
 function resizeNavBar(){
