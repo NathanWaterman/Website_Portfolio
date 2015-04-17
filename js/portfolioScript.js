@@ -199,12 +199,6 @@ function scrollAnimate(){
     		}, 2000);
 			console.log("clickB");
 			});
-		$('.jewelry-content-site').on('click', function(event){
-			$('html, body').animate({
-        		scrollTop: $('#jewelry-content').offset().top()
-    		}, 2000);
-			console.log("clickB");
-			});
 		//MC3 button
 		$('.MC3-content-btn').on('click', function(event){
 			$('html, body').animate({
@@ -259,10 +253,17 @@ function submitLogin(){
 	
 			if(checkUser === txtInfoA && checkPass === txtInfoB){
 				alert("success");
-				$('.restricted-site').css("opacity","1");
+				$('.restricted-site,.jewelry-content-site').css("opacity","1");
 				$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
-				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
+				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);
+				
+				$('.jewelry-content-site').on('click', function(event){
+				$('html, body').animate({
+        			scrollTop: $('#jewelry-content').offset().top()
+    			}, 2000);
+				});
+							
 				$("#user").css("border","inset 2px");
 				$("#pass").css("border","inset 2px");
 				
