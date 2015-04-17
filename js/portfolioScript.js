@@ -35,12 +35,10 @@ function findPhone(){
 //find window portrait or landscape
 function findOrientation(){
 	window.addEventListener("orientationchange", function() {
-		var scrollTop = $(window).scrollTop();
 		//portrait
-			if(window.orientation == 0 && scrollTop < 50){
+			if(window.orientation == 0){
 				$('div.parallax_wrapper').css("height","960px");
-				//$('.scrollbar').css({"position":"fixed","bottom":"0px"});
-				$('.scrollBar').hide();
+				$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 				console.log("portrait");
 				}
 			//landscape
@@ -52,7 +50,7 @@ function findOrientation(){
 				}	
 		}, false);
 	$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
+			//$('.scrollBar').css({"position":"absolute"});
 		});	
 }
 
