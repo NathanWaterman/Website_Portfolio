@@ -43,6 +43,7 @@ function findOrientation(){
 			}
 		//landscape
 		else if(window.orientation == 90){
+			$('.name,.title').hide();
 			$('div.parallax_wrapper').css("height","703px");
 			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 			console.log("landscape");
@@ -90,7 +91,6 @@ $(document).scroll(function(){
         if (scroll > topDist.top) {
 			//$('.scrollBar').css({"position":"fixed","top":"-25px"});
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
-			$('.logo,.name,.title').hide();
 			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
