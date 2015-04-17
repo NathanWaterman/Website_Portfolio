@@ -44,14 +44,12 @@ function findOrientation(){
 			if(window.orientation == 0){
 				$('.logo,.name,.title').show();
 				$('div.parallax_wrapper').css("height","960px");
-				$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 				console.log("portrait");
 				}
 			//landscape
 			else if(window.orientation == 90){
 				$('.name,.title').hide();
 				$('div.parallax_wrapper').css("height","703px");
-				$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 				console.log("landscape");
 				}	
 		}, false);
