@@ -260,7 +260,7 @@ function submitLogin(){
 				
 				$('.jewelry-content-site').on('click', function(event){
 				$('html, body').animate({
-        			scrollTop: $('#jewelry-content').offset().top()
+        			scrollTop: $('#jewelry-content').offset().top() - 25
     			}, 2000);
 				});
 							
