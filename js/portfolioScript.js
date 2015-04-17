@@ -135,7 +135,7 @@ function overlay(){
 	
 	//hover state fade in and out for thumbnail buttons
 
-			$('.thumbnail-wrapper').hover(function(){
+			$('.thumbnail-wrapper').on('mouseenter',function(){
 				$(this).find('.thumb-title').stop().animate({top: "25px"});
 				$(this).find('.view-details-btn').stop().animate({right: "41px"});
 				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
@@ -256,8 +256,6 @@ function submitLogin(){
 				$('.restricted-site').css("opacity","1");
 				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
 				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
-				
-				
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
 				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
 				$("#user").css("border","inset 2px");
