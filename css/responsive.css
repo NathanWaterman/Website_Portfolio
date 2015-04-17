@@ -118,7 +118,7 @@ display:none;
 		height:auto;
 		}
 .scrollBar .glyphicon{
-	top:17px;
+	/* top:17px; */
 	}
 }
 @media only screen and (max-width: 767px) and (orientation: portrait){
