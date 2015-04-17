@@ -47,14 +47,12 @@ function findOrientation(){
 			$('div.parallax_wrapper').css("height","703px");
 			$('.scrollbar').css({"position":"fixed","bottom":"0px"});
 			console.log("landscape");
-			}
-			
-		$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
-		});
-		
+			}	
 	}, false);
 	
+	$(window).scroll(function(){
+			$('.scrollBar').css({"position":"absolute"});
+		});	
 }
 
 
