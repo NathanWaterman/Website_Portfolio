@@ -88,7 +88,6 @@ function popUp(){
 $(document).scroll(function(){
         var scroll = $(this).scrollTop();
         var topDist = $(".container").position();
-		var windowHeight = $(window).height();
         if (scroll > topDist.top) {
             $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').hide();
