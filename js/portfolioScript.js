@@ -127,23 +127,21 @@ function startScroll(){
 function overlay(){
 	//hover state fade in and out for thumbnail overlay
 	$('.thumbnail-wrapper').on("mouseover",function(){
+		$(this).find('.thumb-title').stop().animate({top: "25px"});
+		$(this).find('.view-details-btn').stop().animate({right: "41px"});
+		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
     	$(this).find('.overlay').fadeIn(100);	 
 	});
 	$('.thumbnail-wrapper').on("mouseleave",function() {
+		$(this).find('.thumb-title').stop().animate({top: "-35px"});	
+		$(this).find('.view-details-btn').stop().animate({right: "-101px"});
+		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
     	$(this).find('.overlay').fadeOut(100);
 	});
 	
 	//hover state fade in and out for thumbnail buttons
 
-			$('.thumbnail-wrapper').on('mouseenter',function(){
-				$(this).find('.thumb-title').stop().animate({top: "25px"});
-				$(this).find('.view-details-btn').stop().animate({right: "41px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
-		}, function(){	
-				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
-				$(this).find('.view-details-btn').stop().animate({right: "-101px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
-			});//end hover	
+			
 			
 			var getWidth = $(window).width();
 			
