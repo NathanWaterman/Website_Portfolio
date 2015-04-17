@@ -226,7 +226,18 @@ function submitLogin(){
 				$('.restricted-site').css("opacity","1");
 				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
 				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
-				
+	$('.newport-thumbnai').on('mouseenter',function(){
+		$(this).find('.thumb-title').stop().animate({top: "25px"});
+		$(this).find('.view-details-btn').stop().animate({right: "41px"});
+		$(this).find('.view-site-btn').stop().animate({left: "37px"});	
+    	$(this).find('.overlay').fadeIn(100);	 
+	});
+	$('.newport-thumbnai').on('mouseleave',function() {
+		$(this).find('.thumb-title').stop().animate({top: "-35px"});	
+		$(this).find('.view-details-btn').stop().animate({right: "-101px"});
+		$(this).find('.view-site-btn').stop().animate({left: "-101px"});	
+    	$(this).find('.overlay').fadeOut(100);
+	});
 				
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
 				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
