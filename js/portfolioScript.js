@@ -254,7 +254,10 @@ function submitLogin(){
 			if(checkUser === txtInfoA && checkPass === txtInfoB){
 				alert("success");
 				$('.restricted-site').css("opacity","1");
-				$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
+				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
+				$('.newport-thumbnail').append('<div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay-->');
+				
+				
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
 				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
 				$("#user").css("border","inset 2px");
