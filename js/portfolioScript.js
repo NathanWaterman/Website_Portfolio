@@ -162,8 +162,6 @@ function submitLogin(){
 	
 			if(checkUser === txtInfoA && checkPass === txtInfoB){
 				alert("success");
-				$('.restricted-site').css("opacity","1");
-				//$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
 				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content-btn overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
 				//newport button
 		$('.newportLoggedIn').on('click','.newport-content-btn',function(event){
@@ -175,6 +173,8 @@ function submitLogin(){
 			//Newport content
 			$('#newport-content').append('<div id="newport-content"class="clearDiv main-content-divPadding"><div class="newport-content-img col-sm-6 col-xs-12"><h2>Newport Wheel of Pleasure Game</h2><img src="imgs/newportContentImg.png"/></div><div class="content-description col-sm-6 col-xs-12"><h2>Project:</h2><p>Lorillard Newport Wheel of Pleasure Mobile Game - (HTML5, CSS3, jQuery)</p><h2>Description:</h2><p>This project was for one of our AFG clients <a href="http://www.lorillard.com/brands/newport/" target="_blank">Lorillard</a>. Every year we are asked to develop a desktop and mobile version of the same game. We developed a mobile version of the game "Wheel of Pleasure", in which the user presses the play button and the result lands on either a winner or loser, comparable to ABCs Wheel of Fortune. Because of the disclosure legality of this website, I cannot openly show the website. In order to view the site please contact me and I will provide you with a temporary username and password to view my work on this project. However, you can view a code snippet from this game below. <a href="#codeExamples">Click Here to view snippet</a></p><a class="overlay_btn restricted-site newport-site">View Site</a></div></div>');
 				
+				$('.restricted-site').css("opacity","1");
+				$('.newport-site').attr('target','_blank').attr('href',txtInfoC);
 				$('.flash-site').attr('target','_blank').attr('href',txtInfoD);
 				$('.HTML5-site').attr('target','_blank').attr( 'href',txtInfoE);			
 				$("#user").css("border","inset 2px");
