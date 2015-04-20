@@ -42,11 +42,27 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 		//portrait
 			if(window.orientation == 0){
+				
+				if ($('.navbar').css('position') == 'absolute'){
+					$('.scrollBar').css({'position':'fixed'});
+				}
+				else if($('#navbar').css('position') == 'fixed'){
+					$('.scrollbar').css({'position':'absolute'});
+				}
+				
 				$('.logo,.name,.title').show();
 				$('div.parallax_wrapper').css("height","960px");		
 			}
 			//landscape
 		    if(window.orientation == 90){
+				
+				if ($('.navbar').css('position') == 'absolute'){
+					$('.scrollBar').css({'position':'fixed'});
+				}
+				else if($('#navbar').css('position') == 'fixed'){
+					$('.scrollbar').css({'position':'absolute'});
+				}
+				
 				$('.name,.title').hide();
 				$('div.parallax_wrapper').css("height","703px");
 				console.log("landscape");
