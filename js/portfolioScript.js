@@ -162,6 +162,9 @@ function submitLogin(){
 	
 			if(checkUser === txtInfoA && checkPass === txtInfoB){
 				alert("success");
+				
+				$("#navbar").removeClass("in").addClass("collapse");
+				
 				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content-btn overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
 				//newport button
 		$('.newportLoggedIn').on('click','.newport-content-btn',function(event){
