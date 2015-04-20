@@ -48,8 +48,7 @@ function findOrientation(){
 				if ($('.navbar').css("position") === "absolute"){
 						$('.scrollbar').css("position","fixed");
 					}
-				
-				console.log("portrait");
+				console.log("scrollbar fixed if navbar absolute");
 				}
 			//landscape
 			else if(window.orientation == 90){
