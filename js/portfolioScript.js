@@ -43,12 +43,12 @@ function findOrientation(){
 		//portrait
 			if(window.orientation == 0){
 				$('.logo,.name,.title').show();
-				$('div.parallax_wrapper').css("height","960px");
+				//$('div.parallax_wrapper').css("height","960px");
 			}
 			//landscape
 			else if(window.orientation == 90){
 				$('.name,.title').hide();
-				$('div.parallax_wrapper').css("height","703px");
+				//$('div.parallax_wrapper').css("height","703px");
 				console.log("landscape");
 				}	
 		}, false);
