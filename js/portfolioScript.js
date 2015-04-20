@@ -42,22 +42,11 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 		//portrait
 			if(window.orientation == 0){
-				$(window).scroll(function(){
-					if ($('#navbar').css('position') == 'absolute'){
-						$('.scrollBar').css({'position':'fixed'});
-						console.log("navbar is absolute at portrait");
-					}
-					else if($('#navbar').css('position') == 'fixed'){
-						$('.scrollbar').css({'position':'absolute'});
-						console.log("navbar is fixed at portrait");	
-					}
-				});
-				
 				$('.logo,.name,.title').show();
-				$('div.parallax_wrapper').css("height","960px");
+				$('div.parallax_wrapper').css("height","960px");		
 			}
 			//landscape
-			else if(window.orientation == 90){
+		    if(window.orientation == 90){
 				$('.name,.title').hide();
 				$('div.parallax_wrapper').css("height","703px");
 				console.log("landscape");
@@ -133,6 +122,13 @@ function startScroll(){
 		    }, 1000);
 			console.log("scrollbar click");
 		});
+		
+		if ($('.navbar').css('position') == 'absolute'){
+			$('.scrollBar').css({'position':'fixed'});
+		}
+		else if($('#navbar').css('position') == 'fixed'){
+			$('.scrollbar').css({'position':'absolute'});
+		}
 }
 	
 function accordian(){
