@@ -120,6 +120,7 @@ function startScroll(){
 		    $('html, body').animate({
 		        scrollTop: $(target).offset().top
 		    }, 1000);
+			console.log("scrollbar click");
 		});
 }
 	
