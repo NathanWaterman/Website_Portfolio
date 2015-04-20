@@ -44,6 +44,13 @@ function findOrientation(){
 			if(window.orientation == 0){
 				$('.logo,.name,.title').show();
 				$('div.parallax_wrapper').css("height","960px");
+				
+				if ($('.navbar').css("position") === "absolute"){
+					
+						$('.scrollbar').css("position","fixed");
+					
+					}
+				
 				console.log("portrait");
 				}
 			//landscape
