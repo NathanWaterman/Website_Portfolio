@@ -36,7 +36,7 @@ function findPhone(){
 function findOrientation(){
 	
 	$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
+			//$('.scrollBar').css({"position":"absolute"});
 		});	
 	
 	window.addEventListener("orientationchange", function() {
@@ -122,13 +122,6 @@ function startScroll(){
 		    }, 1000);
 			console.log("scrollbar click");
 		});
-		
-		if ($('.navbar').css('position') == 'absolute'){
-			$('.scrollBar').css({'position':'fixed'});
-		}
-		else if($('#navbar').css('position') == 'fixed'){
-			$('.scrollbar').css({'position':'absolute'});
-		}
 }
 	
 function accordian(){
