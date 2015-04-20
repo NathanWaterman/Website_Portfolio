@@ -42,6 +42,17 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 		//portrait
 			if(window.orientation == 0){
+				$(window).scroll(function(){
+					if ($('#navbar').css('position') == 'absolute'){
+						$('.scrollBar').css({'position':'fixed'});
+						console.log("navbar is absolute at portrait");
+					}
+					else if($('#navbar').css('position') == 'fixed'){
+						$('.scrollbar').css({'position':'absolute'});
+						console.log("navbar is fixed at portrait");	
+					}
+				});
+				
 				$('.logo,.name,.title').show();
 				$('div.parallax_wrapper').css("height","960px");
 			}
