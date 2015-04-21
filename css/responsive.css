@@ -8,7 +8,11 @@
 	.notMobile{
 		display:none;
 		}
-	/*login contaienr redirect for mobile*/
+	/*adjust padding for main container for mobile*/
+	.container-top{
+		padding-top:90px;
+		}
+	/*login container redirect for mobile*/
 	.loginContainer{
 		float:left;
 		}
@@ -17,11 +21,6 @@
 		}
 }
 @media only screen and (max-width: 992px){
-	
-	.thumbnail-wrapper{
-		height:194px;
-		}
-
 	.content-img,.newport-content-img{
 		margin-top:100px;
 		}	
