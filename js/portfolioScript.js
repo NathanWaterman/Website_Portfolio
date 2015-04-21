@@ -39,7 +39,7 @@ function findOrientation(){
 			$('.scrollBar').css({"position":"absolute"});
 		});	
 	
-	window.addEventListener("orientationchange", function() {
+	window.on("orientationchange", function() {
 		//portrait
 			if(window.orientation == 0){
 				
@@ -70,6 +70,7 @@ function findOrientation(){
 		}, false);
 }
 
+$(window).orientationchange();
 
 //navbar collapse fix for only one page
 function navbarFix(){
