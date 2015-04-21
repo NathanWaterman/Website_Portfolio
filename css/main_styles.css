@@ -41,14 +41,18 @@ h2,h3,.navbar li a{
 	background-repeat:repeat-x repeat-y;
 	
 	}
+.isMobile{
+		display:none;
+		}
+.notMobile{
+		display:block;
+		}
 .show{
 	display:block;
 	}
 .hide{
 	display:none;
 	}
-	
-/
 .up-arrow{
 		background-color:#000;
 		position:fixed;
@@ -268,6 +272,16 @@ form li{
 .main-tagline,.main-resume-tagline,.main-education-tagline,.main-skills-tagline{
 	width:100%;
 	text-align:center;
+	}
+.main-tagline h1{
+	font-family: 'Comfortaa', cursive;
+	}
+.main-tagline h2{
+	font-size:2em;
+	line-height:35px;
+	}
+.main-tagline h3{
+	color:#60b3cb;
 	}
 
 /*-------homepage thumbnail container styles--------*/

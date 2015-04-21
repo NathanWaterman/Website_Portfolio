@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS for the responsive custom themes */
 @media only screen and (max-width: 922px){
+	/*mobile display and hide class*/
+	.isMobile{
+			display:block;
+		}
+	.notMobile{
+		display:none;
+		}
 	/*login contaienr redirect for mobile*/
 	.loginContainer{
 		float:left;
