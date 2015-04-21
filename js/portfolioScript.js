@@ -39,7 +39,7 @@ function findOrientation(){
 			$('.scrollBar').css({"position":"absolute"});
 		});	
 	
-	window.addEventListener("orientationchange", function() {
+	$(window).on( "orientationchange", function(event){
 		//portrait
 			if(window.orientation == 0){
 				
