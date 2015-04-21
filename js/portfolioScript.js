@@ -36,7 +36,7 @@ function findPhone(){
 function findOrientation(){
 	
 	$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
+			//$('.scrollBar').css({"position":"absolute"});
 		});	
 	
 	window.addEventListener("orientationchange", function() {
