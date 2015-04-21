@@ -27,6 +27,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
+				 $('div.parallax_wrapper').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -52,7 +53,7 @@ function findOrientation(){
 				}
 				*/
 				$('.logo,.name,.title').show();
-				$('div.parallax_wrapper').css("height","960px");
+				$('div.parallax_wrapper').hide();
 						
 			}
 			//landscape
@@ -67,7 +68,7 @@ function findOrientation(){
 				*/
 				
 				$('.name,.title').hide();
-				$('div.parallax_wrapper').css("height","703px");
+				$('div.parallax_wrapper').hide();
 				console.log("landscape");
 				}	
 		}, false);
