@@ -27,7 +27,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				 $('div.parallax_wrapper').hide();
+				$('div.parallax_wrapper,.scrollbar').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -53,7 +53,7 @@ function findOrientation(){
 				}
 				*/
 				$('.logo,.name,.title').show();
-				$('div.parallax_wrapper').hide();
+				$('div.parallax_wrapper,.scrollbar').hide();
 						
 			}
 			//landscape
