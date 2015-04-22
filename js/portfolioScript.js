@@ -214,9 +214,9 @@ function findOrientation(){
 		    if(window.orientation == 90){
 				//landscape
 				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
-				$(this).find('.thumb-title').stop().animate({top: "55px",fontSize:"16px"});
-				$(this).find('.view-details-btn').stop().animate({right: "41px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
+				$(this).find('.thumb-title').stop().animate({top: "55px",fontSize:"22px"});
+				$(this).find('.view-details-btn').stop().animate({right: "71px"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "67px"});	
     			console.log("landscape"); 
 			});	
 		}	
