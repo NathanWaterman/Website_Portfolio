@@ -147,7 +147,7 @@ function submitLogin(){
 				//newport button
 		$('.newportLoggedIn').on('click','.newport-content-btn',function(event){
 			$('html, body').animate({
-        		scrollTop: $('#newport-content').offset().top - 25
+        		scrollTop: $('#newport-content').offset().top
     		}, 2000);
 			console.log("clickB");
 			});
