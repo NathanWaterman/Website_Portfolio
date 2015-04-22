@@ -210,6 +210,12 @@ function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 			if(window.orientation == 0){
 				//portrait
+				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
+				$(this).find('.thumb-title').stop().animate({top: "25px"});
+				$(this).find('.view-details-btn').stop().animate({right: "41px"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
+    			console.log("portrait");	 
+	});
 			}
 		    if(window.orientation == 90){
 				//landscape
