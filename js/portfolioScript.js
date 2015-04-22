@@ -16,7 +16,7 @@ $(document).ready(function(){
 });
 
 
-//detects the mobile device and injects the phone number markup into the phone icon
+//detects the mobile device and injects the phone number markup into the phone icon and hide the intro banner
 function findPhone(){
 		if (navigator.userAgent.match(/Android/i) ||
              navigator.userAgent.match(/webOS/i) ||
@@ -27,7 +27,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				$('div.parallax_wrapper','.scrollbar').hide();
+				$('div.parallax_wrapper,.scrollbar').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
