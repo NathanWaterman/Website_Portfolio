@@ -36,10 +36,6 @@ function findPhone(){
 //find window portrait or landscape
 function findOrientation(){
 	
-	$(window).scroll(function(){
-			$('.scrollBar').css({"position":"absolute"});
-		});	
-	
 	$(window).on( "orientationchange", function(event){
 		
 			if(window.orientation == 0){
