@@ -1,6 +1,7 @@
 // JavaScript Document
 
 var contentResize;
+var mainBG = $('div.parallax_wrapper');
 
 $(document).ready(function(){	
 	resizeNavBar();
@@ -27,7 +28,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				$('div.parallax_wrapper,.scrollbar').hide();
+				$(mainBG,'.scrollbar').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -41,36 +42,13 @@ function findOrientation(){
 		});	
 	
 	$(window).on( "orientationchange", function(event){
-		//portrait
+		
 			if(window.orientation == 0){
-				
-				/*
-				if ($('.navbar').css('position') == 'absolute'){
-					$('.scrollBar').css({'position':'fixed'});
-				}
-				else if($('#navbar').css('position') == 'fixed'){
-					$('.scrollbar').css({'position':'absolute'});
-				}
-				*/
-				$('.logo,.name,.title').show();
-				$('div.parallax_wrapper,.scrollbar').hide();
-						
+				//portrait
 			}
-			//landscape
 		    if(window.orientation == 90){
-				/*
-				if ($('.navbar').css('position') == 'absolute'){
-					$('.scrollBar').css({'position':'fixed'});
-				}
-				else if($('#navbar').css('position') == 'fixed'){
-					$('.scrollbar').css({'position':'absolute'});
-				}
-				*/
-				
-				$('.name,.title').hide();
-				$('div.parallax_wrapper').hide();
-				console.log("landscape");
-				}	
+				//landscape
+			}	
 		}, false);
 }
 
@@ -129,7 +107,7 @@ $(document).scroll(function(){
 function resizeNavBar(){
 	$(window).on('load', function(){  
 		contentResize = $('.scrollBar').offset().top;
-		$('.parallax_wrapper').css({ height: ($(window).height()) +'px' });
+		$(mainBG).css({ height: ($(window).height()) +'px' });
 	}); 
 }
 //scrollbar scrolling function on click
