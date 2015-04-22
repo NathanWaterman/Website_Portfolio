@@ -33,22 +33,6 @@ function findPhone(){
                }
 	}
 	
-//find window portrait or landscape
-function findOrientation(){
-	
-	window.addEventListener("orientationchange", function() {
-			if(window.orientation == 0){
-				//portrait
-			}
-		    if(window.orientation == 90){
-				//landscape
-				$('.thumb-title').css({"top":"55px","font-size":"16px"});
-				console.log("landscape");
-			}	
-		},false);
-}
-
-
 //navbar collapse fix for only one page
 function navbarFix(){
     $(".navbar-inverse .navbar-nav li a").click(function(event) {
@@ -213,15 +197,32 @@ function overlay(){
 	});
 	
 	//hover state fade in and out for thumbnail buttons
-
-			var getWidth = $(window).width();
-			$(window).on('resize',function() {
-  				if (getWidth <= 1200) {
-					
-					$(this).find('.thumb-title').stop().animate({top: "-110px"});
-				}
-			});			
+	var getWidth = $(window).width();
+	$(window).on('resize',function() {
+  		if(getWidth <= 1200){
+			$(this).find('.thumb-title').stop().animate({top: "-110px"});
+		}
+	});			
 }//end overlay
+
+//find window portrait or landscape
+function findOrientation(){
+	window.addEventListener("orientationchange", function() {
+			if(window.orientation == 0){
+				//portrait
+			}
+		    if(window.orientation == 90){
+				//landscape
+				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
+				$(this).find('.thumb-title').stop().animate({top: "55px",fontSize:"16px"});
+				$(this).find('.view-details-btn').stop().animate({right: "41px"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
+    			console.log("landscape"); 
+			});	
+		}	
+	},false);
+}
+
 
 //button animate scroll to div
 function scrollAnimate(){
