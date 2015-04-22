@@ -117,7 +117,7 @@ function resizeNavBar(){
 function startScroll(){
 		$(scrollBar).on('click', function(event) {
 		    //event.preventDefault();
-		    var target = $('.navbar');
+		    var target = $(navBar);
 		    $('html, body').animate({
 		        scrollTop: $(target).offset().top
 		    }, 1000);
