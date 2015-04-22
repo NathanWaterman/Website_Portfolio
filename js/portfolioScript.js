@@ -46,7 +46,6 @@ function findOrientation(){
 				console.log("landscape");
 			}	
 		}, false);
-		$(window).orientationchange();
 }
 
 
