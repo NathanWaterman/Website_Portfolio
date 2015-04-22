@@ -1,7 +1,6 @@
 // JavaScript Document
 
 var contentResize;
-var mainBG = $('div.parallax_wrapper');
 
 $(document).ready(function(){	
 	resizeNavBar();
