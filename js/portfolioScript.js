@@ -42,9 +42,8 @@ function findOrientation(){
 			}
 		    if(window.orientation == 90){
 				//landscape
+				$('.thumb-title').css({"top":"55px","font-size":"16px"});
 				console.log("landscape");
-				$('p.thumb-title').css({"top":"55px","font-size":"16px"});
-				
 			}	
 		},false);
 }
