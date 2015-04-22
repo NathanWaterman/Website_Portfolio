@@ -2,9 +2,6 @@
 
 var contentResize;
 var mainBG = $('div.parallax_wrapper');
-var scrollBar = $('.scrollbar');
-var navBar = $('.navbar');
-var newportThumbContent = '<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content-btn overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->';
 
 $(document).ready(function(){	
 	resizeNavBar();
@@ -31,7 +28,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				mainBG,scrollBar.hide();
+				$(mainBG,'.scrollbar').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -41,7 +38,7 @@ function findPhone(){
 function findOrientation(){
 	
 	$(window).scroll(function(){
-			scrollBar.css({"position":"absolute"});
+			$('.scrollBar').css({"position":"absolute"});
 		});	
 	
 	$(window).on( "orientationchange", function(event){
@@ -92,14 +89,14 @@ $(document).scroll(function(){
         var scroll = $(this).scrollTop();
         var topDist = $(".container").position();
         if (scroll > topDist.top) {
-            navBar.css({"position":"fixed","top":"0","z-index":"100"});
+            $('.navbar').css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').hide();
 			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
 			//$('.scrollBar').css({"position":"fixed","bottom":"0px"});
-            navBar.css({"position":"absolute","top":"auto","z-index":"100"});
+            $('.navbar').css({"position":"absolute","top":"auto","z-index":"100"});
 			$('.logo,.name,.title').show();
 			$('.logo,.name,.title').css({"z-index":"1"});
 			console.log("navbar absolute");
@@ -109,15 +106,15 @@ $(document).scroll(function(){
 //resize the navbar to fit window 
 function resizeNavBar(){
 	$(window).on('load', function(){  
-		scrollBar.offset().top;
-		mainBG.css({ height: ($(window).height()) +'px' });
+		contentResize = $('.scrollBar').offset().top;
+		$('.parallax_wrapper').css({ height: ($(window).height()) +'px' });
 	}); 
 }
 //scrollbar scrolling function on click
 function startScroll(){
-		scrollBar.on('click', function(event) {
+		$( '.scrollBar' ).on('click', function(event) {
 		    //event.preventDefault();
-		    var target = navBar;
+		    var target = $('.navbar');
 		    $('html, body').animate({
 		        scrollTop: $(target).offset().top
 		    }, 1000);
@@ -166,7 +163,7 @@ function submitLogin(){
 				
 				$("#navbar").removeClass("in").addClass("collapse");
 				
-				$('.newportLoggedIn').append(newportThumbContent);
+				$('.newportLoggedIn').append('<div class="thumbnail-wrapper newport-thumbnail col-md-4 col-sm-6 col-xs-12"><div class="thumb-title-container"><p class="thumb-title">Newport WOP</p></div><img src="imgs/newport_thumb.jpg"/><a class="overlay_btn view-site-btn"><p>View Site</p></a><!--view site btn--><a class="newport-content-btn overlay_btn view-details-btn"><p>View Details</p></a><!--visit page btn--><div class="overlay"></div><!--overlay--></div><!-- newport -->');
 				//newport button
 		$('.newportLoggedIn').on('click','.newport-content-btn',function(event){
 			$('html, body').animate({
