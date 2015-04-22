@@ -28,7 +28,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				$(mainBG,'.scrollbar').hide();
+				$('div.parallax_wrapper','.scrollbar').hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -112,7 +112,7 @@ function resizeNavBar(){
 }
 //scrollbar scrolling function on click
 function startScroll(){
-		$( '.scrollBar' ).on('click', function(event) {
+		$('.scrollBar').on('click', function(event) {
 		    //event.preventDefault();
 		    var target = $('.navbar');
 		    $('html, body').animate({
@@ -232,28 +232,28 @@ function scrollAnimate(){
 		//goodys rewards button
 		$('.goodys-thumb-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#goodysProgram-content').offset().top - 150
+        		scrollTop: $('#goodysProgram-content').offset().top - 75
     		}, 2000);
 			console.log("clickA");
 			});
 		//pediacare rewards button
 		$('.pediacare-thumb-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#pediacareProgram-content').offset().top - 25
+        		scrollTop: $('#pediacareProgram-content').offset().top - 15
     		}, 2000);
 			console.log("clickA");
 			});
 		//pediacare rewards button
 		$('.remedies-thumb-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#remediesProgram-content').offset().top - 25
+        		scrollTop: $('#remediesProgram-content').offset().top - 15
     		}, 2000);
 			console.log("clickA");
 			});
 		//Instrumental Beauty button
 		$('.instrumental-beauty-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#instrumental-beauty').offset().top - 25
+        		scrollTop: $('#instrumental-beauty').offset().top - 15
     		}, 2000);
 			console.log("clickB");
 			});
@@ -261,21 +261,21 @@ function scrollAnimate(){
 		//van cleef button
 		$('.jewelry-content').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#jewelry-content').offset().top - 25
+        		scrollTop: $('#jewelry-content').offset().top - 15
     		}, 2000);
 			console.log("clickB");
 			});
 		//MC3 button
 		$('.MC3-content-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#MC3-content').offset().top - 25
+        		scrollTop: $('#MC3-content').offset().top - 15
     		}, 2000);
 			console.log("clickB");
 			});
 		//freedoms button
 		$('.freedoms-content-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#freedoms-content').offset().top - 25
+        		scrollTop: $('#freedoms-content').offset().top - 15
     		}, 2000);
 			console.log("clickB");
 			});

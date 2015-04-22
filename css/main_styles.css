@@ -10,6 +10,10 @@ p{
 h2,h3,.navbar li a{
 	font-family: 'Comfortaa', cursive;
 	}
+.header-text{
+	font-family: 'Slabo 27px', serif;
+	font-weight:bold;
+	}
 .resume_H4_weight{
 	font-weight:300;
 	}
