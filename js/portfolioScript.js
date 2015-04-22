@@ -110,7 +110,7 @@ $(document).scroll(function(){
 function resizeNavBar(){
 	$(window).on('load', function(){  
 		contentResize = scrollBar.offset().top;
-		$(mainBG).css({ height: ($(window).height()) +'px' });
+		mainBG.css({ height: ($(window).height()) +'px' });
 	}); 
 }
 //scrollbar scrolling function on click
