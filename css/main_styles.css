@@ -284,7 +284,8 @@ form li{
 	font-size:2em;
 	line-height:35px;
 	}
-.main-tagline h3{
+.main-tagline h4{
+	font-family: 'Comfortaa', cursive;
 	color:#60b3cb;
 	}
 
