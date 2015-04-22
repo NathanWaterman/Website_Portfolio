@@ -234,21 +234,21 @@ function scrollAnimate(){
 		//pediacare rewards button
 		$('.pediacare-thumb-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#pediacareProgram-content').offset().top - 15
+        		scrollTop: $('#pediacareProgram-content').offset().top - 10
     		}, 2000);
 			console.log("clickA");
 			});
 		//pediacare rewards button
 		$('.remedies-thumb-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#remediesProgram-content').offset().top - 15
+        		scrollTop: $('#remediesProgram-content').offset().top - 10
     		}, 2000);
 			console.log("clickA");
 			});
 		//Instrumental Beauty button
 		$('.instrumental-beauty-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#instrumental-beauty').offset().top - 15
+        		scrollTop: $('#instrumental-beauty').offset().top - 10
     		}, 2000);
 			console.log("clickB");
 			});
@@ -256,21 +256,21 @@ function scrollAnimate(){
 		//van cleef button
 		$('.jewelry-content').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#jewelry-content').offset().top - 15
+        		scrollTop: $('#jewelry-content').offset().top - 10
     		}, 2000);
 			console.log("clickB");
 			});
 		//MC3 button
 		$('.MC3-content-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#MC3-content').offset().top - 15
+        		scrollTop: $('#MC3-content').offset().top - 10
     		}, 2000);
 			console.log("clickB");
 			});
 		//freedoms button
 		$('.freedoms-content-btn').on('click', function(event){
 			$('html, body').animate({
-        		scrollTop: $('#freedoms-content').offset().top - 15
+        		scrollTop: $('#freedoms-content').offset().top - 10
     		}, 2000);
 			console.log("clickB");
 			});
