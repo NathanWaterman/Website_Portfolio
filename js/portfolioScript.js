@@ -31,7 +31,7 @@ function findPhone(){
              navigator.userAgent.match(/Windows Phone/i) || 
              navigator.userAgent.match(/ZuneWP7/i)
              ) {
-				$(mainBG,scrollBar).hide();
+				mainBG,scrollBar.hide();
 				$('.phone').css("opacity","1");
                 $('.phone').attr( 'href', 'tel:4846144871');
                }
@@ -41,7 +41,7 @@ function findPhone(){
 function findOrientation(){
 	
 	$(window).scroll(function(){
-			$(scrollBar).css({"position":"absolute"});
+			scrollBar.css({"position":"absolute"});
 		});	
 	
 	$(window).on( "orientationchange", function(event){
@@ -92,14 +92,14 @@ $(document).scroll(function(){
         var scroll = $(this).scrollTop();
         var topDist = $(".container").position();
         if (scroll > topDist.top) {
-            $(navBar).css({"position":"fixed","top":"0","z-index":"100"});
+            navBar.css({"position":"fixed","top":"0","z-index":"100"});
 			$('.logo,.name,.title').hide();
 			$('.logo,.name,.title').css({"z-index":"-1"});
 			console.log("navbar fixed");
 			console.log("logo name title hidden");
         } else {
 			//$('.scrollBar').css({"position":"fixed","bottom":"0px"});
-            $(navBar).css({"position":"absolute","top":"auto","z-index":"100"});
+            navBar.css({"position":"absolute","top":"auto","z-index":"100"});
 			$('.logo,.name,.title').show();
 			$('.logo,.name,.title').css({"z-index":"1"});
 			console.log("navbar absolute");
@@ -109,15 +109,15 @@ $(document).scroll(function(){
 //resize the navbar to fit window 
 function resizeNavBar(){
 	$(window).on('load', function(){  
-		contentResize = $(scrollBar).offset().top;
+		contentResize = scrollBar.offset().top;
 		$(mainBG).css({ height: ($(window).height()) +'px' });
 	}); 
 }
 //scrollbar scrolling function on click
 function startScroll(){
-		$(scrollBar).on('click', function(event) {
+		scrollBar.on('click', function(event) {
 		    //event.preventDefault();
-		    var target = $(navBar);
+		    var target = navBar;
 		    $('html, body').animate({
 		        scrollTop: $(target).offset().top
 		    }, 1000);
