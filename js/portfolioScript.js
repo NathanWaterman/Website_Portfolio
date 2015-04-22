@@ -109,7 +109,7 @@ $(document).scroll(function(){
 //resize the navbar to fit window 
 function resizeNavBar(){
 	$(window).on('load', function(){  
-		contentResize = scrollBar.offset().top;
+		scrollBar.offset().top;
 		mainBG.css({ height: ($(window).height()) +'px' });
 	}); 
 }
