@@ -36,8 +36,7 @@ function findPhone(){
 //find window portrait or landscape
 function findOrientation(){
 	
-	$(window).on("orientationchange", function(event){
-		
+	$(window).on("orientationchange",function(){
 			if(window.orientation == 0){
 				//portrait
 			}
@@ -47,8 +46,6 @@ function findOrientation(){
 				console.log("landscape");
 			}	
 		}, false);
-		
-		
 		$(window).orientationchange();
 }
 
