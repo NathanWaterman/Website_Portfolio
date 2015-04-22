@@ -36,7 +36,7 @@ function findPhone(){
 //find window portrait or landscape
 function findOrientation(){
 	
-	$(window).on("orientationchange",function(){
+	window.addEventListener("orientationchange", function() {
 			if(window.orientation == 0){
 				//portrait
 			}
@@ -45,7 +45,7 @@ function findOrientation(){
 				$('p.thumb-title').css({"top":"55px","font-size":"16px"});
 				console.log("landscape");
 			}	
-		}, false);
+		},false);
 }
 
 
