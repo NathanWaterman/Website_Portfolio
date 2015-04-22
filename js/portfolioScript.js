@@ -215,11 +215,6 @@ function findOrientation(){
 				$(this).find('.view-details-btn').stop().animate({right: "41px"});
 				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	 
 			});
-			$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
-				$(this).css({top: "25px"});
-				$(this).css({right: "41px"});
-				$(this).css({left: "37px"});	 
-			});
 			console.log("portrait");
 		}
 		    if(window.orientation == 90){
@@ -229,11 +224,7 @@ function findOrientation(){
 				$(this).find('.view-details-btn').stop().animate({right: "71px"});
 				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "67px"});	
 			});
-			$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
-				$(this).css({top: "55px"});
-				$(this).css({right: "71px"});
-				$(this).css({left: "67px"});	 
-			});	
+			console.log("landscape");
 		}	
 	},false);
 }
