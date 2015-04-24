@@ -215,6 +215,12 @@ function findOrientation(){
 				$(this).find('.view-details-btn').stop().animate({right: "41px"});
 				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	 
 			});
+				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
+				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
+				$(this).find('.view-details-btn').stop().animate({right: "-101px"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
+    			$(this).find('.overlay').fadeOut(100);
+			});
 			console.log("portrait");
 		}
 		    if(window.orientation == 90){
@@ -224,6 +230,13 @@ function findOrientation(){
 				$(this).find('.view-details-btn').stop().animate({right: "71px"});
 				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "67px"});	
 			});
+			$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
+				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
+				$(this).find('.view-details-btn').stop().animate({right: "-101px"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
+    			$(this).find('.overlay').fadeOut(100);
+			});
+				
 			console.log("landscape");
 		}	
 	},false);
