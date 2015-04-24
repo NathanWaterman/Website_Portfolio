@@ -185,8 +185,8 @@ function overlay(){
 	//hover state fade in and out for thumbnail overlay
 	$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
 		$(this).find('.thumb-title').stop().animate({top: "25px"});
-		$(this).find('.view-details-btn').stop().animate({right: "41px"});
-		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	
+		$(this).find('.view-details-btn').stop().animate({right: "14%"});
+		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "14%"});	
     	$(this).find('.overlay').fadeIn(100);	 
 	});
 	$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
@@ -212,8 +212,8 @@ function findOrientation(){
 				//portrait
 				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
 				$(this).find('.thumb-title').stop().animate({top: "25px"});
-				$(this).find('.view-details-btn').stop().animate({right: "41px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "37px"});	 
+				$(this).find('.view-details-btn').stop().animate({right: "14%"});
+				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "14%"});	 
 			});
 				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
 				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
