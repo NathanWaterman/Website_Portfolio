@@ -209,34 +209,11 @@ function overlay(){
 function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 			if(window.orientation == 0){
-				//portrait
-				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
-				$(this).find('.thumb-title').stop().animate({top: "25px"});
-				$(this).find('.view-details-btn').stop().animate({right: "14%"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "14%"});	 
-			});
-				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
-				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
-				$(this).find('.view-details-btn').stop().animate({right: "-101px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
-    			$(this).find('.overlay').fadeOut(100);
-			});
+			
 			console.log("portrait");
 		}
 		    if(window.orientation == 90){
-				//landscape
-				$('.thumbnail-wrapper,.newportLoggedIn').on("mouseenter",function(){
-				$(this).find('.thumb-title').stop().animate({top: "55px",fontSize:"22px"});
-				$(this).find('.view-details-btn').stop().animate({right: "71px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "67px"});	
-			});
-			$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
-				$(this).find('.thumb-title').stop().animate({top: "-35px"});	
-				$(this).find('.view-details-btn').stop().animate({right: "-101px"});
-				$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
-    			$(this).find('.overlay').fadeOut(100);
-			});
-				
+			//landscape
 			console.log("landscape");
 		}	
 	},false);
