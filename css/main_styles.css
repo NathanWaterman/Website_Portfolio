@@ -152,6 +152,7 @@ h2,h3,.navbar li a{
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
   border-radius: 6px;
+  border: 1px solid #1F7BB0 !important;
   color: #ffffff;
   text-shadow: 1px 0px #000;
 	}
