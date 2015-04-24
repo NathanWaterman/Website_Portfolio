@@ -28,6 +28,7 @@
 @media only screen and (max-width: 992px){
 	.thumbnail-wrapper{
 		height:auto;
+		min-height: 194px !important;
 		}
 	
 	.logo,.name,.title{
@@ -95,7 +96,12 @@
 	}
 	
 }
-@media only screen and (max-width: 767px) and (orientation: landscape){
+@media only screen and (max-width: 768px){
+		.thumbnail-wrapper{
+			min-height: auto !important;
+			}
+	}
+@media only screen and (max-width: 768px) and (orientation: landscape){
 .parallax_wrapper{
 	background-size: 100% auto;
 	-webkit-background-size: 100% auto;
@@ -127,7 +133,7 @@ display:none;
 	 top:17px;
 	}
 }
-@media only screen and (max-width: 767px) and (orientation: portrait){
+@media only screen and (max-width: 768px) and (orientation: portrait){
 .parallax_wrapper{
 	background-size: auto 100%;
 	-webkit-background-size: auto 100%;
