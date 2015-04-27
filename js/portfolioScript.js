@@ -133,7 +133,7 @@ function submitLogin(){
 					//newport button
 		$('.newportLoggedIn').on('click','.newport-content-btn',function(event){
 			$('html, body').animate({
-        		scrollTop: $('#newport-content').offset().top + 700
+        		scrollTop: $('#newport-content').offset().top + 625
     		}, 2000);
 			console.log("newport click");
 			});
