@@ -12,7 +12,6 @@ $(document).ready(function(){
 	navbarFix();
 	findPhone();
 	findOrientation();
-	//popUp();
 });
 
 
@@ -39,30 +38,14 @@ function navbarFix(){
         console.log("navbar collapse");
     $("#navbar").removeClass("in").addClass("collapse");
     });
+		
+	$(window).load(function() {
+		var position = $('.navbar').css('position');
+		if(position == 'fixed'){
+			$('.logo,.name,.title').hide();
+			}
+	});
 }
-
-
-/* click pop up window
-function popUp(){
-		$('.rewards-popUp').click(function(){
-			var disabled = $('.rewards-popUp').is(':disabled');
-				$.get("popUp.html", function(data){
-                    $("#appendToThis").append(data);
-					console.log("click");
-					
-					$("#appendToThis #close").click(function(){
-						$('#appendToThis').html('');
-  						if(disabled){
-    						$('.rewards-popUp').is(':enabled')
-							console.log("click B");	
-  						}
-		});
-					
-			});
-		});
-}
-*/
-
 
 //finds the height of the browser and if fixes the navbar if the container class is reached
 $(document).scroll(function(){
@@ -191,8 +174,8 @@ function overlay(){
 	});
 	$('.thumbnail-wrapper,.newportLoggedIn').on("mouseleave",function() {
 		$(this).find('.thumb-title').stop().animate({top: "-35px"});	
-		$(this).find('.view-details-btn').stop().animate({right: "-101px"});
-		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-101px"});	
+		$(this).find('.view-details-btn').stop().animate({right: "-102px"});
+		$(this).find('.view-site-btn,.loramead-thumb-btn').stop().animate({left: "-102px"});	
     	$(this).find('.overlay').fadeOut(100);
 	});
 	
@@ -209,7 +192,7 @@ function overlay(){
 function findOrientation(){
 	window.addEventListener("orientationchange", function() {
 			if(window.orientation == 0){
-			
+			//portrait
 			console.log("portrait");
 		}
 		    if(window.orientation == 90){

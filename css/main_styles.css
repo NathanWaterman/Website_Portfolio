@@ -122,7 +122,7 @@ h2,h3,.navbar li a{
 	}
 .thumbnail-wrapper{
 	height:auto;
-	border:1px solid #000;
+	border:1px solid #CCC;
 	overflow:hidden;
 	}
 .thumbnail-wrapper img{
