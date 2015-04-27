@@ -163,18 +163,18 @@ h2,h3,.navbar li a{
 .view-site-btn{
 	position:absolute;
 	top:82px;
-	left:-101px;
+	left:-102px;
 	opacity:.5;
 	}
 .loramead-thumb-btn{
 	position:absolute;
 	top:82px;
-	left:-101px;
+	left:-102px;
 	}
 .view-details-btn{
 	position:absolute;
 	top:82px;
-	right:-101px;
+	right:-102px;
 	cursor:pointer;
 	}
 .view-details-btn:hover,.view-site-btn:hover,.loramead-thumb-btn:hover{
