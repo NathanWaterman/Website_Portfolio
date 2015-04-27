@@ -135,7 +135,7 @@ function submitLogin(){
 			$('html, body').animate({
         		scrollTop: $('#newport-content').offset().top - 100
     		}, 2000);
-			console.log("clickB");
+			console.log("newport click");
 			});
 				
 				$('.restricted-site').css("opacity","1");
